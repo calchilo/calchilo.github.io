@@ -189,7 +189,7 @@ padding:20px 15px;
       <div class="row">	
         <div class="grid_4">
             <!-- JWH 3/20/2017 -->
-        	<h1 class="first-header"; style=" color:red";>Why Be Literate?</h1>
+        	<h1 class="first-header">Why Be Literate?</h1>
             <!-- <img src="images/birdofparadise.jpg" /> -->
             <!-- <img src="images/value_education.png" /> -->
             <!-- <img src="images/value_education2.jpeg" /> -->
@@ -197,8 +197,7 @@ padding:20px 15px;
             <!-- <img src="images/value_education5.png" /> -->
             <!-- <img src="images/value_education4.jpeg" /> -->
             <!-- <img src="images/value_education-dollars2.png" style="width:1500px;height:1000px;" /> -->
-            <!-- <img src="images/value_education-dollars3a.png" /> -->
-            <img src="images/value_education-dollars3a.jpg" />
+            <img src="images/value_education-dollars3a.png" />
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>-->
             <p> There are many reasons to become skilled with reading, writing, computers, and mathematics.  A big one is the monetary value employers place on
             literate employees. The weekly take-home paycheck of an employee with a college degree is over 2.25 times that of a person without a high school degree.  Persons without a high
@@ -207,18 +206,17 @@ padding:20px 15px;
         </div>
         
         <div class="grid_4">
-        	<h1 class="first-header"; style="color:blue";>Become a Student</h1>
+        	<h1 class="first-header">Become a Student</h1>
             <!-- JWH 3/20/2017 -->
             <!-- <img src="images/orchid.jpg" /> -->
-            <!-- <img src="images/Bud-in-1738CC.JPG" /> -->
-            <img src="images/Bud-in-1738CC_72dpi_500px.jpg" />
+            <img src="images/Bud-in-1738CC.JPG" />
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
             <p> <br /> It's easy to become a student at CALC!  All you have to do is show up!  NO fees; it's free.  For more information, click here. </p>
             <br /> <p> NOTE:  1. create a link to a new page.   2. The text needs to be larger, bold font, and made into separate lines.</p>
         </div>
         
         <div class="grid_4">
-        	<h1 class="first-header"; style= "color:green";>Donate!</h1>
+        	<h1 class="first-header">Donate</h1>
             <!--  <img src="images/rainbowfalls.jpg" /> -->
             <!-- <img src="images/donate_tree.jpeg" /> -->
             <img src="images/donate_piggy.jpeg" style="width:750px;height:220px;"/>

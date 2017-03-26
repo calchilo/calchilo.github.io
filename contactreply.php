@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<style type="text/css">
+.auto-style1 {
+	margin-bottom: 0;
+}
+</style>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>CALC - Computer Assisted Learning Center</title>
+<meta name="description" content="The COMPUTER-ASSISTED LEARNING CENTER at the Hilo Public Library (CALC) ">
+<meta name="keywords" content="">
+
+<!-- Mobile viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<link rel="shortcut icon" href="images/favicon.ico"  type="image/x-icon">
+
+<!-- CSS-->
+<!-- Google web fonts. You can get your own bundle at http://www.google.com/fonts. Don't forget to update the CSS accordingly!-->
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Ubuntu' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="js/flexslider/flexslider.css">
+<link rel="stylesheet" href="css/basic-style.css">
+
+<!-- end CSS-->
+    
+<!-- JS-->
+<script src="js/libs/modernizr-2.6.2.min.js"></script>
+
+<!-- end JS-->
+
+</head>
+
+<body id="home">
+  
+<!-- header area -->
+    <header class="wrapper clearfix">
+		       
+        <div id="banner">        
+        	<div id="logo"><a href="index.html"><img src="images/basic-logo.png" alt="CALC Logo" title="CALC Logo"></a></div> 
+        </div>
+        
+        <!-- main navigation -->
+        <nav id="topnav" role="navigation">
+        <div class="menu-toggle">Menu</div>  
+        	<ul class="srt-menu" id="menu-main-navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="program.html">Program</a></li>
+			<li><a href="people.html">People</a>
+<!--				<ul>
+					<li>
+						<a href="#">menu item 3.1</a>
+					</li>
+					<li class="current">
+						<a href="#">menu item 3.2</a>
+						<ul>
+							<li class="current"><a href="#">menu item 3.2.1</a></li>
+							<li><a href="#">menu item 3.2.2 with longer link name</a></li>
+							<li><a href="#">menu item 3.2.3</a></li>
+							<li><a href="#">menu item 3.2.4</a></li>
+							<li><a href="#">menu item 3.2.5</a></li>
+						</ul>
+					</li>
+					<li><a href="#">menu item 3.3</a></li>
+					<li><a href="#">menu item 3.4</a></li>
+				</ul>
+			</li>
+-->
+			<li>
+				<a href="resources.html">Resources</a>
+<!--
+				<ul>
+					<li><a href="#">menu item 4.1</a></li>
+					<li><a href="#">menu item 4.2</a></li>
+				</ul>
+-->
+				</li>
+			<li class="current">
+				<a href="contact.html">Contact</a>
+			</li>	
+		</ul>     
+		</nav>
+		<!-- #topnav -->
+  
+    </header><!-- end header -->
+ 
+ 
+<section id="page-header" class="clearfix">    
+<!-- responsive FlexSlider image slideshow -->
+<div class="wrapper">
+	<h1>CONTACT US</h1>
+    </div>
+
+</section>
+
+
+<!-- main content area -->   
+<div class="wrapper" id="main"> 
+    
+<!-- content area -->    
+
+<h3>Thank you for sending your contact information.</h3>
+
+<!--	<section id="content">
+    <form name="contactform" action="">
+    
+    	<label id="Label1"></label><label id="Label2">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</label>
+		<input class="auto-style1" name="name" id="name" style="width: 426px" tabindex="0" type="text"><br>
+		<br>Email Address: <input name="emailaddress" id="emailaddress" style="width: 428px" type="text"><br>
+		<br>
+		<input class="auto-style1" name="Submit1" style="width: 111px" type="submit" value="submit">
+    <div id="contactform_errorloc" class="error_strings"></div>		
+	</form>
+-->
+
+
+
+    
+    
+<!--                
+<h3>&nbsp;</h3>
+				<h3>Header 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                
+<h4>Header 4</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                
+      <h5>Header 5</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+-->                
+
+</section><!-- #end content area -->
+      
+      
+    <!-- sidebar -->    
+<!--
+    <aside>
+        <h2>Secondary Section menu</h2>
+            <nav id="secondary-navigation">
+                    <ul>
+                        <li><a href="#">menu item</a></li>
+                        <li class="current"><a href="#">current menu item</a></li>
+                        <li><a href="#">menu item</a></li>
+                        <li><a href="#">menu item</a></li>
+                        <li><a href="#">menu item</a></li>
+                    </ul>
+             </nav>
+      </aside>
+-->      
+      <!-- #end sidebar -->
+   
+  </div><!-- #end div #main .wrapper -->
+    
+
+
+<!-- footer area -->    
+<footer>
+	<div id="colophon" class="wrapper clearfix">
+    <p>&copy; 2016 Computer Learning Center</p>
+    </p>CALC/Hilo Public Library<br />
+    300 Waianuenue Avenue<br />
+    Hilo, HI 96720<br />
+    Phone: (808) 933-8893 | Fax: (808) 933-8895<br />
+    Email: calchilo@gmail.com</p>
+    </div>
+        
+</footer><!-- #end footer area --> 
+
+
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.0.min.js">\x3C/script>')</script>
+
+<script defer src="js/flexslider/jquery.flexslider-min.js"></script>
+
+<!-- fire ups - read this file!  -->   
+<script src="js/main.js"></script>
+
+
+
+</body>
+</html>
