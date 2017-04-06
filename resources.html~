@@ -38,9 +38,7 @@
     <header class="wrapper clearfix">
 		       
         <div id="banner">
-            <!-- JWH: 04/05/2017:  change CALC logo -->
-        	<!-- <div id="logo"><a href="index.html"><img src="images/basic-logo.png" alt="CALC Logo" title="CALC Logo"></a></div> -->
-            <div id="logo"><a href="index.html"><img height=75 width=75 src="images/lineart_C-book04.jpeg" alt="CALC Logo" title="CALC Logo"></a></div> 
+			<div id="logo"><a href="index.html"><img src="images/basic-logo.png" alt="CALC Logo" title="CALC Logo"></a></div>          
         </div>
         
         <!-- main navigation -->
@@ -78,10 +76,6 @@
 				</ul>
 -->
 				</li>
-            <!-- JWH 04/05/2017:  add the donate link -->
-			<li>
-				<a href="donate.html">Donate</a>
-			</li>	
 			<li>
 				<a href="contact.html">Contact</a>
 			</li>	
