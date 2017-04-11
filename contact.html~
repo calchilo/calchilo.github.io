@@ -12,7 +12,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<title>CALC - Computer Assisted Learning Center -Contact</title>
+<title>CALC - Computer Assisted Learning Center</title>
 <meta name="description" content="The COMPUTER-ASSISTED LEARNING CENTER at the Hilo Public Library (CALC) ">
 <meta name="keywords" content="">
 
@@ -45,9 +45,7 @@
     <header class="wrapper clearfix">
 		       
         <div id="banner">        
-            <!-- JWH  04/10/2017: change CALC logo -->
-        	<!-- <div id="logo"><a href="index.html"><img src="images/basic-logo.png" alt="CALC Logo" title="CALC Logo"></a></div>  -->
-		    <div id="logo"><a href="index.html"><img height=75 width=75 src="images/lineart_C-book04.jpeg" alt="CALC Logo" title="CALC Logo"></a></div> 
+        	<div id="logo"><a href="index.html"><img src="images/basic-logo.png" alt="CALC Logo" title="CALC Logo"></a></div> 
         </div>
         
         <!-- main navigation -->
