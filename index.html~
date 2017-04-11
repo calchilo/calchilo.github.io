@@ -69,13 +69,14 @@ padding:20px 15px;
 -->
 
 <!-- JWH 3/24/2017  taken from txt-image.html -->
+<!-- JWH 4/9/2017 add shadow text -->
 <div style="position: relative; background: url(images/3studentsbig2.png); width: 1280px; height: 276px;"/>
-    <div style="position: absolute; bottom: 80px; left: 10px; width: 400px;font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #f00; font-size: 86px">
+    <div style="position: absolute; bottom: 80px; left: 10px; width: 400px;font-family: Arial, Helvetica, sans-serif; font-weight: bold;text-shadow: 3px 3px #000000; color: #f00; font-size: 86px">
         <p>C A L C</p>
-        <p style="position: absolute; bottom: 0px; left: 10px; width: 800px; font-weight: bold; color: #f00; font-size: 40px;"/>
+        <p style="position: absolute; bottom: 0px; left: 10px; width: 800px; font-weight: bold; text-shadow: 1px 1px #000000; color: #f00; font-size: 40px;"/>
         <br />Computer-Assisted Learning Center</p>
     </div>
-    <p style="position: absolute; bottom: 25px; right: 40px; width: 300px; padding: 4px;  font-family: Arial, Helvetica, sans-serif; font-weight: bold; color:cyan; font-size: 20px;"/>
+    <p style="position: absolute; bottom: 25px; right: 40px; width: 300px; padding: 4px;  font-family: Arial, Helvetica, sans-serif; font-weight: bold;text-shadow: 1px 1px #000000;  color:cyan; font-size: 20px;"/>
     providing FREE access to learning resources and tutoring services </p>
 </div>        
         <!-- main navigation -->
@@ -134,43 +135,55 @@ padding:20px 15px;
     <div class="wrapper">
        <div class="row"> 
         <div class="grid_5">
+         <div style="border:3px solid #73AD21;">
+            <div style="margin: 5px 10px 0px 10px;">
             <h1 style="text-align: center;">The COMPUTER-ASSISTED LEARNING CENTER</h1>
-            <p>... at the Hilo Public Library (CALC) was started in 1991 as the state's first library-based, computer-assisted, adult literacy resource site. </p>
-			<h2 style="text-align: center;">CALC Mission</h2>
+            <!-- JWH 4/9/2017 rewrite slightly -->
+            
+            <p>CALC, housed in the Hilo Public Library, was started in 1991 as the state's first library-based, computer-assisted, adult literacy resource site. </p>
+			<h2 style="text-align: center;">CALC Mission:</h2>
 			<!-- JWH  3/21/2017 -->
-			<p>"...provide free access to learning resources and tutoring services to help adults acquire and/or improve their skills in
+			<p>Provide free access to learning resources and tutoring services to help adults acquire and/or improve their skills in
 				<ul>
 					<li>Reading</li>
 					<li>Writing</li>
 					<li>Math</li>
 					<li>Second Language</li>
-					<li>Computer Use."</li>
+					<li>Computer Use</li>
 				</ul>
 			</p>
+			</div> <!-- inside box  -->
+		</div>  <!-- div border  -->
  <!--<p><a href="#" class="buttonlink">CALL TO ACTION</a> <a href="#" class="buttonlink">ONE MORE</a></p> --> 
-	</div>
+	     </div>  <!-- grid 5 -->
         <div class="grid_7 rightfloat">
               <div class="flexslider">
                   <ul class="slides">
                       <li>
-                          <img src="images/wlcmtohilo.jpg" />
-                          <p class="flex-caption">Hilo Town.</p>
+                          <!-- JWH 4/7/2017 new photo -->
+                          <img src="images/Gracecomputers-cropmed.jpg" />
+                          <p class="flex-caption"></p>
                       </li>                      
                       <li>
-                          <img src="images/hilopubliclibrary_1.jpg" />
-                          <p class="flex-caption">Hilo Public Library.</p>
+                          <!-- JWH 4/7/2017 new photo -->
+                          <!-- <img src="images/hilopubliclibrary_1.jpg" /> -->
+                          <img src="images/StudentTutor.jpg" />
+                          <p class="flex-caption"></p>
                       </li>					  
 					  <li>
 					      <!-- JWH 3/28/2017" change to google map of HPL -->
                           <!-- <img src="images/rainbowfalls.jpg" /> 
                           <p class="flex-caption">Rainbow Falls.</p> -->
-                          <img width=200 height=190 src="images/HPL_google2.jpeg" /> 
-                          <p class="flex-caption">Google map of Hilo Public Library</p>
+                          <!-- JWH 4/7/2017 new photo -->
+                          <!-- <img width=200 height=190 src="images/HPL_google2.jpeg" />  -->
+                          <img src="images/TwoGroupsatTables.jpg" />
+                          <p class="flex-caption"></p>
                       </li>
-
                       <li>
-                          <img src="images/birdofparadise.jpg" />
-                          <p class="flex-caption">Could be anywhere.</p>
+                          <!-- JWH 4/7/17 new photo --> 
+                          <!-- <img src="images/birdofparadise.jpg" /> -->
+                          <img src="images/VeraJimatTable.jpg" />
+                          <p class="flex-caption"></p>
                       </li>
 
                   </ul>
@@ -179,10 +192,6 @@ padding:20px 15px;
         </div><!-- end row -->
        </div><!-- end wrapper -->
     </section><!-- end hero area -->
-
-
-
-
 
 <!-- main content area -->   
 <div id="main" class="wrapper">
@@ -285,6 +294,7 @@ padding:20px 15px;
 
 <!-- footer area -->    
 <footer>
+<!-- JWH 4/10/2017 add my swimmer -->
 	<div id="colophon" class="wrapper clearfix">
     &copy; 2016 Computer Learning Center<br />
     CALC/Hilo Public Library<br />
