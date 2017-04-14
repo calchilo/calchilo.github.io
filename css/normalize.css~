@@ -525,16 +525,6 @@ textarea {
  */
 
 table {
-    border-collapse: separate;
-    border-spacing: 3px;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-
-td.textcolumn{
-    min-width: 450px;
-    max-width: 650px;
-    text-align: left;
-    border: 3px solid green;
-    padding: 10px;
-    margin: 10px;
-}
-

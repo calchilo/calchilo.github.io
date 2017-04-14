@@ -295,6 +295,7 @@ padding:20px 15px;
 <!-- footer area -->    
 <footer>
 <!-- JWH 4/10/2017 add my swimmer -->
+ 	<img style="float: right; margin: 10px 20px" alt="" src="images/swim-black.gif" />
 	<div id="colophon" class="wrapper clearfix">
     &copy; 2016 Computer Learning Center<br />
     CALC/Hilo Public Library<br />

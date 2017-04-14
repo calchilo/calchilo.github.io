@@ -47,7 +47,9 @@
     <header class="wrapper clearfix">
 		       
         <div id="banner">        
-        	<div id="logo"><a href="index.html"><img src="images/basic-logo.png" alt="CALC Logo" title="CALC Logo"></a></div> 
+            <!-- JWH: 04/05/2017:  change CALC logo -->
+        	<!-- <div id="logo"><a href="index.html"><img src="images/basic-logo.png" alt="CALC Logo" title="CALC Logo"></a></div> -->
+            <div id="logo"><a href="index.html"><img height=75 width=75 src="images/lineart_C-book04.jpeg" alt="CALC Logo" title="CALC Logo"></a></div> 
         </div>
         
         <!-- main navigation -->
@@ -85,6 +87,11 @@
 				</ul>
 -->
 				</li>
+            <!-- JWH 04/05/2017:  add the donate link -->
+			<li>
+				<a href="donate.html">Donate</a>
+			</li>	
+
 			<li>
 				<a href="contact.html">Contact</a>
 			</li>	
@@ -107,7 +114,131 @@
 <!-- main content area -->   
 <div class="wrapper" id="main"> 
     
-<!-- content area -->    
+<!-- content area -->
+	<section id="content" class="wide-content">
+      <div class="row">	
+        <div class="grid_4">  <!-- JWH: column 1 -->
+           <div style="border:3px solid #73AD21;">
+            <!-- JWH 3/20/2017 -->
+        	<h2 class="second-header"; style="text-align:center;color:red";>At CALC we believe:</h2>
+            <p style="text-align:center">
+            All adults have the right to pursue <br>
+            the education they desire<br>
+            to thrive in our society.<br>
+            ~~~<br>
+            We affirm that right by providing<br>
+            free adult learning services<br>
+            in a safe, supportive envionment.<br>
+            ~~~<br>
+            Our services help adults<br>
+            build the vital skills they need<br>
+            to give voice to ideas and opinions,<br>
+            solve problems,<br>
+            continue learning,<br>
+            enjoy self-sufficiency,<br>
+            and effect positive social change.
+            </p>
+
+          </div> <!-- border div-->
+          <h3> Tutoring Services</h3>
+            <p> We offer one-on-one tutoring, small groups of 2-3 students, and English as a Second Language classes 
+            for larger groups.   We have three desk-top computers available for learning computer skills (e.g., email, world-wide web,
+            word-processing skills, computer-assisted tutoring on special topics, etc.) Meeting times are arranged between the learner and the tutor,
+            according to their schedules.
+            </p>
+        </div>  <!-- JWH: column 1 -->
+
+        <div class="grid_4">   <!-- JWH: column 2 -->
+            <!-- JWH 3/20/2017 -->
+        	<h2 class="second-header"; style=" color:green";>Become a Learner</h1>
+            <p>  At CALC, there are no entrance exams, application fees, 
+                 or pre-requisites to becoming a learner except for a desire to improve your life.  In order to 
+                 determine if CALC can help you and to identify the best tutor to help you meet your goals,
+                 we ask you to complete a short application form and bring it to the CALC office.   You can pick up
+                 up this form from CALC at the library, call us to mail a copy to you, or you can 
+                 <a href="images/Learner_Registration_Form-02.pdf"> download a 
+                 PDF format file here.</a>  
+            </p>
+            <p> Call or email CALC using the information to the right. Then, drop in at CALC offices in the Hilo 
+            Public Library for an appointment with the Director for an initial evaluation and tutor selection.
+            </p>
+
+            <br /> <p> NOTE:  add a link here. </p>
+        </div>   <!-- JWH: column 2 -->
+
+        <div class="grid_4">   <!-- JWH: column 3 -->
+            <!-- JWH 3/20/2017 -->
+        	<h2 class="second-header"; style=" color:blue";>Location</h1>
+            <p>The Hilo Public Library kindly hosts CALC in its <i>Microfilm Room</i> which is located in the east corner of the library's main 
+            wing.
+            </p>
+      <section id="hero" class="clearfix">                
+        <!-- <div class="grid_4 rightfloat"> -->
+              <div class="flexslider">
+                  <ul class="slides">
+                      <li>
+                          <!-- <img src="images/HPL-top_ipe.png" alt="HPL bird's eye view" style="width:336px;height:316px;"> -->
+                          <img src="images/HPL-top_ipe.png" alt="HPL bird's eye view" style="width:375px;"> 
+                          <!-- <img src="images/wlcmtohilo.jpg" /> -->
+                          <p class="flex-caption">HPL Bird's eye view."</p>
+                      </li>                      
+                      <li>
+                          <!-- <img src="images/HPL_google2.jpeg" alt="HPL map" style="width:336px;height:316px;"/> -->
+                          <img src="images/HPL_google2.jpeg" alt="HPL map" style="width:375px"/>
+                          <p class="flex-caption">HPL map.</p>
+                      </li>					  
+					  <li>
+                          <!-- <img src="images/HPL-front_ipe1.png" alt="HPL front" style="width:336px;height:316px;" /> -->
+                          <img src="images/HPL-front_ipe1.png" alt="HPL front" style="width:375px;" />
+                          <p class="flex-caption">HPL front.</p>
+                      </li>
+                  </ul>
+              </div><!-- FlexSlider -->
+              <!-- </div> -->    <!-- end grid_4 #2 -->
+         </section> <!-- hero section -->
+         <!-- JWH 04/05/2017: fix hours table -->
+         <section id="content">
+            <h2>CALC Hours</h2>
+				<table style="width: 425px">
+					<tr style="color:white;">
+						<td class="table-style" style="width: 250px">Days</td>
+						<td class="table-style" style="width: 150px">Hours</td>
+					</tr>
+					<tr>
+						<td style="width: 200px">Tuesday</td>
+						<td style="width: 200px">1:00p.m. - 5:00p.m.</td>
+					</tr>
+					<tr>
+						<td style="height: 24px; width: 250px">Wednesday</td>
+						<td style="height: 24px; width: 150px">CLOSED</td>
+					</tr>
+					<tr>
+						<td style="width: 250px">Thursday</td>
+						<td style="width: 150px">1:00p.m. - 5:00p.m.</td>
+					</tr>
+					<tr>
+						<td style="width: 250px">Friday</td>
+						<td style="width: 150px">1:00p.m. - 5:00p.m.</td>
+					</tr>
+					<tr>
+						<td style="width: 250px">Saturday/Sunday/Monday</td>
+						<td style="width: 150px">CLOSED</td>
+					</tr>
+				</table>
+
+
+
+         
+        </div><!-- grid 4 #1 --> <!-- JWH: column 3 -->
+     </div>  <!-- row -->
+  </section><!-- content -->
+
+
+
+
+
+<div style="display:none">
+<!-- JWH 04/05/2017  : comment out old block -->
 	<section id="content">
     
                 <h1>About the CALC Program</h1>
@@ -160,6 +291,7 @@
 
 </section><!-- #end content area -->
       
+</div>  <!-- JWH 05/04/2017:  end commented-out block of old code -->
       
     <!-- sidebar -->    
 <!--
@@ -190,7 +322,7 @@
     300 Waianuenue Avenue<br />
     Hilo, HI 96720<br />
     Phone: (808) 933-8893 | Fax: (808) 933-8895<br />
-    Email: calchilo@gmail.com</p>
+    Email: 808giftofliteracy@gmail.com</p>
     </div>
         
 </footer><!-- #end footer area --> 

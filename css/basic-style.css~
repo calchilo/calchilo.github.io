@@ -19,9 +19,21 @@ body{
 	font-family:'Ubuntu', Arial, Helvetica, sans-serif; 
 	font-size:1em;
 	line-height:1.4em; 
-	font-weight:normal;
+    /* JWH 3/20/2017 */
+    /*font-weight:normal;*/
+    font-weight:bold;
 }
-h1, h2, h3, h4, h5, h6{
+/*JWH 3/20/2017 */
+h1 {
+    font-weight:bold;
+	font-family:'Droid Serif', Arial, Helvetica, sans-serif; 
+	line-height:1.5em;
+	margin:.45em 0;
+	padding:0;
+}     
+
+h2, h3, h4, h5, h6{
+	/*font-weight:normal;*/
 	font-weight:normal;
 	font-family:'Droid Serif', Arial, Helvetica, sans-serif; 
 	line-height:1.5em;
@@ -522,3 +534,4 @@ PRINT STYLESHEET
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+

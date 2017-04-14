@@ -92,6 +92,13 @@ aside {
 }
 
 p{ margin:0 0 1.5em;}
+p.nophoto {
+    width:150px;
+    border:2px dashed blue;
+    min-height:150px;
+    text-align:center;
+    padding-top:25px;
+}
 
 
 /* RESPONSIVE IMAGES */
