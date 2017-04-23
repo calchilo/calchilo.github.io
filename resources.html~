@@ -38,7 +38,9 @@
     <header class="wrapper clearfix">
 		       
         <div id="banner">
-			<div id="logo"><a href="index.html"><img src="images/basic-logo.png" alt="CALC Logo" title="CALC Logo"></a></div>          
+            <!-- JWH: 04/05/2017:  change CALC logo -->
+        	<!-- <div id="logo"><a href="index.html"><img src="images/basic-logo.png" alt="CALC Logo" title="CALC Logo"></a></div> -->
+            <div id="logo"><a href="index.html"><img height=75 width=75 src="images/lineart_C-book04.jpeg" alt="CALC Logo" title="CALC Logo"></a></div> 
         </div>
         
         <!-- main navigation -->
@@ -76,6 +78,10 @@
 				</ul>
 -->
 				</li>
+            <!-- JWH 04/05/2017:  add the donate link -->
+			<li>
+				<a href="donate.html">Donate</a>
+			</li>	
 			<li>
 				<a href="contact.html">Contact</a>
 			</li>	
@@ -256,9 +262,9 @@
 <!-- footer area -->    
 <footer>
 	<div id="colophon" class="wrapper clearfix">
-    <p>&copy; 2016 Computer Learning Center</p>
+    <p>&copy; 2016, 2017 Computer-Assisted Learning Center</p>
     </p>CALC/Hilo Public Library<br />
-    300 Waianuenue Avenue<br />
+    P.O. box 11499<br />
     Hilo, HI 96720<br />
     Phone: (808) 933-8893 | Fax: (808) 933-8895<br />
     Email: calchilo@gmail.com</p>

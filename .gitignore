@@ -1,0 +1,3 @@
+# ignore file to prevent git from tracking files
+# ignore Jedit files
+*.marks
