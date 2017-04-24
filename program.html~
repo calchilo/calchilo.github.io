@@ -105,7 +105,7 @@
 <section id="page-header" class="clearfix">    
 <!-- responsive FlexSlider image slideshow -->
 <div class="wrapper">
-	<h1>The Computer Assisted Learning Program</h1>
+	<h1>The Computer-Assisted Learning Program</h1>
     </div>
 
 </section>
@@ -141,9 +141,9 @@
           </div> <!-- border div-->
 
         <div>
-            <h3> History of the CALC Program </h3
-            <p> A short history supplied by Melissa and Vera ???
-            </p>
+            <h3> History of the CALC Program </h3>
+            <!-- <p> A short history supplied by Melissa and Vera ??     </p>  -->
+            <p> Coming Soon... </p>
         </div>
 
         </div>  <!-- JWH: column 1 -->
@@ -152,7 +152,7 @@
 
         <div class="grid_4">   <!-- JWH: column 2 -->
             <!-- JWH 3/20/2017 -->
-        	<h2 id="BAstudent" class="second-header"; style=" color:green";>Become a Learner</h1>
+        	<h2 id="BAstudent" class="gradientheader"; style=" color:green";>Become a Learner</h1>
             <p>  At CALC, there are no entrance exams, application fees, 
                  or pre-requisites to becoming a learner except for a desire to improve your life.  In order to 
                  determine if CALC can help you and to identify the best tutor to help you meet your goals,
@@ -162,17 +162,23 @@
                  PDF format file here.</a>  
             </p>
             <p> Call or email CALC using the information to the <a href="#calcadd">right</a>. Then, drop in at CALC offices in the Hilo 
-            Public Library for an appointment with the Director for an initial evaluation and tutor selection.
+            Public Library for an appointment with the Program Manager for an initial evaluation and tutor selection.
             </p>
             
             <h3> Tutoring Services</h3> 
-            <p> We offer one-on-one tutoring, small groups of 2-3 students, and English as a Second Language classes 
-            for larger groups.   We have several desk-top computers available for learning computer skills (e.g., email, world-wide web,
-            word-processing skills, computer-assisted tutoring on special topics, etc.) Meeting times are arranged between the learner and the tutor,
-            according to their schedules.
+            <p> Emphasizing young and older adult learners, we offer one-on-one tutoring, small groups of 2-3 students, and English as a Second Language classes 
+            for larger groups.   Desk-top computers are available for learning computer skills (e.g., email, world-wide web,
+            word-processing skills, computer-assisted tutoring on special topics, etc.) These computers provide access to internet-based resources 
+            for acquiring literacy in reading, writing, math, and scientific thinking.  Examples of these web-sites can be found on our 
+            <a href="resources.html#for_students">resources for students</a> page.
+            </p>
+            <p>  Students are matched with available tutors based on student level, tutor subject specialization, and availability. Meeting times are arranged between the learner and the tutor,
+            according to their schedules.  Tutoring sessions occur in the Hilo Public Library which is conveniently located in Hilo and provides
+            a safe and friendly environment for learning.
             </p>
             
-            <h2 id="BAtutor" class="second-header"; style=" color:green";>Become a Tutor</h1>
+           <!-- <h2 id="BAtutor" class="second-header"; style=" color:green";>Become a Tutor</h1>  -->
+            <h2 id="BAtutor" class="gradientheader"; style=" color:green";>Become a Tutor</h1>
             <p> We are always wishing to add to our available tutors.  If you are a patient, caring person that wants to positively
             affect the future, one adult student at a time, please consider becoming a CALC tutor.  No special training is required; we will
             provide training, advice, and a comfortable, secure teaching space with wifi computer access.  To assist our staff in 
@@ -185,7 +191,7 @@
 
         <div class="grid_4">   <!-- JWH: column 3 -->
             <!-- JWH 3/20/2017 -->
-        	<h2 class="second-header"; style=" color:blue";>Location</h1>
+        	<h2 class="gradientheader"; style=" color:green";>Location</h1>
             <p>The Hilo Public Library kindly hosts CALC in its <i>Microfilm Room</i> which is located in the east corner of the library's main 
             wing.
             </p>
@@ -269,7 +275,18 @@
 </section>  <!--content -->
 </div>   <!-- main -->
 
-        
+  <!-- footer area -->    
+<footer>
+	<div id="colophon" class="wrapper clearfix">
+    <p>&copy; 2016, 2017 Computer-Assisted Learning Center</p>
+    </p>CALC/Hilo Public Library<br />
+    P.O. Box 11499<br />
+    Hilo, HI 96720<br />
+    Phone: (808) 933-8893 | Fax: (808) 933-8895<br />
+    Email: <a href="mailto:808giftofliteracy@gmail.com">808giftofliteracy@gmail.com</a>
+    </p>
+    </div>
+      
 </footer><!-- #end footer area --> 
 
 

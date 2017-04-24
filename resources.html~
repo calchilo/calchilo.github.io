@@ -106,29 +106,47 @@
 <!-- content area -->    
 	<section id="content">
     
-                <h1 id="literacy">Literacy</h1>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <p>
+        <h1 id="literacy" class="gradientheader" style=" color:green">Literacy</h1>
+      <!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <p> -->
 <ul>
+<!--
 	<li><a href="http://www.hcc.hawaii.edu/hspls/hsplshp.html"><strong>
 	<font face="Arial">Hawai'i State Public Library System (HSPLS)</font></strong></a>
 	</li>
 	<li><a href="http://literacynet.org/hawaii/liaison.html"><strong>
 	<font face="Arial">Hawaii Network for Literacy</font></strong></a> </li>
+-->
 	<li><a href="http://literacynet.org/hawaii/"><strong><font face="Arial">
 	Hawaii State Literacy Resource Center</font></strong></a> </li>
+	<li><a href="https://www.proliteracy.org/"><strong><font face="Arial">
+	Proliteracy</font></strong></a> 
+	</li> 
+	<li><a href="http://www.nrrf.org/"><strong><font face="Arial">
+	Right to Read Foundation</font></strong></a> 
+	</li> 
+	<li><a href="https://lincs.ed.gov/"><strong><font face="Arial">
+	US DoE Literacy Resources</font></strong></a> 
+	</li> 
+	
+
+<!--
 	<li><a href="http://www.hcc.hawaii.edu/hspls/libfound.html"><strong>
 	<font face="Arial">Hawaii Library Foundation</font></strong></a> </li>
 	<li><strong><font face="Arial">Hawaii Literacy Directory (under 
 	construction)</font></strong> </li>
+-->
 </ul>
                                
-<h1 id="other">Other</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+<h1 id="other" class="gradientheader" style=" color:green">Other</h1>
+             <!--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>-->
 <ul>
+<!--
 	<li><a href="http://www.htilearn.org/"><strong><font face="Arial">Alu Like 
 	Hawai'i Technical Institute</font></strong></a> </li>
+-->
 	<li><a href="http://www.50states.com/hawaii.htm"><strong><font face="Arial">
 	General Information on Hawai'i</font></strong></a> </li>
+<!--
 	<li><a href="http://www.borders.com/"><strong><font face="Arial">Borders 
 	Books</font></strong></a> </li>
 	<li><a href="http://literacynet.org/lincs/"><strong><font face="Arial">
@@ -138,19 +156,22 @@
 	Favorite Search Engine</font></strong></a> </li>
 	<li><a href="http://www.koadesigns.com/"><strong><font face="Arial">Kit's 
 	Favorite Site</font></strong></a> </li>
+-->
 	<li><a href="http://www.refdesk.com/"><strong><font face="Arial">Our 
 	Favorite Reference Site</font></strong></a> </li>
 </ul>
                 
-<h1 id="job_information">Job Information</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+<h1 id="job_information"class="gradientheader" style=" color:green">Job Information</h1>
+             <!--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>-->
 <ul>
+<!--
 	<li><a href="http://www.educatorjobs.com/"><strong><font face="Arial">
 	Educational Placement Service</font></strong></a> </li>
 	<li><a href="http://www.hawaii.gov/index/employment.htm"><strong>
 	<font face="Arial">Hawai'i Job Search</font></strong></a> </li>
 	<li><a href="http://stats.bls.gov/ocohome.htm"><strong><font face="Arial">
 	Occupational Outlook Handbook (Labor statistics)</font></strong></a> </li>
+-->
 	<li><a href="http://www.experience.com/"><strong><font face="Arial">
 	Experience.com</font></strong></a> </li>
 	<li><a href="http://www.occ.com/"><strong><font face="Arial">Monster.com</font></strong></a>
@@ -161,15 +182,18 @@
 	CareerMosaic.com</font></strong></a> </li>
 	<li><a href="http://www.ajb.dni.us/"><strong><font face="Arial">America's 
 	JobBank.com</font></strong></a> </li>
+<!--
 	<li><a href="http://www.jobtrak.com/"><strong><font face="Arial">JobTrak.com</font></strong></a>
 	</li>
 	<li><a href="http://www.dbm.com/jobguide/"><strong><font face="Arial">The 
 	Riley Guide</font></strong></a> </li>
+-->
 </ul>
                 
-<h1 id="grant_information">Grant Information</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+<h1 id="grant_information" class="gradientheader" style=" color:green">Grant Information</h1>
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
 <ul>
+<!--
 	<li><a href="http://www.ed.gov/pubs/KnowAbtGrants/"><strong>
 	<font face="Arial">What You Should Know About Education Grants</font></strong></a>
 	</li>
@@ -180,61 +204,123 @@
 	<strong><font face="Arial">Grants Central Station</font></strong></a> </li>
 	<li><a href="http://www.gtereads.com/site/index.asp"><strong>
 	<font face="Arial">GTE Reads</font></strong></a> </li>
+-->
 	<li><a href="http://www.fdncenter.org/"><strong><font face="Arial">The 
 	Foundation Center</font></strong></a> </li>
 </ul>
 
-<h1 id="for_students">For Students</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+<h1 id="for_students" class="gradientheader" style=" color:green" >For Students</h1>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>  -->
 <ul>
+<!-- 
 	<li><a href="http://www2.wgbh.org/mbcweis/ltc/alri/lessonplans.html">
 	<strong><font face="Arial">Lesson Plans</font></strong></a> </li>
+-->
 	<li><a href="http://www.fourmilab.to/"><strong><font face="Arial">Four Mile 
 	Lab</font></strong></a><strong><font face="Arial"> and it's
 	<a href="http://www.fourmilab.ch/earthview/">Earthview</a></font></strong>
 	</li>
 	<li><a href="http://www.nineplanets.org/"><strong><font face="Arial">Nine 
 	Planets</font></strong></a> </li>
-</ul>
+	<li><a href="https://www.proliteracy.org/"><strong><font face="Arial">
+	Proliteracy</font></strong></a> 
+	</li> 
 
-				
-				
-<h1 id="publishers">Publishers</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+	<li><a href="https://readable.io/"><strong><font face="Arial">
+	Test Your Reading Ability</font></strong></a> 
+	</li> 
+	<li><a href="http://www.hawaiipublicschools.org/TeachingAndLearning/AdultEducation/Pages/Home.aspx"><strong><font face="Arial">
+	Hawaii DoE GED Info</font></strong></a> 
+	</li> 
+	<li><a href="https://www.test-guide.com/tests.html"><strong><font face="Arial">
+	Popular Example Tests</font></strong></a> 
+	    <ul>
+	    <li><a href="https://www.test-guide.com/Compass-Test/"><strong><font face="Arial">
+	       Compass</font></strong></a> 
+	    </li>
+	    <li> <a href="  https://www.test-guide.com/GED-Test/"><strong><font face="Arial">
+	       GED</font></strong></a> 
+	    </li>
+	    <li><a href="https://www.test-guide.com/HiSET/"><strong><font face="Arial">
+	        HiSET</font></strong></a> 
+	    </li>
+	</ul>
+	
+	</li> 
+
+
+
+</ul>
+<h1 id="for_students" class="gradientheader" style=" color:green" >For Tutors</h1>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>  -->
 <ul>
+	<li><a href="https://readable.io/"><strong><font face="Arial">
+	Test Your Reading Ability</font></strong></a> 
+	</li> 
+	<li><a href="http://www.nrrf.org/reading-competency-test/"><strong><font face="Arial">
+	Another Reading Competency Test</font></strong></a> 
+	</li> 
+	<li><a href="https://lincs.ed.gov/"><strong><font face="Arial">
+	US DoE Literacy Resources</font></strong></a> 
+	</li> 
+	<li><a href="https://hawaii.pbslearningmedia.org/collection/ketae/"><strong><font face="Arial">
+	Hawaii PBS Literacy Resources</font></strong></a> 
+	</li> 
+	<li><a href="http://www.hawaiipublicschools.org/TeachingAndLearning/AdultEducation/Pages/Home.aspx"><strong><font face="Arial">
+	Hawaii DoE GED Info</font></strong></a> 
+	</li> 
+	<li><a href="http://adultnumeracynetwork.org/"><strong><font face="Arial">
+	Numeracy = Math Literacy Tutoring</font></strong></a> 
+	</li> 
+
+
+</ul				
+				
+<h1 id="publishers" class="gradientheader" style=" color:green">Publishers</h1>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
+<ul>
+<!-- 
 	<li><a href="http://www.acadsoft.com/"><strong><font face="Arial">Academic 
 	Software</font></strong></a> </li>
+-->
 	<li><a href="http://www.barronseduc.com/"><strong><font face="Arial">
 	Barron's Educational Series, Inc.</font></strong></a> </li>
 	<li><a href="http://www.besspress.com/"><strong><font face="Arial">The Bess 
 	Press</font></strong></a> </li>
-	<li><a href="http://www.contemporarybooks.com/"><strong><font face="Arial">
+<!--	<li><a href="http://www.contemporarybooks.com/"><strong><font face="Arial">
 	Contemporary Books</font></strong></a> </li>
+-->
 	<li><a href="http://www.curriculumassociates.com/"><strong>
 	<font face="Arial">Curriculum Associates</font></strong></a> </li>
 	<li><a href="http://www.edact.com/"><strong><font face="Arial">Educational 
 	Activities</font></strong></a> </li>
 	<li><a href="http://www.epsbooks.com/"><strong><font face="Arial">Educators 
 	Publishing Service</font></strong></a> </li>
-	<li><a href="http://www.globefearon.com/"><strong><font face="Arial">Globe 
+<!--
+    <li><a href="http://www.globefearon.com/"><strong><font face="Arial">Globe 
 	Fearon Educational Publisher</font></strong></a> </li>
+-->
 	<li><a href="http://www.jamestownpublishers.com/"><strong>
 	<font face="Arial">Jamestown Publishers</font></strong></a> </li>
 	<li><a href="http://www.lakeshorelearning.com/"><strong><font face="Arial">
 	Lakeshore Learning Materials</font></strong></a> </li>
 	<li><a href="http://www.learnserv.com/"><strong><font face="Arial">Learning 
 	Services</font></strong></a> </li>
-	<li><a href="http://www.literacyvolunteers.org/catalog"><strong>
+<!--
+    <li><a href="http://www.literacyvolunteers.org/catalog"><strong>
 	<font face="Arial">Literacy Volunteers of America (LVA)</font></strong></a>
-	</li>
+    </li>
+-->
 	<li><a href="http://www.newreaderspress.com/"><strong><font face="Arial">New 
 	Readers Press</font></strong></a> </li>
 	<li><a href="http://www.steck-vaughn.com/"><strong><font face="Arial">
 	Steck-Vaughn</font></strong></a> </li>
 	<li><a href="http://www.uhpress.hawaii.edu/"><strong><font face="Arial">
 	University of Hawai'i Press</font></strong></a> </li>
+<!--
 	<li><a href="http://www.wieser-ed.com/"><strong><font face="Arial">Wieser 
 	Educational</font></strong></a> </li>
+-->
 </ul>
                 
 </section><!-- #end content area -->
@@ -264,10 +350,11 @@
 	<div id="colophon" class="wrapper clearfix">
     <p>&copy; 2016, 2017 Computer-Assisted Learning Center</p>
     </p>CALC/Hilo Public Library<br />
-    P.O. box 11499<br />
+    P.O. Box 11499<br />
     Hilo, HI 96720<br />
     Phone: (808) 933-8893 | Fax: (808) 933-8895<br />
-    Email: calchilo@gmail.com</p>
+    Email:  <a href="mailto:808giftofliteracy@gmail.com">808giftofliteracy@gmail.com</a>
+    </p>
     </div>
         
 </footer><!-- #end footer area --> 
