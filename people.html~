@@ -87,14 +87,27 @@
          <h1 class="gradientheader" style="color:green">Learners</h1>
 <!-- JWH 4/13/2017: use tables not floats -->
 <table>
+<!-- 
 	<tr>
-		<td><img src="images/Bud-in-1738CC_72dpi_300px.jpg" style="width:150px;height:160px;border=2px" /></td>
+		<td style="width:150px"><img src="images/Bud-in-1738CC_72dpi_300px.jpg" style="width:150px;height:160px;border=2px" /></td>
 		<td class="textcolumn">Buddy's been in training for a long time.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
 	</tr>
+ -->
     <tr>
-        <td><p class="nophoto">Learner Photo Here</p> </td>
-        <td class="textcolumn"> If learners do not wish us to use their photos, can we use their first name and a short quote?</p>
+        <!-- <td><p class="nophoto">Learner Photo Here</p> </td>-->
+		<td style="width:150px"><img src="images/Liza-CALC-crop-web.jpg" title="Liza" alt="Liza B." style="width:150px;height:180px;border=2px" /></td>
+        <td class="textcolumn"> Liza: I came to the Learning Center as a high school drop-out, having long
+lost hopes of any kind of academic future and hoping only 
+to pass my GED exams. I felt pretty insecure having to ask for this kind of help
+as an adult, but Vera eliminated all my fears and inspired me to
+give learning another shot. ​The tutor himself turned out to be a lot more than
+just a teacher: Jim Haefner made me learn all the dreaded high
+school algebra in just a few dozen sessions, making math my new favorite subject.
+I aced my GEDs and college
+placement exam, and am now pursuing a college degree in Biology, something I
+considered impossible just a year ago ... Coming to CALC has really changed my
+life for the better!</td>
     </tr>
 </table>	
 
@@ -150,7 +163,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 <!-- JWH  4/21/2017: fancy headers -->
 <!-- <h1 id="staff">Staff</h1> -->
 <!-- <h1  class="second-header"; style=" color:black; background: linear-gradient(to right, rgba(205,133,63 ,0.5), rgba(205,133,63,0));";>Staff</h1>-->
-<h1 class="gradientheader" style="color:green">Staff</h1>
+<h1 id="staff" class="gradientheader" style="color:green">Staff</h1>
 <!-- JWH 4/13/2017: use tables not floats -->
 <table>
     <tr>
@@ -192,7 +205,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
     <ul>
         <li> David Kohara: President</li>
         <li> Vera A. Genegabuas: Program Manager </li>
-        <li> Melissa Holz: Secretary </li>
+        <li> Melissa Obra: Secretary </li>
         <li> Christopher Schluete: Vice President </li>
         <li> Nathan Colgrove:  Certified Public Accountant</li>
     </ul>
@@ -200,12 +213,31 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
 <h1 id="partners" class="gradientheader" style="color:green">Partners</h1>
 <div>
-    <h3>Donors</h3>
+    <h3><b>Donors</b></h3>
     <ul style="list-style-type:none; padding:4px; margin:10px;">
-        <li> <p>
+        <li>
+
+<details style="height:200px">
+<summary style="height:65px;padding-left:20px;margin-top:10px">
+        <img style="float:left;  width:40px; height:65px;" 
+        		src="images/UH-Hilo_logo.png" alt="UH-Hilo logo">
+        <span style="vertical-align:-20px;margin-left:25px">
+        	Initial web design: <span style="color:blue">&nabla;students&nabla;</span> of James Kiley's UH-Hilo Spring 2017 CS 201 class.
+         </span></span>
+</summary>
+<ul style="margin-left:60px; margin-top:-15px">
+<li>Andy Chang</li>
+<li>Patrick C. Cheng</li>
+<li>Pierre R. De Poyo</li>
+<li>Chad K. Kinoshita</li>
+<li>Derrick Bukka O'Brien</li>
+</ul>
+</details>
+    <!-- JWH 4/23/2017  use better centering -->
+        <!--
         <details><summary>        
-        <img style="width:40px; height:65px;"src="images/UH-Hilo_logo.png" alt="UH-Hilo logo">For initial web design, James Kiley's Spring 2017 CS 201 class: ... </summary>
-        <summary>
+        <img style="float:left  width:40px; height:65px;"src="images/UH-Hilo_logo.png" alt="UH-Hilo logo">For initial web design, James Kiley's 
+        UH-Hilo Spring 2017 CS 201 <span style="color:blue">class: ... </span></summary>
         <ul>
         <li>Dr. Dobb</li>
         <li>Donald Knuth</li>
@@ -215,8 +247,9 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         <li>Augusta Ada King-Noel</li>
         </ul>
         </details>
+        -->
             <!-- <img style="width:40px; height:65px;"src="images/UH-Hilo_logo.png" alt="UH-Hilo logo"> -->
-        </p>
+
 </div>
 <!-- JWH: 4/21/2017: old partners... 
 <p>FISCAL AGENT
