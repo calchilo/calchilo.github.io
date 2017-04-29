@@ -106,7 +106,7 @@
 <!-- content area -->    
 	<section id="content">
     
-        <h1 id="literacy" class="gradientheader" style=" color:green">Literacy</h1>
+        <h2 id="literacy" class="gradientheader" style=" color:green">Literacy</h2>
       <!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <p> -->
 <ul>
 <!--
@@ -137,7 +137,7 @@
 -->
 </ul>
                                
-<h1 id="other" class="gradientheader" style=" color:green">Other</h1>
+<h2 id="other" class="gradientheader" style=" color:green">Other</h2>
              <!--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>-->
 <ul>
 <!--
@@ -161,7 +161,7 @@
 	Favorite Reference Site</font></strong></a> </li>
 </ul>
                 
-<h1 id="job_information"class="gradientheader" style=" color:green">Job Information</h1>
+<h2 id="job_information"class="gradientheader" style=" color:green">Job Information</h2>
              <!--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>-->
 <ul>
 <!--
@@ -190,7 +190,7 @@
 -->
 </ul>
                 
-<h1 id="grant_information" class="gradientheader" style=" color:green">Grant Information</h1>
+<h2 id="grant_information" class="gradientheader" style=" color:green">Grant Information</h2>
           <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
 <ul>
 <!--
@@ -209,7 +209,7 @@
 	Foundation Center</font></strong></a> </li>
 </ul>
 
-<h1 id="for_students" class="gradientheader" style=" color:green" >For Students</h1>
+<h2 id="for_students" class="gradientheader" style=" color:green" >For Students</h2>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>  -->
 <ul>
 <!-- 
@@ -247,11 +247,9 @@
 	</ul>
 	
 	</li> 
-
-
-
 </ul>
-<h1 id="for_students" class="gradientheader" style=" color:green" >For Tutors</h1>
+
+<h2 id="for_students" class="gradientheader" style=" color:green" >For Tutors</h2>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>  -->
 <ul>
 	<li><a href="https://readable.io/"><strong><font face="Arial">
@@ -274,9 +272,9 @@
 	</li> 
 
 
-</ul				
-				
-<h1 id="publishers" class="gradientheader" style=" color:green">Publishers</h1>
+</ul>				
+
+<h2 id="publishers" class="gradientheader" style="color:green">Publishers</h2>
         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
 <ul>
 <!-- 

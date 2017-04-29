@@ -96,8 +96,8 @@
  -->
     <tr>
         <!-- <td><p class="nophoto">Learner Photo Here</p> </td>-->
-		<td style="width:150px"><img src="images/Liza-CALC-crop-web.jpg" title="Liza" alt="Liza B." style="width:150px;height:180px;border=2px" /></td>
-        <td class="textcolumn"> Liza: I came to the Learning Center as a high school drop-out, having long
+		<td style="width:180px"><img src="images/Liza-CALC-crop-web.jpg" title="Liza" alt="Liza B." style="width:180px;height:180px;border=2px" /></td>
+        <td class="textcolumn-wide"> Liza: I came to the Learning Center as a high school drop-out, having long
 lost hopes of any kind of academic future and hoping only 
 to pass my GED exams. I felt pretty insecure having to ask for this kind of help
 as an adult, but Vera eliminated all my fears and inspired me to
@@ -123,23 +123,23 @@ life for the better!</td>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 -->                               
 <!-- <h1 id="volunteers">Volunteers</h1> -->
-    <h1 id="volunteers" class="gradientheader"; style="color:green">Volunteers</h1>
+    <h1 id="volunteers" class="gradientheader" style="color:green">Volunteers</h1>
 <!-- JWH 4/13/2017: use tables not floats -->
 <table>
     <tr>
         <!-- <td><p class="nophoto">Photo of Jim Haefner</p> </td>  -->
         <td><img width=150 height=180 src="images/Jim-CALC-small.png" alt="Jim Haefner" title="Jim" border=2px /> </td>
-        <td class="textcolumn"> Jim is a retired professor of biology from Utah State University.  He especially likes
+        <td class="textcolumn-wide"> Jim is a retired professor of biology from Utah State University.  He especially likes
         to assist learners studying for their GED, or preparing for college placement exams. Jim can help with high-school
-        and introductory college level math, as well as basic reading and writing skills.</p>
+        and introductory college level math, as well as basic reading and writing skills.</td>
     </tr>
     <tr>
         <td><p class="nophoto">Volunteer Photo Here</p> </td>
-        <td class="textcolumn"> If volunteers do not wish us to use their photos, can we use their first name and a short quote?</p>
+        <td class="textcolumn-wide"> If volunteers do not wish us to use their photos, can we use their first name and a short quote?</td>
     </tr>
     <tr>
         <td><p class="nophoto">Volunteer Photo Here</p> </td>
-        <td class="textcolumn"> If volunteers do not wish us to use their photos, can we use their first name and a short quote?</p>
+        <td class="textcolumn-wide"> If volunteers do not wish us to use their photos, can we use their first name and a short quote?</td>
     </tr>
 
 </table>	
@@ -167,21 +167,21 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 <!-- JWH 4/13/2017: use tables not floats -->
 <table>
     <tr>
-        <td><img width=150 height=180 src="images/Vera.png" alt="Vera manager of CALC Hilo literacy" title="Vera" border=2px /> </td>
-        <td class="textcolumn"> Vera Genegabuas is the CALC Program Manager and a member of the Board of Directors.  She is 
+        <td style="width:150px"><img width=150 height=180 src="images/Vera.png" alt="Vera manager of CALC Hilo literacy" title="Vera" border=2px /> </td>
+        <td class="textcolumn-wide"> Vera Genegabuas is the CALC Program Manager and a member of the Board of Directors.  She is 
         responsible for everything, but in particular she interviews potential tutors and learners to determine how best to use their
         special skills and to meet learner particular learning objectives.  She is the person to see for all things CALC.  She is also a CALC 
-        success story, since she learned English as a second language at CALC.</p>
+        success story, since she learned English as a second language at CALC.</td>
     </tr>
     <tr>
         <td><img width=150 height=180 src="images/Staff_Photo_Grace-N.jpg" alt="Grace: Staff of CALC Hilo Literac" title="Grace";border=2px /> </td>
-        <td class="textcolumn";style="text-align:center"> Grace has promised a short blurb here...</p>
+        <td class="textcolumn-wide";style="text-align:center"> Grace has promised a short blurb here...</td>
     </tr>
     <tr>
         <!-- <td><p class="nophoto">Melissa Photo Here?</p> </td> -->
         <td><img width=150 height=180 src="images/Melissa_profile_napa_pic.jpg" alt="Melissa: Staff of CALC Hilo Literac" title="Melissa";border=2px /> </td>
-        <td class="textcolumn"> Melissa, in addition to serving as the Secretary of the Board, also volunteers for work in the office
-          assisting Vera in keeping order.</p>
+        <td class="textcolumn-wide"> Melissa, in addition to serving as the Secretary of the Board, also volunteers for work in the office
+          assisting Vera in keeping order.</td>
     </tr>
 
 </table>	
@@ -206,33 +206,32 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         <li> David Kohara: President</li>
         <li> Vera A. Genegabuas: Program Manager </li>
         <li> Melissa Obra: Secretary </li>
-        <li> Christopher Schluete: Vice President </li>
+        <li> Christopher Schlueter: Vice President </li>
         <li> Nathan Colgrove:  Certified Public Accountant</li>
     </ul>
 </div>
 
 <h1 id="partners" class="gradientheader" style="color:green">Partners</h1>
-<div>
+<div> <!-- PARTNERS -->
     <h3><b>Donors</b></h3>
     <ul style="list-style-type:none; padding:4px; margin:10px;">
         <li>
-
-<details style="height:200px">
-<summary style="height:65px;padding-left:20px;margin-top:10px">
-        <img style="float:left;  width:40px; height:65px;" 
-        		src="images/UH-Hilo_logo.png" alt="UH-Hilo logo">
-        <span style="vertical-align:-20px;margin-left:25px">
-        	Initial web design: <span style="color:blue">&nabla;students&nabla;</span> of James Kiley's UH-Hilo Spring 2017 CS 201 class.
-         </span></span>
-</summary>
-<ul style="margin-left:60px; margin-top:-15px">
-<li>Andy Chang</li>
-<li>Patrick C. Cheng</li>
-<li>Pierre R. De Poyo</li>
-<li>Chad K. Kinoshita</li>
-<li>Derrick Bukka O'Brien</li>
-</ul>
-</details>
+           <details style="height:125px">
+            <summary style="height:65px;padding-left:0px;margin-top:10px">
+                    <img style="float:left;  width:40px; height:65px;" 
+                            src="images/UH-Hilo_logo.png" alt="UH-Hilo logo">
+                    <span style="vertical-align:-20px;margin-left:25px">
+                        Initial web design: <span style="color:blue">&nabla;students&nabla;</span> of James Kiley's UH-Hilo Spring 2017 CS 201 class.
+                     </span></span>
+            </summary>
+            <ul style="margin-left:60px; margin-top:-15px">
+            <li>Andy Chang</li>
+            <li>Patrick C. Cheng</li>
+            <li>Pierre R. De Poyo</li>
+            <li>Chad K. Kinoshita</li> <li>Derrick Bukka O'Brien</li>
+            </ul>
+            </details>
+         </li>
     <!-- JWH 4/23/2017  use better centering -->
         <!--
         <details><summary>        
@@ -249,8 +248,15 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         </details>
         -->
             <!-- <img style="width:40px; height:65px;"src="images/UH-Hilo_logo.png" alt="UH-Hilo logo"> -->
+        <li style="clearfix">
+            <img style="float:left;  width:80px; height:50px;" 
+                 src="images/hpm_buildingsupply.png" alt="HPM logo">
+             <span class="clearfix" style="vertical-align:20px;margin-left:10px; margin-top:-20px">
+                 HPM Building Supply.
+             </span>
+        </li>
+</div> <!-- PARTNERS -->
 
-</div>
 <!-- JWH: 4/21/2017: old partners... 
 <p>FISCAL AGENT
     Hawaii Library Foundation
