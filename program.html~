@@ -191,7 +191,7 @@
 
         <div class="grid_4">   <!-- JWH: column 3 -->
             <!-- JWH 3/20/2017 -->
-        	<h2 class="gradientheader"; style=" color:green";>Location</h1>
+        	<h2 id="locate" class="gradientheader"; style=" color:green";>Location</h1>
             <p>The Hilo Public Library kindly hosts CALC in its <i>Microfilm Room</i> which is located in the east corner of the library's main 
             wing.
             </p>
@@ -258,7 +258,7 @@
                 Hilo, HI 96720<br />
             </p>
             <p> We receive U.S. mail at the Hilo Post Office:<br />
-            CALC in the Hilo Public Library <br />
+            CALC/Hilo Public Library <br />
             P.O. Box 11499 <br />
             Hilo, HI  96721 <br />
             </p>
