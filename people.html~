@@ -286,7 +286,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 </div>
 
 <h1 id="partners" class="gradientheader" style="color:green">Partners</h1>
-<div style="width:1200px"> <!-- PARTNERS -->
+<div style="width:1300px"> <!-- PARTNERS -->
     <h3><b>Donors</b></h3>
     
 <section id="content" class="wide-content">  <!-- Donors section  {{{ -->
@@ -378,7 +378,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 </div>  <!-- end grid_6 -->
 
     
-
+<!-- DONOR COLUMN 2 -->
 <div class="grid_6">
     <ul style="list-style-type:none; padding:4px; margin-top:-24px;">
 
@@ -428,6 +428,18 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
              </span>
         
         </li>
+
+        <li  style="margin-top:10px">
+           <img style="float:left;  width:65px; margin-top:0px" 
+                 src="images/kta-65pxW.jpg" alt="KTA logo">
+             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:20px;top:-20px">
+                 KTA Super Stores, Hilo HI:  <a href="http://www.ktasuperstores.com/">www.ktasuperstores.com</a>
+             </span>
+        
+        </li>
+
+
+
 		</ul>        
 	</div> <!-- grid_6 -->
    </div>  <!-- row -->        
