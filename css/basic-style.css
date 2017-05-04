@@ -15,8 +15,11 @@ BASE (MOBILE) SIZE
 
 /* typography */
 body{
-	color:#666;
+	color:#404040; /*DimGrey;*/  /* #666; */
+/* JWH 5/2/2017 don't use google fonts 
 	font-family:'Ubuntu', Arial, Helvetica, sans-serif; 
+*/
+	font-family: Arial, Helvetica, sans-serif; 
 	font-size:1em;
 	line-height:1.4em; 
     /* JWH 3/20/2017 */
@@ -26,7 +29,10 @@ body{
 /*JWH 3/20/2017 */
 h1 {
     font-weight:bold;
+/* JWH 5/2/2017 don't use google fonts 
 	font-family:'Droid Serif', Arial, Helvetica, sans-serif; 
+*/
+	font-family:Arial, Helvetica, sans-serif; 
 	line-height:1.5em;
 	margin:.45em 0;
 	padding:0;
@@ -35,7 +41,10 @@ h1 {
 h2, h3, h4, h5, h6{
 	/*font-weight:normal;*/
 	font-weight:normal;
+/* JWH 5/2/2017 don't use google fonts 
 	font-family:'Droid Serif', Arial, Helvetica, sans-serif; 
+*/
+	font-family:Arial, Helvetica, sans-serif; 
 	line-height:1.5em;
 	margin:.45em 0;
 	padding:0;
@@ -44,8 +53,13 @@ h2, h3, h4, h5, h6{
 /* JWH: 4/21/2017 */
 .gradientheader {
     background: linear-gradient(to right, rgba(205,133,63 ,0.5), rgba(205,133,63,0));
+    font-weight:bold;
 }
 
+/* JWH 5/2/2017 */
+.gradienttextcolor {
+    color:DarkGreen;
+}
 
 /* links */
 a,
