@@ -118,7 +118,7 @@
 
          <!-- addresses -->
          <p style="clear:both">  <!-- JWH 4/19/2017: need this to place addresses below table -->
-            <h2 id="calcadd" class="gradientheader" style="color:green"> Contact CALC</h2>  
+            <h2 id="calcadd" class="gradientheader" style="color:DarkGreen"> Contact CALC</h2>  
 
             <p> The Hilo Public Library is located at:<br />
                 300 Waianuenue Avenue<br />

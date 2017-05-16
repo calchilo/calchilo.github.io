@@ -21,7 +21,7 @@ ESL 'computer literacy'">
 
 <!-- CSS-->
 <!-- Google web fonts. You can get your own bundle at http://www.google.com/fonts. Don't forget to update the CSS accordingly!-->
-<!-- JWH 4/3/2017: rely of standard fonts -->
+<!-- JWH 4/3/2017: rely on standard fonts -->
 <!-- <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Ubuntu' rel='stylesheet' type='text/css'> -->
 
 <link rel="stylesheet" href="css/normalize.css">
@@ -59,11 +59,23 @@ margin-top:20px;
 padding:20px 15px;
 }
 -->
+
+.jwh-headline {
+    position: relative;
+    background:  url("images/Claudine-ESL-class-380pxW.jpg")center center no-repeat,url("images/CALC-computers.png") left center no-repeat,url("images/adult-reading.png") right center no-repeat;
+    background-position: center center no-repeat, left center no-repeat, right center no-repeat;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    /*background-size: 33%, 33%, 34%;*/
+    background-size: contain,34%,34%;
+    /* width:1000px; height:220px; */
+    margin:auto;
+}
+
+
 </style>
 </head>
 
-<body id="home">
-  
+<body id="home" style="background:#FFFFE0; padding:0px; margin:0px">  <!-- lightyellow -->
 <!-- header area -->
     <header class="wrapper clearfix">
 <!-- JWH 3/24/2017 -------		       
@@ -85,11 +97,12 @@ padding:20px 15px;
     providing FREE access to learning resources and tutoring services </p>
 </div>        
 -->
-<div style="position: relative; background: url(images/3studentsbig2-opac50.png); width: 1280px; height: 276px;"/>
-    <div style="position: absolute; bottom: 200px; left: 10px; width: 400px;font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-shadow: 3px 3px #000000; color: #f00; font-size: 86px">
-        C A L C
+<!-- <div style="position: relative; background: url(images/3studentsbig2-opac50.png); width: 1280px; height: 276px;"/> -->
+<div id="banner" class="jwh-headline" style="width:1200px; height:270px;display:block;margin:auto">
+    <div style="position: absolute; bottom: 150px; left: 10px; width: 400px;font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-shadow: 3px 3px #000000; color: #fff; font-size: 86px">
+        <i>C A L C</i>
     </div>
-    <div style="position: absolute; bottom: 120px; left: 15px; width: 800px; font-weight: bold; text-shadow: 1px 1px #000000;color: #f00; font-size: 40px;"/>
+    <div style="position: absolute; bottom: 80px; left: 15px; width: 800px; font-weight: bold; text-shadow: 1px 1px #000000;color: #fff; font-size: 40px;"/>
        Computer-Assisted Learning Center
     </div>
 <!-- JWH 5/2/2017 remove 
@@ -97,7 +110,7 @@ padding:20px 15px;
        Hilo, Hawaii
     </div>
 -->
-    <div style="position: absolute; bottom: 25px; right: 40px; width: 300px; padding: 4px; text-shadow: 1px 1px #ffffff; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color:#000000; font-size: 20px;"/>
+<div style="position: absolute; bottom: 15px; right: 40px; width: 300px; padding: 4px; text-shadow: 2px 2px #000000 ; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color:#ffff00; font-size: 20px;"/>
     providing FREE access to learning resources and tutoring services 
     </div>
 </div>       
@@ -228,7 +241,7 @@ padding:20px 15px;
             <!-- JWH 3/20/2017 -->
         	<!-- <h1 class="first-header"; style=" color:red";>Why Be Literate?</h1>  -->
         	<!-- JWH 5/1/2017: change color from "green" to dark green -->
-        	<h1  class="second-header"; style=" color:DarkGreen; background: linear-gradient(to right, rgba(205,133,63 ,0.5), rgba(205,133,63 ,0));";>Why Be Literate?</h1>
+        	<h1  class="second-header gradientheader"; style=" color:DarkGreen; ";>Why Be Literate?</h1>
             <!-- <img src="images/birdofparadise.jpg" /> -->
             <!-- <img src="images/value_education.png" /> -->
             <!-- <img src="images/value_education2.jpeg" /> -->
@@ -253,7 +266,7 @@ padding:20px 15px;
         <div class="grid_4">
         	<!-- <h1 class="first-header"; style="color:blue";>Become a Student</h1>  -->
         	<!-- JWH 5/1/2017: change color from "green" to dark green -->
-        	<h1  class="second-header"; style=" color:DarkGreen; background: linear-gradient(to right, rgba(205,133,63 ,0.5), rgba(205,133,63,0));";>Become a Student</h1>
+        	<h1  class="second-header gradientheader"; style=" color:DarkGreen;";>Become a Student</h1>
             <!-- JWH 3/20/2017 -->
             <!-- <img src="images/orchid.jpg" /> -->
             <!-- <img src="images/Bud-in-1738CC.JPG" /> -->
@@ -267,11 +280,12 @@ padding:20px 15px;
         
         <div class="grid_4">
         	<!-- <h1 class="first-header"; style= "color:green";>Donate!</h1>  -->
-        	<h1  class="second-header"; style=" color:DarkGreen; background: linear-gradient(to right, rgba(205,133,63 ,0.5), rgba(205,133,63 ,0));";>Donate!</h1>
+        	<h1  class="second-header gradientheader"; style=" color:DarkGreen; ";>Donate!</h1>
             <!--  <img src="images/rainbowfalls.jpg" /> -->
             <!-- <img src="images/donate_tree.jpeg" /> -->
             <!-- <img src="images/donate_tree.jpeg" style="width:750px;height:220px;"/> -->  <!-- JWH "donate_piggy.jpeg" -->
-            <img src="images/donate_tree.jpeg" style="width:276px"/> 
+             <img src="images/donate_tree.jpeg"  style="width:100%"/>   <!-- 276px -->
+            <!-- <img src="images/donate_tree.jpeg" style="height:242px"/>
             <!-- JWH 3/20/2017 -->
             <p> CALC is a 501(c)3 nonprofit literacy project.  We welcome all donations in the form of money or in-kind services 
             and contributions. Visit our  <a href="donate.html"> donate</a> page for details.
@@ -336,10 +350,30 @@ padding:20px 15px;
 <footer>
 <!-- JWH 4/10/2017 add my swimmer -->
 
- 	<img style="float: right; margin: 10px 20px" alt="" src="images/swim-black.gif" />
-	<div id="colophon" class="wrapper clearfix">
+ 	<span style="float: right"><img style= "margin: 10px 20px" alt="" src="images/swim-black.gif" /> </span>
+
+    <div>
+        <!-- main navigation -->
+         <nav id="topnav" role="navigation">
+
+        <!--<div class="menu-toggle";style="float:right;clear:right">Menu</div>  -->
+        <div class="menu-toggle">Menu</div>
+        	<ul class="srt-menu" id="menu-main-navigation" style="display:inline;position:relative;left:-200px;top:50px;background:#333333">
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="program.html">Program</a></li>
+			<li><a href="people.html">People</a>
+			<li><a href="resources.html">Resources</a></li>
+			<li><a href="donate.html">Donate</a></li>	
+			<li><a href="contact.html">Contact</a></li>	
+		    </ul>
+		</div>
+		</nav>
+    </div>
+ 	
+ 	
+ 	<div id="colophon" class="wrapper clearfix">
         <p>&copy; 2016, 2017 Computer-Assisted Learning Center<br /></p>
-        <p> CALC/Hilo Public Library<br />
+        <p style="line-height:1.4em"> CALC/Hilo Public Library<br />
         P.O. Box 11499<br />
         Hilo, HI 96720<br />
         Phone: (808) 933-8893 | Fax: (808) 933-8895<br />

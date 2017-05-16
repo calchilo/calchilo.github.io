@@ -3,7 +3,7 @@ Simple Responsive Template v 1.2
 
 
 primary styles 
-   Author: www.prowebdesign.ro
+   Author: 
    Add your own styles to customize the project.
 
 
@@ -15,16 +15,22 @@ BASE (MOBILE) SIZE
 
 /* typography */
 body{
-	color:#404040; /*DimGrey;*/  /* #666; */
+	/*color:#404040;*/ /*DimGrey;*/  /* #666; */
+	color:#663300;  /* darker #4d2600 */
 /* JWH 5/2/2017 don't use google fonts 
 	font-family:'Ubuntu', Arial, Helvetica, sans-serif; 
 */
 	font-family: Arial, Helvetica, sans-serif; 
+/*  JWH 5/14/2017 
 	font-size:1em;
 	line-height:1.4em; 
+*/
+	font-size:1.1em;
+	line-height:1.6em; 
+
     /* JWH 3/20/2017 */
-    /*font-weight:normal;*/
-    font-weight:bold;
+    font-weight:normal;
+    /* font-weight:bold; */
 }
 /*JWH 3/20/2017 */
 h1 {
@@ -54,6 +60,7 @@ h2, h3, h4, h5, h6{
 .gradientheader {
     background: linear-gradient(to right, rgba(205,133,63 ,0.5), rgba(205,133,63,0));
     font-weight:bold;
+    padding-left: 3px;
 }
 
 /* JWH 5/2/2017 */
@@ -88,7 +95,8 @@ header{
 	
 #hero,
 #page-header{
-	background:#f3f3f3;
+	/* background:#f3f3f3;  */
+	background: #FFFFE0;  /*LightYellow*/  /*#FFF8DC;  cornsilk*/
 	border-top:1px solid #e2e2e2;
 	border-bottom:1px solid #e2e2e2;
 	padding:20px 0;
@@ -427,6 +435,15 @@ ul.srt-menu li li li.sfHover ul {
 	padding:10px 20px;
 	height:45px;
 }
+
+/* JWH 5/10/2017: change color of navigation for footer */
+/* .srt-menu footer * li a {  */
+footer li a {
+	background:#333333 !important;
+}
+
+
+
 .srt-menu a, .srt-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
 	color:			#0099ff;	
 }

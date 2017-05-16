@@ -11,7 +11,7 @@
 <meta name="description" content="The COMPUTER-ASSISTED LEARNING CENTER at the Hilo Public Library (CALC) ">
 <!-- 3/28/2017 JWH:  add some keywords for internet searching -->
 <meta name="keywords" content="'adult literacy', reading, writing, 'math skills', 'free tutoring' GED 'English as a Second Language' 
-ESlL">
+ESL 'computer literacy'">
 
 <!-- Mobile viewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
@@ -21,7 +21,7 @@ ESlL">
 
 <!-- CSS-->
 <!-- Google web fonts. You can get your own bundle at http://www.google.com/fonts. Don't forget to update the CSS accordingly!-->
-<!-- JWH 4/3/2017: rely of standard fonts -->
+<!-- JWH 4/3/2017: rely on standard fonts -->
 <!-- <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Ubuntu' rel='stylesheet' type='text/css'> -->
 
 <link rel="stylesheet" href="css/normalize.css">
@@ -59,11 +59,23 @@ margin-top:20px;
 padding:20px 15px;
 }
 -->
+
+.jwh-headline {
+    position: relative;
+    background:  url("images/Claudine-ESL-class-380pxW.jpg")center center no-repeat,url("images/CALC-computers.png") left center no-repeat,url("images/adult-reading.png") right center no-repeat;
+    background-position: center center no-repeat, left center no-repeat, right center no-repeat;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    /*background-size: 33%, 33%, 34%;*/
+    background-size: contain,34%,34%;
+    /* width:1000px; height:220px; */
+    margin:auto;
+}
+
+
 </style>
 </head>
 
-<body id="home">
-  
+<body id="home" style="background:#FFFFE0; padding:0px; margin:0px">  <!-- lightyellow -->
 <!-- header area -->
     <header class="wrapper clearfix">
 <!-- JWH 3/24/2017 -------		       
@@ -85,7 +97,8 @@ padding:20px 15px;
     providing FREE access to learning resources and tutoring services </p>
 </div>        
 -->
-<div style="position: relative; background: url(images/3studentsbig2-opac50.png); width: 1280px; height: 276px;"/>
+<!-- <div style="position: relative; background: url(images/3studentsbig2-opac50.png); width: 1280px; height: 276px;"/> -->
+<div id="banner" class="jwh-headline" style="width:1280px; height:276px;display:block;margin:auto">
     <div style="position: absolute; bottom: 200px; left: 10px; width: 400px;font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-shadow: 3px 3px #000000; color: #f00; font-size: 86px">
         C A L C
     </div>
@@ -336,8 +349,28 @@ padding:20px 15px;
 <footer>
 <!-- JWH 4/10/2017 add my swimmer -->
 
- 	<img style="float: right; margin: 10px 20px" alt="" src="images/swim-black.gif" />
-	<div id="colophon" class="wrapper clearfix">
+ 	<span style="float: right"><img style= "margin: 10px 20px" alt="" src="images/swim-black.gif" /> </span>
+
+    <div>
+        <!-- main navigation -->
+         <nav id="topnav" role="navigation">
+
+        <!--<div class="menu-toggle";style="float:right;clear:right">Menu</div>  -->
+        <div class="menu-toggle">Menu</div>
+        	<ul class="srt-menu" id="menu-main-navigation" style="display:inline;position:relative;left:-200px;top:50px;background:#333333">
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="program.html">Program</a></li>
+			<li><a href="people.html">People</a>
+			<li><a href="resources.html">Resources</a></li>
+			<li><a href="donate.html">Donate</a></li>	
+			<li><a href="contact.html">Contact</a></li>	
+		    </ul>
+		</div>
+		</nav>
+    </div>
+ 	
+ 	
+ 	<div id="colophon" class="wrapper clearfix">
         <p>&copy; 2016, 2017 Computer-Assisted Learning Center<br /></p>
         <p> CALC/Hilo Public Library<br />
         P.O. Box 11499<br />

@@ -190,30 +190,31 @@
         <td><p class="nophoto">Volunteer Photo Here</p> </td>
         <td class="textcolumn-wide">
          <div style="height: 150px; overflow: auto"> 
-                Claudine has been a tutor for over 10 years. She received a Certificate in
-                Teaching ESL (English as a second language) from UHH in 2004 and is a
-                retired librarian. At CALC she has taught reading and writing to
-                individual students on a one to one basis as well as groups of ESL
-                students. Currently, she teaches a class of adult ESL learners whose first
-                language includes Japanese, Mandarin, or Taiwanese. In
-                this class, her students focus on pronunciation of American English and
-                conversational English, but study reading, writing, grammar, and
-                listening as well. The main student goal is fluency in English so they
-                can speak comfortably with native English speakers. They spend lots of
-                time talking with each other, use a variety of textbooks, and have lots
-                of fun while learning English.
-            </div>
+                Claudine has been a tutor for over 10 years. She received a
+                Certificate in Teaching ESL (English as a second language) from
+                UHH in 2004 and is a retired librarian. At CALC she has taught
+                reading and writing to individual students on a one to one basis
+                as well as groups of ESL students. Currently, she teaches a
+                class of adult ESL learners whose first language includes
+                Japanese, Mandarin, or Taiwanese. In this class, her students
+                focus on pronunciation of American English and conversational
+                English, but study reading, writing, grammar, and listening as
+                well. The main student goal is fluency in English so they can
+                speak comfortably with native English speakers. They spend lots
+                of time talking with each other, use a variety of textbooks, and
+                have lots of fun while learning English.
+        </div>
         </td>
     </tr>
     <tr>
         <td><p class="nophoto">Volunteer Photo Here</p> </td>
-        <td class="textcolumn-wide"> If volunteers do not wish us to use their photos, can we use their first name and a short quote?
-        Born and raised in Hilo, Janice went on to study at the University of
-        Oregon, receiving a Bachelor's Degree in Interior Architecture. She and
-        her husband raised their five children in Oregon and Idaho, where Janice
-        enjoyed and explored the many facets of home education. She loves
-        reading, sewing, cooking, and volunteering.  Here at CALC, Janice helps students
-        with GED and ESL lessons.
+        <td class="textcolumn-wide">
+        Born and raised in Hilo, Janice received a Bachelor's Degree in Interior
+        Architexture from the University of Oregon. She and her husband raised
+        their five children in Oregon and Idaho, where Janice enjoyed and
+        explored the many facets of home education. She loves reading, sewing,
+        cooking, and volunteering. Here at CALC, Janice helps students with GED
+        and ESL lessons.
         </td>
     </tr>
 
@@ -450,7 +451,6 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
              <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:20px;top:-20px">
                  Cafe 100, Hilo,Hawaii:  <a href="https://www.cafe100.com/">www.cafe100.com</a>
              </span>
-        
         </li>
         
         <li  style="margin-top:10px">
