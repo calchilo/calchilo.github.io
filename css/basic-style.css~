@@ -60,6 +60,7 @@ h2, h3, h4, h5, h6{
 .gradientheader {
     background: linear-gradient(to right, rgba(205,133,63 ,0.5), rgba(205,133,63,0));
     font-weight:bold;
+    padding-left: 3px;
 }
 
 /* JWH 5/2/2017 */

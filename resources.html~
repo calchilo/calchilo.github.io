@@ -13,12 +13,16 @@
 
 <!-- Mobile viewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<!-- From https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_dropdown-header&stacked=h -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <link rel="shortcut icon" href="images/favicon.ico"  type="image/x-icon">
 
 <!-- CSS-->
 <!-- Google web fonts. You can get your own bundle at http://www.google.com/fonts. Don't forget to update the CSS accordingly!-->
-<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Ubuntu' rel='stylesheet' type='text/css'>
+<!-- <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Ubuntu' rel='stylesheet' type='text/css'> -->
 
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="js/flexslider/flexslider.css">
@@ -97,7 +101,7 @@
 	<h1>RESOURCES</h1>
     </div>
 
-</section>
+<!-- </section>   moved to just above footer -->
 
 
 <!-- main content area -->   
@@ -151,8 +155,6 @@ http://www.hawaiiliteracy.org/
 	<li><a href="http://www.wcsahawaii.org/"><strong><font face="Arial">
 	Private School for Adult Education</font></strong></a> </li>
 
-
-
 	<li><a href="http://www.50states.com/hawaii.htm"><strong><font face="Arial">
 	General Information on Hawai'i</font></strong></a> </li>
 <!--
@@ -166,8 +168,24 @@ http://www.hawaiiliteracy.org/
 	<li><a href="http://www.koadesigns.com/"><strong><font face="Arial">Kit's 
 	Favorite Site</font></strong></a> </li>
 -->
+<!-- JWH 5/19/2017 From: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_dropdown-header&stacked=h -->
+  <li><div class="dropdown">
+<!--    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">More Useful Links <span class="caret"></span></button>-->
+<!-- JWH 5/20/2017: make btn small, no paddng -->
+    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" style="padding: 0px; color:Blue">More Useful Links <span class="caret"></span></button>
+    <ul class="dropdown-menu tight">
+      <li class="dropdown-header">General Reference Help</li>
 	<li><a href="http://www.refdesk.com/"><strong><font face="Arial">Our 
 	Favorite Reference Site</font></strong></a> </li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li class="divider"></li>
+      <li class="dropdown-header">Dropdown header 2</li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+  </div></li>
+
 </ul>
                 
 <h2 id="job_information"class="gradientheader" style=" color:DarkGreen">Job Information</h2>
@@ -197,6 +215,10 @@ http://www.hawaiiliteracy.org/
 	<li><a href="http://www.dbm.com/jobguide/"><strong><font face="Arial">The 
 	Riley Guide</font></strong></a> </li>
 -->
+<!-- to add to calc 
+https://portal.ehawaii.gov/residents/jobs-and-employment/
+--> 
+
 </ul>
                 
 <h2 id="grant_information" class="gradientheader" style=" color:DarkGreen">Grant Information</h2>
@@ -231,8 +253,8 @@ http://www.hawaiiliteracy.org/
 	    <a href="http://www.hpmhawaii.com/about/scholarship/"><strong><font face="Arial">HPM Scholarships</font></strong></a> 
 	</li>
     <li>
-	    <a href="https://www.boh.com/apps/foundations"><strong><font face="Arial">Foundations Supported by Bank of Hawaii</font></strong></a>  <br /> 
-	    <a href="https://www.boh.com/apps/foundatons/Default.aspx?show=5/"><strong><font face="Arial">Tuition Support Aid by Bank of Hawaii Foundations</font></strong></a> <br />
+	    <a href="https://www.boh.com/apps/foundations"><strong><font face="Arial">Foundations Supported by Bank of Hawaii</font></strong></a>  <br />
+	    <a href="https://www.boh.com/apps/foundations/Default.aspx?show=5"><strong><font face="Arial">Tuition Support Aid by Bank of Hawaii Foundations</font></strong></a> <br />
     </li>
     <li>
 	    <a href="http://www.hei.com/CustomPage/Index?keyGenPage=1073751884"><strong><font face="Arial">HELCO Grants</font></strong></a>     
@@ -281,8 +303,8 @@ http://www.hawaiiliteracy.org/
 	Hawaii DoE GED Info</font></strong></a> 
 	</li> 
 	<li><a href="https://www.test-guide.com/tests.html"><strong><font face="Arial">
-	Popular Example Tests</font></strong></a> 
-	    <ul>
+	Many Free Example Tests</font></strong></a> 
+	    <ul style="margin:0em">
 	    <li><a href="https://www.test-guide.com/Compass-Test/"><strong><font face="Arial">
 	       Compass</font></strong></a> 
 	    </li>
@@ -292,33 +314,38 @@ http://www.hawaiiliteracy.org/
 	    <li><a href="https://www.test-guide.com/HiSET/"><strong><font face="Arial">
 	        HiSET</font></strong></a> 
 	    </li>
-	</ul>
-	
+	    </ul>
+        <li>ESL Links that cover many topics</li>
+        <ul style="margin:0em">
+        <li> <a href= http://www.eslgold.com/speaking.html>ESLgold speaking</a></li>
+        <li> <a href= http://www.bbc.co.uk/skillswise/english>BBC Skillswise</a></li>
+        <li> <a href= http://www.esl-lounge.com/>ESL Lounge </a></li>
+        <li> <a href= http://www.esl-galaxy.com/adults.html>ESL for Adults and Children </a></li>
+        </ul>
 	</li> 
 </ul>
 
-<h2 id="for_students" class="gradientheader" style=" color:DarkGreen" >For Tutors</h2>
+<h2 id="for_tutors" class="gradientheader" style=" color:DarkGreen" >For Tutors</h2>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>  -->
 <ul>
 	<li><a href="https://readable.io/"><strong><font face="Arial">
-	Test Your Reading Ability</font></strong></a> 
+	Test Your Student's Reading Ability</font></strong></a> 
 	</li> 
 	<li><a href="http://www.nrrf.org/reading-competency-test/"><strong><font face="Arial">
 	Another Reading Competency Test</font></strong></a> 
 	</li> 
 	<li><a href="https://lincs.ed.gov/"><strong><font face="Arial">
-	US DoE Literacy Resources</font></strong></a> 
+	U.S. Dept. of Education Literacy Resources</font></strong></a> 
 	</li> 
 	<li><a href="https://hawaii.pbslearningmedia.org/collection/ketae/"><strong><font face="Arial">
 	Hawaii PBS Literacy Resources</font></strong></a> 
 	</li> 
 	<li><a href="http://www.hawaiipublicschools.org/TeachingAndLearning/AdultEducation/Pages/Home.aspx"><strong><font face="Arial">
-	Hawaii DoE GED Info</font></strong></a> 
+	Hawaii Dept. of Education GED Info</font></strong></a> 
 	</li> 
 	<li><a href="http://adultnumeracynetwork.org/"><strong><font face="Arial">
 	Numeracy = Math Literacy Tutoring</font></strong></a> 
 	</li> 
-
 
 </ul>				
 
@@ -382,20 +409,41 @@ http://www.hawaiiliteracy.org/
                         <li><a href="#job_information">Job Information</a></li>
                         <li><a href="#grant_information">Grant Information</a></li>
                         <li><a href="#for_students">For Students</a></li>
+                        <li><a href="#for_tutors">For Tutors</a></li>
                         <li><a href="#publishers">Publishers</a></li>
 					</ul>
              </nav>
       </aside><!-- #end sidebar -->
    
   </div><!-- #end div #main .wrapper -->
-    
 
+</section> <!-- page-header -->
 
 <!-- footer area -->    
 <footer>
+
+    <div>
+        <!-- main navigation -->
+         <nav id="topnav" role="navigation">
+
+        <!--<div class="menu-toggle";style="float:right;clear:right">Menu</div>  -->
+        <div class="menu-toggle">Menu</div>
+        	<ul class="srt-menu" id="menu-main-navigation" style="display:inline;position:relative;left:-200px;top:50px;background:#333333">
+            <li ><a href="index.html">Home</a></li>
+            <li><a href="program.html">Program</a></li>
+			<li><a href="people.html">People</a>
+			<li class="current"><a href="resources.html">Resources</a></li>
+			<li><a href="donate.html">Donate</a></li>	
+			<li><a href="contact.html">Contact</a></li>	
+		    </ul>
+		</div>
+		</nav>
+    </div>
+
+
 	<div id="colophon" class="wrapper clearfix">
     <p>&copy; 2016, 2017 Computer-Assisted Learning Center</p>
-    </p>CALC/Hilo Public Library<br />
+    <p style="line-height:1.4em"> CALC/Hilo Public Library<br />
     P.O. Box 11499<br />
     Hilo, HI 96720<br />
     Phone: (808) 933-8893 | Fax: (808) 933-8895<br />
