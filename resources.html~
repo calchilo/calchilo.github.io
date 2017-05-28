@@ -315,14 +315,15 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
 	        HiSET</font></strong></a> 
 	    </li>
 	    </ul>
-        <li>ESL Links that cover many topics</li>
-        <ul style="margin:0em">
-        <li> <a href= http://www.eslgold.com/speaking.html>ESLgold speaking</a></li>
-        <li> <a href= http://www.bbc.co.uk/skillswise/english>BBC Skillswise</a></li>
-        <li> <a href= http://www.esl-lounge.com/>ESL Lounge </a></li>
-        <li> <a href= http://www.esl-galaxy.com/adults.html>ESL for Adults and Children </a></li>
-        </ul>
-	</li> 
+        <li> <details>
+                <summary>ESL Links that cover many topics</summary>
+                    <ul style="margin:0em">
+                    <li> <a href= http://www.eslgold.com/speaking.html>ESLgold speaking</a></li>
+                    <li> <a href= http://www.bbc.co.uk/skillswise/english>BBC Skillswise</a></li>
+                    <li> <a href= http://www.esl-lounge.com/>ESL Lounge </a></li>
+                    <li> <a href= http://www.esl-galaxy.com/adults.html>ESL for Adults and Children </a></li>
+                    </ul>
+	    </li> 
 </ul>
 
 <h2 id="for_tutors" class="gradientheader" style=" color:DarkGreen" >For Tutors</h2>
@@ -459,6 +460,7 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.0.min.js">\x3C/script>')</script>
 
 <script defer src="js/flexslider/jquery.flexslider-min.js"></script>
+<script defer src="js/jquery.details.min.js"></script>
 
 <!-- fire ups - read this file!  -->   
 <script src="js/main.js"></script>
