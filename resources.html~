@@ -316,7 +316,7 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
 	    </li>
 	    </ul>
         <li> <details>
-                <summary>ESL Links that cover many topics</summary>
+                <summary style="color:DarkBlue">ESL Links that cover many topics</summary>
                     <ul style="margin:0em">
                     <li> <a href= http://www.eslgold.com/speaking.html>ESLgold speaking</a></li>
                     <li> <a href= http://www.bbc.co.uk/skillswise/english>BBC Skillswise</a></li>
@@ -464,6 +464,6 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
 
 <!-- fire ups - read this file!  -->   
 <script src="js/main.js"></script>
-
+<script src="js/jquery-ck-support.js"></script>
 </body>
 </html>
