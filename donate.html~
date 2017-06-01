@@ -71,7 +71,7 @@
 	<h1>SUPPORT CALC</h1>
     </div>
 
-<!-- </section>   moved to above footer -->
+</section>
 
 
 <!-- main content area -->   
@@ -109,34 +109,14 @@
 
     </section> <!-- content area -->
 </div> <!-- #main.wrapper -->
-</section> <!-- page-header -->
+
 
 
 <!-- footer area -->    
 <footer>
-
-    <div>
-        <!-- main navigation -->
-         <nav id="topnav" role="navigation">
-
-        <!--<div class="menu-toggle";style="float:right;clear:right">Menu</div>  -->
-        <div class="menu-toggle">Menu</div>
-        	<ul class="srt-menu" id="menu-main-navigation" style="display:inline;position:relative;left:-200px;top:50px;background:#333333">
-            <li ><a href="index.html">Home</a></li>
-            <li><a href="program.html">Program</a></li>
-			<li><a href="people.html">People</a>
-			<li><a href="resources.html">Resources</a></li>
-			<li class="current"><a href="donate.html">Donate</a></li>	
-			<li><a href="contact.html">Contact</a></li>	
-		    </ul>
-		</div>
-		</nav>
-    </div>
-
-
 	<div id="colophon" class="wrapper clearfix">
     <p>&copy; 2016, 2017 Computer-Assisted Learning Center</p>
-    <p style="line-height:1.4em">CALC/Hilo Public Library<br />
+    </p>CALC/Hilo Public Library<br />
     P.O. Box 11499<br />
     Hilo, HI 96720<br />
     Phone: (808) 933-8893 | Fax: (808) 933-8895<br />

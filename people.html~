@@ -18,7 +18,7 @@
 
 <!-- CSS-->
 <!-- Google web fonts. You can get your own bundle at http://www.google.com/fonts. Don't forget to update the CSS accordingly!-->
-<!-- <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Ubuntu' rel='stylesheet' type='text/css'> -->
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Ubuntu' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="js/flexslider/flexslider.css">
@@ -102,7 +102,7 @@
 	<h1>PEOPLE</h1>
     </div>
 
-<!--   </section>   moved to just above footer -->
+</section>
 
 
 <!-- main content area {{{ -->   
@@ -112,7 +112,7 @@
 <section id="content">
               <!--   <h1 id="learners">Learners</h1> -->
 
-<h1 class="gradientheader" style="color:DarkGreen">Learners</h1>
+<h1 class="gradientheader" style="color:green">Learners</h1>
 <!-- JWH 4/13/2017: use tables not floats -->
 <table> <!-- Learners table {{{ -->  
 <!-- 
@@ -128,7 +128,7 @@
 		<td style="width:200px"><img src="images/Liza-CALC-crop1-150pxW.jpg" title="Liza" alt="Liza B." style="width:180px;border=2px" /></td>
         <td class="textcolumn-wide" style="min-height:60px;max-height:80px;overflow:scroll"  >
             <div style="height: 150px; overflow: auto">
-                <i>Liza:</i> I came to the Learning Center as a high school drop-out, having long
+                        Liza: I came to the Learning Center as a high school drop-out, having long
                 lost hopes of any kind of academic future and hoping only 
                 to pass my GED exams. I felt pretty insecure having to ask for this kind of help
                 as an adult, but Vera eliminated all my fears and inspired me to
@@ -144,11 +144,11 @@
     </tr>
 
     <tr>
-         <!-- <td><p class="nophoto">Learner Photo Here</p> </td>  -->
-		<td style="min-width:150px"><img src="images/rosie-riveter-150pxW.jpg" title="Rosie" alt="Rosie R." style="width:180px;border=2px" /></td> 
-        <td class="textcolumn-wide"  style="min-height:60px;max-height:80px;overflow:scroll"  >
+        <td><p class="nophoto">Learner Photo Here</p> </td>
+		<!-- <td style="width:200px"><img src="images/Liza-CALC-crop1-150pxW.jpg" title="Liza" alt="Liza B." style="width:180px;border=2px" /></td> -->
+        <td class="textcolumn-wide"  >
             <div style="height: 150px; overflow: auto">
-                <i>Tia:</i>  Being a part of CALC was the best thing that happened to me. I was a high school
+                Tia:  Being a part of CALC was the best thing that happened to me. I was a high school
                 dropout. After dropping out I went straight into the workforce; unfortunately I
                 got hurt on the job. As part of my rehabilitation I was sent to CALC. I went in
                 with a perspective of not knowing what this program was going to provide me.
@@ -176,7 +176,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 -->                               
 <!-- <h1 id="volunteers">Volunteers</h1> -->
-<h1 id="volunteers" class="gradientheader" style="color:DarkGreen">Volunteers</h1>
+<h1 id="volunteers" class="gradientheader" style="color:green">Volunteers</h1>
 <!-- JWH 4/13/2017: use tables not floats -->
 <table>  <!-- Volunteers table {{{ -->
     <tr>
@@ -188,6 +188,7 @@
     </tr>
     <tr>
         <td><p class="nophoto">Volunteer Photo Here</p> </td>
+<<<<<<< HEAD
         <td class="textcolumn-wide">
          <div style="height: 150px; overflow: auto"> 
                 Claudine has been a tutor for over 10 years. She received a
@@ -216,6 +217,13 @@
         cooking, and volunteering. Here at CALC, Janice helps students with GED
         and ESL lessons.
         </td>
+=======
+        <td class="textcolumn-wide"> If volunteers do not wish us to use their photos, can we use their first name and a short quote?</td>
+    </tr>
+    <tr>
+        <td><p class="nophoto">Volunteer Photo Here</p> </td>
+        <td class="textcolumn-wide"> If volunteers do not wish us to use their photos, can we use their first name and a short quote?</td>
+>>>>>>> parent of 2349805... Claudine-Janice add
     </tr>
 
 </table>	<!-- Volunteers table }}} -->
@@ -239,7 +247,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 <!-- JWH 4/21/2017: fancy headers --> 
 <!-- <h1 id="staff">Staff</h1> --> 
 <!--<h1 class="second-header"; style=" color:black; background: linear-gradient(to right, rgba(205,133,63 ,0.5), rgba(205,133,63,0));";>Staff</h1>--> 
-<h1 id="staff" class="gradientheader" style="color:DarkGreen">Staff</h1> 
+<h1 id="staff" class="gradientheader" style="color:green">Staff</h1> 
 <!-- JWH 4/13/2017: use tables not floats --> 
     <table> <!-- Staff table {{{ -->
         <tr> 
@@ -308,7 +316,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
 <!-- JWH 21/4/2017 -->
 <!-- <h1 id="directors">Board of Directors</h1> -->
-<h1 class="gradientheader" style="color:DarkGreen">Board of Directors</h1>
+<h1 class="gradientheader" style="color:green">Board of Directors</h1>
 <div>
     <ul>
         <li> David Kohara: President</li>
@@ -319,7 +327,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
     </ul>
 </div>
 
-<h1 id="partners" class="gradientheader" style="color:DarkGreen">Partners</h1>
+<h1 id="partners" class="gradientheader" style="color:green">Partners</h1>
 <div style="width:1300px"> <!-- PARTNERS -->
     <h3><b>Donors</b></h3>
     
@@ -327,7 +335,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
   <div class="row">	
     <div class="grid_6">
 
-    <ul style="list-style-type:none; padding:4px; margin-top:-10px; line-height:1.4em">
+    <ul style="list-style-type:none; padding:4px; margin-top:-10px;">
         <li>
         <!-- JWH 4/29/2017: use a "details" to expose student names, requires clicking on lead-in text -->
         <!-- 
@@ -385,18 +393,25 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
              </span>
         
         </li>
+
+
+
+
          <!-- <img style="width:40px; height:65px;"src="images/UH-Hilo_logo.png" alt="UH-Hilo logo"> -->
         <li style="margin-left:0px;margin-top:10px">
             <img style="float:left;  width:32px; margin-left:0px" 
                  src="images/hpm_buildingsupply.png" alt="HPM logo">
-             <span class="clearfix" style="padding-left:80px; vertical-align:0px;position:relative;left:50px;top:-20px">
+             <span class="clearfix" style="padding-left:40px; vertical-align:0px;position:relative;left:20px;top:-15px">
                  HPM Building Supply, Hilo Hawaii:  <a href="http://www.hpmhawaii.com/">www.hpmhawaii.com</a>
              </span>
         </li>
+
+
+
         <li style="margin-top:0px">
            <img style="float:left;  width:32px; margin-left:0px" 
                  src="images/BigIslandToyota-65pxW.jpg" alt="BItoyota logo">
-             <span class="clearfix" style="padding-left:40px; vertical-align:0px;position:relative;left:20px;top:-15px">
+             <span class="clearfix" style="padding-left:40px; vertical-align:0px;position:relative;left:20px;top:-5px">
                  Big Island Toyota, Hilo Hawaii :  <a href="http://www.bigislandtoyota.com/">www.bigislandtoyota.com</a>
              </span>
         
@@ -407,20 +422,23 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
     
 <!-- DONOR COLUMN 2 -->
 <div class="grid_6">
-    <ul style="list-style-type:none; padding:4px; margin-top:-24px; line-height:1.4em">
+    <ul style="list-style-type:none; padding:4px; margin-top:-24px;">
 
     <li  style="margin-top:10px">
            <img style="float:left;  width:32px; margin-top:0px" 
                  src="images/bigislandcandies-65W.jpg" alt="BItoyota logo">
-             <span class="clearfix" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-25px">
+             <span class="clearfix" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-15px">
                  Big Island Candies, Hilo Hawaii:  <a href="https://www.bigislandcandies.com/">www.bigislandcandies.com</a>
              </span>
         
         </li>
+
+
+
         <li  style="margin-top:10px">
            <img style="float:left;  width:32px; margin-top:0px" 
                  src="images/hawaiielectriclight-logo-65pxW.jpg" alt="HELCO logo">
-             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-25px">
+             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-20px">
                  Hawaii Electric Light, Hilo,Hawaii:  <a href="https://www.hawaiielectriclight.com/">www.hawaiielectriclight.com</a>
              </span>
         
@@ -429,7 +447,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         <li  style="margin-top:10px">
            <img style="float:left;  width:32px; margin-top:-10px" 
                  src="images/star-clip-65pxW.png" alt="PSA Investments">
-             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-25px">
+             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-20px">
                  PSA Investments
              </span>
         
@@ -446,7 +464,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         <li  style="margin-top:10px">
            <img style="float:left;  width:32px; margin-top:0px" 
                  src="images/huggos-65pxW.png" alt="Hugo's logo">
-             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-25px">
+             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-20px">
                  Huggo's on the Rocks, Kailua Kona,Hawaii:  <a href="https://www.huggos.com/">www.huggos.com</a>
              </span>
         
@@ -555,34 +573,14 @@ end OLD Donors }}}-->
       </aside><!-- #end sidebar -->
    
 </div><!-- #end div #main .wrapper  }}} -->
-</section>  <!-- page-header -->    
+    
 
 
 <!-- footer area -->    
 <footer>
-
-    <div>
-        <!-- main navigation -->
-         <nav id="topnav" role="navigation">
-
-        <!--<div class="menu-toggle";style="float:right;clear:right">Menu</div>  -->
-        <div class="menu-toggle">Menu</div>
-        	<ul class="srt-menu" id="menu-main-navigation" style="display:inline;position:relative;left:-200px;top:50px;background:#333333">
-            <li ><a href="index.html">Home</a></li>
-            <li><a href="program.html">Program</a></li>
-			<li class="current"><a href="people.html">People</a>
-			<li><a href="resources.html">Resources</a></li>
-			<li><a href="donate.html">Donate</a></li>	
-			<li><a href="contact.html">Contact</a></li>	
-		    </ul>
-		</div>
-		</nav>
-    </div>
-
-
 	<div id="colophon" class="wrapper clearfix">
     <p>&copy; 2016, 2017 Computer-Assisted Learning Center</p>
-    <p style="line-height:1.4em">CALC/Hilo Public Library<br />
+    </p>CALC/Hilo Public Library<br />
     P.O. Box 11499<br />
     Hilo, HI 96720<br />
     Phone: (808) 933-8893 | Fax: (808) 933-8895<br />

@@ -107,7 +107,7 @@
 	<h1>CONTACT US</h1>
     </div>
 
-<!-- </section> moved to just above footer -->
+</section>
 
 
 <!-- main content area -->   
@@ -120,12 +120,12 @@
          <p style="clear:both">  <!-- JWH 4/19/2017: need this to place addresses below table -->
             <h2 id="calcadd" class="gradientheader" style="color:DarkGreen"> Contact CALC</h2>  
 
-            <p style="line-height:1.4em"> The Hilo Public Library is located at:<br />
+            <p> The Hilo Public Library is located at:<br />
                 300 Waianuenue Avenue<br />
                 Hilo, HI 96720<br />
                 For a map visit our <a href="program.html#locate">CALC Program</a> page.
             </p>
-            <p style="line-height:1.4em" > We receive U.S. mail at the Hilo Post Office:<br />
+            <p> We receive U.S. mail at the Hilo Post Office:<br />
             CALC/Hilo Public Library <br />
             P.O. Box 11499 <br />
             Hilo, HI  96721 <br />
@@ -139,9 +139,8 @@
             </p>
           </p>
 
-<!-- JWH  5/15/2017:  remove php code: github.io does not support active webpages -->
-<!--
- <h3> <b>Send us your email address:</b>  </h3>
+        <h3> <b>Send us your email address:</b>  </h3>
+
     <form name="contactform" action="contactreply.php">
     
     	<label id="Label1"></label><label id="Label2">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -152,7 +151,7 @@
 		<input class="auto-style1" name="Submit1" style="width: 111px" type="submit" value="submit">
     <div id="contactform_errorloc" class="error_strings"></div>		
 	</form>
--->
+
 
 
 
@@ -191,33 +190,14 @@
       <!-- #end sidebar -->
    
   </div><!-- #end div #main .wrapper -->
-</section> <!-- page-header -->    
+    
 
 
 <!-- footer area -->    
 <footer>
-
-    <div>
-        <!-- main navigation -->
-         <nav id="topnav" role="navigation">
-
-        <!--<div class="menu-toggle";style="float:right;clear:right">Menu</div>  -->
-        <div class="menu-toggle">Menu</div>
-        	<ul class="srt-menu" id="menu-main-navigation" style="display:inline;position:relative;left:-200px;top:50px;background:#333333">
-            <li ><a href="index.html">Home</a></li>
-            <li><a href="program.html">Program</a></li>
-			<li><a href="people.html">People</a>
-			<li><a href="resources.html">Resources</a></li>
-			<li><a href="donate.html">Donate</a></li>	
-			<li class="current"><a href="contact.html">Contact</a></li>	
-		    </ul>
-		</div>
-		</nav>
-    </div>
-
 	<div id="colophon" class="wrapper clearfix">
     <p>&copy; 2016, 2017 Computer-Assisted Learning Center</p>
-    <p style="line-height:1.4em" >CALC/Hilo Public Library<br />
+    </p>CALC/Hilo Public Library<br />
     P.O. box 11499<br />
     Hilo, HI 96720<br />
     Phone: (808) 933-8893 | Fax: (808) 933-8895<br />
