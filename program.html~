@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <style type="text/css">
 .table-style {
-	border-style: solid;
+	border-style: none;  /*solid;*/
 	border-color: #0099FF;
-	text-align: center;
-	background-color: #0099FF;
+	text-align: left;
+	background-color: DarkGreen;  /*#0099FF;*/
 }
 
 </style>
@@ -27,7 +27,7 @@
 
 <!-- CSS-->
 <!-- Google web fonts. You can get your own bundle at http://www.google.com/fonts. Don't forget to update the CSS accordingly!-->
-<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Ubuntu' rel='stylesheet' type='text/css'>
+<!-- <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Ubuntu' rel='stylesheet' type='text/css'>  -->
 
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="js/flexslider/flexslider.css">
@@ -108,7 +108,7 @@
 	<h1>The Computer-Assisted Learning Program</h1>
     </div>
 
-</section>
+<!--    </section>  JWH 5/15/2017: moved to just above footer to set backgrnd color for whole page -->
 
 
 <!-- main content area -->   
@@ -118,10 +118,10 @@
 	<section id="content" class="wide-content">
       <div class="row">	
         <div class="grid_4">  <!-- JWH: column 1 -->
-           <div style="border:3px solid #73AD21;">
+           <div style="border:3px solid #73AD21">
             <!-- JWH 3/20/2017 -->
         	<h2 class="second-header"; style="text-align:center;color:red";>At CALC we believe:</h2>
-            <p style="text-align:center">
+            <p style="text-align:center;line-height:1.4em">
             All adults have the right to pursue <br>
             the education they desire<br>
             to thrive in our society.<br>
@@ -153,6 +153,7 @@
         <div class="grid_4">   <!-- JWH: column 2 -->
             <!-- JWH 3/20/2017 -->
         	<h2 id="BAstudent" class="gradientheader"; style=" color:DarkGreen";><b>Become a Learner</b></h1>
+        	<img  src="images/adult-reading.png" alt="adult-reading" style="display:block;margin:auto;width:100%"/>
             <p>  At CALC, there are no entrance exams, application fees, 
                  or pre-requisites to becoming a learner except for a desire to improve your life.  In order to 
                  determine if CALC can help you and to identify the best tutor to help you meet your goals,
@@ -274,12 +275,34 @@
     </div>  <!-- row -->
 </section>  <!--content -->
 </div>   <!-- main -->
+</section>  <!-- page-header -->
+
 
   <!-- footer area -->    
 <footer>
+
+    <div>
+        <!-- main navigation -->
+         <nav id="topnav" role="navigation">
+
+        <!--<div class="menu-toggle";style="float:right;clear:right">Menu</div>  -->
+        <div class="menu-toggle">Menu</div>
+        	<ul class="srt-menu" id="menu-main-navigation" style="display:inline;position:relative;left:-200px;top:50px;background:#333333">
+            <li ><a href="index.html">Home</a></li>
+            <li class="current"><a href="program.html">Program</a></li>
+			<li><a href="people.html">People</a>
+			<li><a href="resources.html">Resources</a></li>
+			<li><a href="donate.html">Donate</a></li>	
+			<li><a href="contact.html">Contact</a></li>	
+		    </ul>
+		</div>
+		</nav>
+    </div>
+
+
 	<div id="colophon" class="wrapper clearfix">
     <p>&copy; 2016, 2017 Computer-Assisted Learning Center</p>
-    </p>CALC/Hilo Public Library<br />
+    <p style="line-height:1.4em"> CALC/Hilo Public Library<br />
     P.O. Box 11499<br />
     Hilo, HI 96720<br />
     Phone: (808) 933-8893 | Fax: (808) 933-8895<br />
