@@ -283,124 +283,165 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
 
 <h2 id="for_students" class="gradientheader" style=" color:DarkGreen" >For Students</h2>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>  -->
-<ul>
-<!-- 
-	<li><a href="http://www2.wgbh.org/mbcweis/ltc/alri/lessonplans.html">
-	<strong><font face="Arial">Lesson Plans</font></strong></a> </li>
-	<li><a href="http://www.fourmilab.to/"><strong><font face="Arial">Four Mile 
-	Lab</font></strong></a><strong><font face="Arial"> and it's
-	<a href="http://www.fourmilab.ch/earthview/">Earthview</a></font></strong>
-	</li>
-	<li><a href="http://www.nineplanets.org/"><strong><font face="Arial">Nine 
-	Planets</font></strong></a> </li>
--->
-	<li><a href="https://www.proliteracy.org/"><strong><font face="Arial">
-	Proliteracy</font></strong></a> 
-	</li> 
 
-	<li><a href="https://readable.io/"><strong><font face="Arial">
-	Test Your Reading Ability</font></strong></a> 
-	</li> 
-	<li><a href="http://www.hawaiipublicschools.org/TeachingAndLearning/AdultEducation/Pages/Home.aspx"><strong><font face="Arial">
-	Hawaii DoE GED Info</font></strong></a> 
-	</li> 
-	<li><a href="https://www.test-guide.com/tests.html"><strong><font face="Arial">
-	Many Free Example Tests</font></strong></a> 
-	    <ul style="margin:0em">
-	    <li><a href="https://www.test-guide.com/Compass-Test/"><strong><font face="Arial">
-	       Compass</font></strong></a> 
-	    </li>
-	    <li> <a href="  https://www.test-guide.com/GED-Test/"><strong><font face="Arial">
-	       GED</font></strong></a> 
-	    </li>
-	    <li><a href="https://www.test-guide.com/HiSET/"><strong><font face="Arial">
-	        HiSET</font></strong></a> 
-	    </li>
-	    </ul>
+    <ul style="list-style-type:none; margin:0em">
+    <li><b>High School Equivalency (e.g., GED)</b></li>
+    <ul style="list-style-type:none;margin:0em">
         <li> <details>
-                <summary style="color:DarkBlue">ESL Links that cover many topics</summary>
-                    <ul style="margin:0em">
-                    <li> <a href= http://www.eslgold.com/speaking.html>ESLgold speaking</a></li>
-                    <li> <a href= http://www.bbc.co.uk/skillswise/english>BBC Skillswise</a></li>
-                    <li> <a href= http://www.esl-lounge.com/>ESL Lounge </a></li>
-                    <li> <a href= http://www.esl-galaxy.com/adults.html>ESL for Adults and Children </a></li>
-                    </ul>
-	    </li> 
+            <summary style="color:DarkBlue; margin:0em">Basic Information</summary>
+                <ul style="margin:0em">
+                <li><a href="http://www.hawaiipublicschools.org/TeachingAndLearning/AdultEducation/Pages/Home.aspx"><strong><font face="Arial">
+	            GED and HiSET Information from the Hawaii Department of Education </font></strong></a></li>
+                <li> <a href= "https://www.thoughtco.com/getting-your-ged-4132466"><strong><font face="Arial">Get Your GED</font></strong></a></li>
+                <li> <a href= "https://hiset.ets.org"><strong><font face="Arial">What is HiSet?</font></strong></a></li>
+	            </ul>
+	            </details></li> 
         <li> <details>
-                <summary style="color:DarkBlue">ESL Links to YouTube Videos</summary>
-                    <ul style="margin:0em">
-                    <li> <a href=https://www.youtube.com/user/Gifukids/videos >Many Short Videos of Conversations</a></li>
-                    <li> <a href=https://www.youtube.com/channel/UCeTVoczn9NOZA9blls3YgUg >Videos from English101.com</a></li>
-                    <li> <a href=https://www.youtube.com/watch?v=xNEzvqbB_C8 >How to Move Your Mouth in American Pronounciation</a></li>
-                    <li> <a href=https://www.youtube.com/watch?v=-SObetOJ_yY&t=206s >More Mouth Movement for American English Pronunciation</a></li>
-                    <li> <a href=https://howjsay.com>Hear Pronounciation of Any Word Alphabetical</a></li>
-                    <li> <a href=https://www.fonetiks.org>Pronounciations of Vowels/Consonants in Variants of English</a></li>
-                    <li> <a href=https://www.shiporsheep.com>Compare Pronounciations of Similar Words</a></li>
-                    </ul>
-            </details></li>
-		    <li> <details>
-		            <summary style="color:DarkBlue">YouTube Videos for English Sound Pronounciations</summary>
-                        <ul style="margin:0em">
-		                <li> <a href=https://www.youtube.com/watch?v=zzzJ9iII5V8 >Vowels: Aa, Ee, Ii, Oo, Uu  </a></li>
-		                <li> <a href=https://www.youtube.com/watch?v=QFS3X6fGzm8 >English Letters: Bb. Cc, Dd, Ff</a>  </li>
-		                <li> <a href=https://www.youtube.com/watch?v=kltXVRcHr4Y >Sounds: er - ck - ea - oo  </a></li>
-		                <li> <a href=https://www.youtube.com/watch?v=iEKMiO8PCXY >English Letters: Gg, Hh, Jj, Kk  </a></li>
-		                <li> <a href=https://www.youtube.com/watch?v=5mQ9_O1jlNA/ >English Letters Ll, Mm, Nn, Pp  </a></li>
-		                <li> <a href= https://www.youtube.com/watch?v=eASUlbjbYZY>Vowels oo ou oa ir  </a></li>
-		                <li> <a href=https://www.youtube.com/watch?v=xu3JK0kw_B4 >Sounds oy ow th ph  </a></li>
-		                <li> <a href= https://www.youtube.com/watch?v=Psv0Wd2blcM>English Letters Qq, Rr, Ss, Tt  </a></li>
-		                <li> <a href= https://www.youtube.com/watch?v=9YF9S18pJZM>Sounds sh ch ee ar  </a></li>
-		                <li> <a href=https://www.youtube.com/watch?v=Gs4vtwLNo7k >Vv, Ww, Xx, Yy and Zz  </a></li>
-		                </ul>
-                </details></li>
-            <li> <details>
-                    <summary style="color:DarkBlue">Help With Sentence Structure and Writing</summary>
-                        <ul style="margin:0em">
-                        <li> <a href=http://www.rong-chang.com/writing>Several Writing Exercises</a></li>
-                        <li> <a href=http://www.englishmaven.org/Pages/Sentence%20Completion.htm>Complete the Sentence...   </a></li>
-                        <li> <a href=http://englishteststore.net/index.php?option=com_content&view=article&id=13642&Itemid=302 >Sentences</a></li>
-                        <li> <a href=http://www.bbc.co.uk/skillswise/topic/sentence-structure > BBC Sentence Structure Practice</a></li>
-                        <li> <a href=http://www.bbc.co.uk/skillswise/game/en30stru-game-spot-the-sentence >Fun and Games With Sentences</a></li>
-                        <li> <a href=http://www.learnenglishfeelgood.com/vocabulary/ > Something About Vocabulary</a></li>
-                        <li> <a href=http://www.learnenglishfeelgood.com/vocabulary/ > More Vocabulary  </a></li>
-                        </ul>
-                </details></li>
-                
-            <li> <details>
-                    <summary style="color:DarkBlue">Grammar: Verb Conjugation</summary>
-                        <ul style="margin:0em">
-                        <li> <a href=http://grammar.yourdictionary.com/parts-of-speech/verbs/what-is-a-conjugated-verb.html >What is conjugation?</a></li>
-                        <li> <a href=https://www.grammarly.com/handbook/grammar/verbs/23/verb-conjugation/ >More Conjugated Verbs</a></li>
-                        <li> <a href=http://www.verbix.com/webverbix/English/be.html >The Famous Verb ""to be""</a></li>
-                        <li> <a href=http://www.eslgold.com/grammar/simple_past.html >Past Tense</a></li>
-                        </ul>
-                </details></li>
-            <li> <details>
-                    <summary style="color:DarkBlue">Reading Help</summary>
-                        <ul style="margin:0em">
-                        <li> <a href=http://www.eslgold.com/reading/teaching.html >Read</a></li>
-                        <li> <a href=http://www.bbc.co.uk/skillswise/topic-group/reading >Group Practice Reading</a></li>
-                        <li> <a href=https://www.ixl.com/ela/ >Reading Skills by Grade Level</a></li>
-                        </ul>
-                </details></li>
-        <!-- </ul> -->
-
-        
-        
+            <summary style="color:DarkBlue">Practice Tests</summary>
+                <ul style="margin:0em">
+                <li><a href="https://readable.io/"><strong><font face="Arial">
+                Test Your Writing Ability</font></strong></a> </li> 
+                <li><a href="https://www.test-guide.com/tests.html"><strong><font face="Arial">
+                Choose From Many Free Example Tests</font></strong></a></li>
+                <ul style="list-style-type:circle; margin:0em">
+                <li> <a href="  https://www.test-guide.com/GED-Test/"><strong><font face="Arial">
+                   GED Practice Test</font></strong></a> </li>
+                <li><a href="https://hiset.ets.org/prepare/overview/"><strong><font face="Arial">
+                    Preparing for the HiSET Tests</font></strong></a> </li>
+                <li><a href="https://www.test-guide.com/HiSET/"><strong><font face="Arial">
+                    HiSET Practice Test</font></strong></a> </li>
+        	    </ul>
+                <li><a href="http://www.newreaderspress.com/hse-test-preparation"><strong><font face="Arial">
+                    Commercial ($$$) Test Preparation</font></strong></a></li>
+                <ul style="list-style-type:circle; margin:0em">
+                <li> <a href="http://www.newreaderspress.com/ged"><strong><font face="Arial">
+                    Commercial ($$$) GED Practice Test</font></strong></a></li>
+                <li><a href="http://www.newreaderspress.com/ged"><strong><font face="Arial">
+                    Commercial ($$$) HiSET Practice Test</font></strong></a> </li>
+        	    </ul>
+        	    </ul>
+        </details></li> 
+    </ul>
+<!--    </ul>  -->
+    <li><b>College Preparation</b></li>
+    <ul style="list-style-type:none;margin:0em">
         <li> <details>
-                <summary style="color:DarkBlue">Tutoring for ALL Subjects</summary>
-                    <ul style="margin:0em">
-                    <li> <a href=https://www.ixl.com/>From Kindergarten to High School</a></LI>
-                    <!-- Kahn Academy -->
-                    </ul>
-                </details></li>	    	    
-	    
-	    
+            <summary style="color:DarkBlue; margin:0em">College Placement Tests</summary>
+                <ul style="margin:0em">
+                <li style="line-height:1.3em"><a href="https://hilo.hawaii.edu/kilohana/placements.php"><strong><font face="Arial">UH Hilo Placement Tests Overview</font></strong></a><br />
+                    <a href="https://hilo.hawaii.edu/kilohana/mathpe.php"><strong><font face="Arial">UH Hilo Math Placement Test</font></strong></a><br />
+                    <a href="https://hilo.hawaii.edu/academics/eli/english_proficiency.php"><strong><font face="Arial">UH Hilo ESL English Placement Test</font></strong></a>
+                </li>
+                <li style="line-height:1.3em"><a href="https://hawaii.hawaii.edu/halekea/pt"><strong><font face="Arial">UH Hawaii Community College (Hilo) Placement Overview</font></strong></a><br />
+                    <a href="https://www.test-guide.com/Compass-Test/"><strong><font face="Arial">Compass Practice Test</font></strong></a> 
+                </li>
+                </ul>
+        </details></li>
+        <li> <details>
+            <summary style="color:DarkBlue; margin:0em">Tests for Primary/Secondary Teaching Standards</summary>
+                <ul style="margin:0em">
+                <li><a href="https://www.ets.org/praxis/hi"><strong><font face="Arial">Hawaii Testing Requirements </font></strong></a> </li>
+                <li><a href="https://www.ets.org/praxis"><strong><font face="Arial">Praxis Tests</font></strong></a> </li>
+                </ul>
+        </details></li>
+    </ul>    
 </ul>
+
+
+
+<ul style="list-style-type:none; margin:0em"> 
+    <li><b>For English as Second Language (ESL) Learners</b></li>
+    <ul style="list-style-type:none; margin:0em">
+        <li> <details>
+            <summary style="color:DarkBlue">ESL Links that cover many topics: read, write, spell, grammar, speaking</summary>
+                <ul style="margin:0em">
+                <li> <a href= http://www.eslgold.com/speaking>ESLgold Speaking</a></li>
+                <li> <a href= http://www.bbc.co.uk/skillswise/english>BBC Skillswise: Reading</a></li>
+                <li> <a href= http://www.esl-lounge.com/>ESL Lounge</a></li>
+                <li> <a href= http://www.esl-galaxy.com/adults.html>ESL for Adults and Children</a></li>
+                <li> <a href= http://connect.mangolanguages.com/hawaii-state/login?u=190862>ESL Conversations + Your Native Language (Mandarin)</a></li>
+                </ul>
+        </details></li> 
+        <li> <details>
+            <summary style="color:DarkBlue">ESL Links to YouTube Videos</summary>
+                <ul style="margin:0em">
+                <li> <a href=http://www.youtube.com/user/Gifukids/videos >Many Short Videos of Conversations</a></li>
+                <li> <a href=http://www.youtube.com/channel/UCeTVoczn9NOZA9blls3YgUg >Videos from English101.com</a></li>
+                <li> <a href=http://www.youtube.com/watch?v=xNEzvqbB_C8 >How to Move Your Mouth in American Pronounciation</a></li>
+                <li> <a href=http://www.youtube.com/watch?v=-SObetOJ_yY&t=206s >More Mouth Movement for American English Pronunciation</a></li>
+                <li> <a href=http://howjsay.com>Hear Pronounciation of Any Word Alphabetical</a></li>
+                <li> <a href=http://www.fonetiks.org>Pronounciations of Vowels/Consonants in Variants of English</a></li>
+                <li> <a href=http://www.shiporsheep.com>Compare Pronounciations of Similar Words</a></li>
+                </ul>
+            </details></li>
+        <li> <details>
+            <summary style="color:DarkBlue">YouTube Videos for English Sound Pronounciations</summary>
+                <ul style="margin:0em">
+                <li> <a href=http://www.youtube.com/watch?v=zzzJ9iII5V8 >Vowels: Aa, Ee, Ii, Oo, Uu  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=QFS3X6fGzm8 >English Letters: Bb. Cc, Dd, Ff</a>  </li>
+                <li> <a href=http://www.youtube.com/watch?v=kltXVRcHr4Y >Sounds: er - ck - ea - oo  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=iEKMiO8PCXY >English Letters: Gg, Hh, Jj, Kk  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=5mQ9_O1jlNA/ >English Letters Ll, Mm, Nn, Pp  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=eASUlbjbYZY>Vowels oo ou oa ir  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=xu3JK0kw_B4 >Sounds oy ow th ph  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=Psv0Wd2blcM>English Letters Qq, Rr, Ss, Tt  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=9YF9S18pJZM>Sounds sh ch ee ar  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=Gs4vtwLNo7k >Vv, Ww, Xx, Yy and Zz  </a></li>
+                </ul>
+        </li></details> <!-- perhaps a goo map -->
+        <li> <details>
+            <summary style="color:DarkBlue">Help With Sentence Structure and Writing</summary>
+                <ul style="margin:0em">
+                <li> <a href=http://www.rong-chang.com/writing>Several Writing Exercises</a></li>
+                <li> <a href=http://www.englishmaven.org/Pages/Sentence%20Completion.htm>Complete the Sentence...   </a></li>
+                <li> <a href=http://englishteststore.net/index.php?option=com_content&view=article&id=13642&Itemid=302 >Sentences and Grammar Using Quizes</a></li>
+                <li> <a href=http://www.bbc.co.uk/skillswise/topic/sentence-structure > BBC Sentence Structure Practice</a></li>
+                <li> <a href=http://www.bbc.co.uk/skillswise/game/en30stru-game-spot-the-sentence >Fun and Games With Sentences</a></li>
+                <li> <a href=http://www.learnenglishfeelgood.com/vocabulary/ > Something About Vocabulary</a></li>
+                <li> <a href=http://www.learnenglishfeelgood.com/vocabulary/ > More Vocabulary  </a></li>
+                </ul>
+        </details></li>
+        <li> <details>
+            <summary style="color:DarkBlue">Grammar: Verb Conjugation</summary>
+                <ul style="margin:0em">
+                <li> <a href=http://grammar.yourdictionary.com/parts-of-speech/verbs/what-is-a-conjugated-verb.html >What is conjugation?</a></li>
+                <li> <a href=http://www.grammarly.com/handbook/grammar/verbs/23/verb-conjugation/ >More Conjugated Verbs</a></li>
+                <li> <a href=http://www.verbix.com/webverbix/English/be.html >The Famous Verb ""to be""</a></li>
+                <li> <a href=http://www.eslgold.com/grammar/simple_past>Past Tense</a></li>
+                </ul>
+        </details></li>
+        <li> <details>
+            <summary style="color:DarkBlue">Reading Help</summary>
+                <ul style="margin:0em">
+                <li> <a href=http://www.eslgold.com/reading/teaching.html >Read</a></li>
+                <li> <a href=http://www.bbc.co.uk/skillswise/topic-group/reading >Group Practice Reading</a></li>
+                <li> <a href=http://www.ixl.com/ela/ >Reading Skills for Grades K-12</a></li>
+                </ul>
+        </details></li>
+    </ul>
+    <li><b>For Math Learners</b></li>
+    <ul style="list-style-type:none;margin:0em">
+        <li> <details>
+            <summary style="color:DarkBlue">Math Help</summary>
+                <ul style="margin:0em">
+                <li> <a href= https://www.khanacademy.org/>Khan Academy</a></li>
+                <li> <a href= http://www.bbc.co.uk/skillswise/maths>BBC Skillswise Math</a></li>
+                <li> <a href= http://www.math.com>Math.com</a></li>
+                <!--
+                <li> <a href= http://www.esl-lounge.com/>ESL Lounge </a></li>
+                <li> <a href= http://www.esl-galaxy.com/adults.html>ESL for Adults and Children </a></li>
+                -->
+                </ul>
+        </details></li> 
+    </ul>
+</ul> <!-- ul/no bullet -->
 
 <h2 id="for_tutors" class="gradientheader" style=" color:DarkGreen" >For Tutors</h2>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>  -->
-<ul>
+<ul style="margin:0em">
+	<li><a href="https://www.proliteracy.org/"><strong><font face="Arial">
+	Proliteracy</font></strong></a> 
+	</li> 
 	<li><a href="https://readable.io/"><strong><font face="Arial">
 	Test Your Student's Reading Ability</font></strong></a> 
 	</li> 
@@ -540,5 +581,6 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
      This code checks if details is supported and prints a message
 -->
 <script src="js/jquery-ck-support.js"></script>
+
 </body>
 </html>
