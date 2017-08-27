@@ -7,7 +7,7 @@ $(function() {
     $('html').addClass($.fn.details.support ? 'details' : 'no-details');
 
     // Show a message based on support
-    $('body').prepend($.fn.details.support ? 'Native support detected; the plugin will only add ARIA annotations and fire custom open/close events.' : 'Emulation active; you are watching the plugin in action!');
+    // $('body').prepend($.fn.details.support ? 'Native support detected; the plugin will only add ARIA annotations and fire custom open/close events.' : 'Emulation active; you are watching the plugin in action!');
 
 /*  this alert appears at each visit to the page ...(not nice)...
     if($.fn.details.support) {

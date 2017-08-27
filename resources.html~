@@ -28,6 +28,51 @@
 <link rel="stylesheet" href="js/flexslider/flexslider.css">
 <link rel="stylesheet" href="css/basic-style.css">
 
+<style>
+#DIVmango, #DIVHPLcourses{
+    width: 100%;
+    padding: 10px 10px;
+    text-align: left;
+    background-color: lightblue;
+    margin-top: -20px;  //20px;  // move the text up a bit
+    margin-bottom: 20px;
+}
+
+#DIVlist {
+    width: 100%;
+    //padding: 10px 10px;
+    text-align: left;
+    //background-color: lightblue;
+    //margin-top: -20px;  //20px;  // move the text up a bit
+    //margin-bottom: 20px;
+}
+
+
+#myDIV {
+    width: 50%;
+    padding: 10px 10px;
+    text-align: left;
+    background-color: lightblue;
+    margin-top:20px;
+}
+.button {
+    background-color: Transparent;  //#4CAF50;
+    border: none;
+    outline:none;
+    color: DarkBlue; //black; //white;
+    padding: 0px 0px; //15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    //font-size: 16px;
+    //font-size:inherit;  //??not works
+    //font-size:smaller; //works
+    font-size:12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+
 <!-- end CSS-->
     
 <!-- JS-->
@@ -110,7 +155,8 @@
 <!-- content area -->    
 	<section id="content">
     
-        <h2 id="literacy" class="gradientheader" style=" color:DarkGreen">Literacy</h2>
+<!-- Literacy {{{ -->
+    <h2 id="literacy" class="gradientheader" style=" color:DarkGreen">Literacy</h2>
       <!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <p> -->
 <ul>
 <!--
@@ -142,7 +188,272 @@ http://www.hawaiiliteracy.org/
 	construction)</font></strong> </li>
 -->
 </ul>
+<!-- }}} Literacy -->
                                
+<!-- For Students  {{{ -->
+<h2 id="for_students" class="gradientheader" style=" color:DarkGreen" >For Students</h2>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>  -->
+
+    <ul style="list-style-type:none; margin:0em">
+    <!--<li><a href="OnlineCourses_HPL.pdf">How-to get Free Online Courses from the Hilo Public Library (SOON!)</a></li>-->
+        <li> <span style= "line-height:1.2em"> Hawaii Public Library provides free, on-line courses on a variety of subjects
+        </span> <br />
+        <p>Either <a href="images/CALC-Courses-HPL.pdf">download a PDF file of the instructions</a> 
+<!--        or click this button: <button onclick="myFunction()"><span style="font-size:80%;color:blue">Show/Hide the Instructions</span></button></p>  -->
+        or <span style="color:DarkBlue; margin:0em; font-size:90%"><button type="button" id="idHPLcourses" class="button"; onclick="showHide('idHPLcourses','DIVHPLcourses')">&#x25b6 Show Instructions Here</button>
+        </span></p>
+        <div id="DIVHPLcourses" style="margin-bottom:20px;display:none">
+        <p style="text-align:center;font-size:120%"><b>Instructions to Use <b><i>Gale On-line Courses</i></b> at Hawaii Public Libraries</b></p>
+        <ol style="margin:0em; line-height:1.4em">
+            <li> Obtain a free library card, e.g., from the front desk of the Hilo
+            Public Library (HPL).</li>
+            <li> Log-on to the Hawaii Library website: 
+            <a href="www.librarieshawaii.org">Hawaii Library</a></li>
+            <li> Scroll down about 1/3 of the way to the end of the opening page to a
+            section called: <b>Do more (than just read)</b>.
+            
+            (Hint: On the webpage, press the control key (Ctrl) and the 'f' key at the
+            same time. When the search (find) box opens at the bottom of the page, type:
+            <i>Do more</i> The page should then jump to the section you want.)</li>
+            <li> Below this section, the center column is titled:  <i>Learn
+            something new</i>.  Click on <i>Gale Courses</i>, and then chose the category of 
+            courses you wish to attend (e.g., <i>College Readiness</i>).</li>
+            <li> Click on the course in which you are interested (e.g., <i>Math</i>).  When the course's 
+            webpage appears, read the <i>Detail</i> and <i>Syllabus</i> sections.  Then click <b>Enroll Now</b>.
+            <li> Note the course rules at the bottom of the homepage:  You must "attend" a 
+            class twice in the first 13 days to remain enrolled.
+        </ol>
+        </div>
+    <li style="margin-top:-20px"><b>High School Equivalency (e.g., GED)</b></li>
+    <ul style="list-style-type:none;margin:0em">
+        <li> <span style="color:DarkBlue; margin:0em;font-size:90%">
+            <button type="button" id="idbasicinfo" class="button"; onclick="showHide('idbasicinfo','DIVbasicinfo')">&#x25b6 Basic Information</button>
+            </span>
+            <div id="DIVbasicinfo" style="display:none">
+                <ul style="margin:0em">
+                <li><a href="http://www.hawaiipublicschools.org/TeachingAndLearning/AdultEducation/Pages/Home.aspx"><strong><font face="Arial">
+	            GED and HiSET Information from the Hawaii Department of Education </font></strong></a></li>
+                <li> <a href= "https://www.thoughtco.com/getting-your-ged-4132466"><strong><font face="Arial">Get Your GED</font></strong></a></li>
+                <li> <a href= "https://hiset.ets.org"><strong><font face="Arial">What is HiSet?</font></strong></a></li>
+	            </ul>
+	         </div>
+        </li> 
+        <li> <span style="color:DarkBlue; margin:0em;font-size:90%">
+            <button type="button" id="idpractice" class="button"; onclick="showHide('idpractice','DIVpractice')">&#x25b6 Show Practice Tests</button>
+            </span>
+            <div id="DIVpractice" style = "display:none">
+                <ul style="margin:0em">
+                <li><a href="https://readable.io/"><strong><font face="Arial">
+                Test Your Writing Ability</font></strong></a> </li> 
+                <li><a href="https://www.test-guide.com/tests.html"><strong><font face="Arial">
+                Choose From Many Free Example Tests</font></strong></a></li>
+                <ul style="list-style-type:circle; margin:0em">
+                <li> <a href="  https://www.test-guide.com/GED-Test/"><strong><font face="Arial">
+                   GED Practice Test</font></strong></a> </li>
+                <li><a href="https://hiset.ets.org/prepare/overview/"><strong><font face="Arial">
+                    Preparing for the HiSET Tests</font></strong></a> </li>
+                <li><a href="https://www.test-guide.com/HiSET/"><strong><font face="Arial">
+                    HiSET Practice Test</font></strong></a> </li>
+        	    </ul>
+                <li><a href="http://www.newreaderspress.com/hse-test-preparation"><strong><font face="Arial">
+                    Commercial ($$$) Test Preparation</font></strong></a></li>
+                <ul style="list-style-type:circle; margin:0em">
+                <li> <a href="http://www.newreaderspress.com/ged"><strong><font face="Arial">
+                    Commercial ($$$) GED Practice Test</font></strong></a></li>
+                <li><a href="http://www.newreaderspress.com/ged"><strong><font face="Arial">
+                    Commercial ($$$) HiSET Practice Test</font></strong></a> </li>
+        	    </ul>
+        	    </ul>
+            </div>
+        </li> 
+    </ul>
+<!--    </ul>  -->
+    <li><b>College Preparation</b></li>
+    <ul style="list-style-type:none;margin:0em">
+        <li> <span style="color:DarkBlue; margin:0em; font-size:90%">
+            <button type="button" id="idcollege" class="button"; onclick="showHide('idcollege','DIVcollege')">&#x25b6 Show College Placement Tests</button>
+            </span>
+            <div id="DIVcollege" style="display:none">
+                <ul style="margin:0em">
+                <li style="line-height:1.3em"><a href="https://hilo.hawaii.edu/kilohana/placements.php"><strong><font face="Arial">UH Hilo Placement Tests Overview</font></strong></a><br />
+                    <a href="https://hilo.hawaii.edu/kilohana/mathpe.php"><strong><font face="Arial">UH Hilo Math Placement Test</font></strong></a><br />
+                    <a href="https://hilo.hawaii.edu/academics/eli/english_proficiency.php"><strong><font face="Arial">UH Hilo ESL English Placement Test</font></strong></a>
+                </li>
+                <li style="line-height:1.3em"><a href="https://hawaii.hawaii.edu/halekea/pt"><strong><font face="Arial">UH Hawaii Community College (Hilo) Placement Overview</font></strong></a><br />
+                    <a href="https://accuplacer.collegeboard.org/"><strong><font face="Arial">AccuPlacer Overview (Currently used at HCC)</font></strong></a> <br />
+                    <a href="https://accuplacer.collegeboard.org/student/practice"><strong><font face="Arial">AccuPlacer Practice Tests</font></strong></a> <br />
+                    <a href="https://www.test-guide.com/Compass-Test/"><strong><font face="Arial">Compass Practice Test (Now not used at HCC)</font></strong></a> 
+                </li>
+                </ul>
+            </div>
+        </li>
+        <li> <span style="color:DarkBlue; margin:0em; font-size:90%">
+            <button type="button" id="idteaching" class="button"; onclick="showHide('idteaching','DIVteaching')">&#x25b6 Show Tests for Teaching Standards</button>
+            </span>
+            <div id="DIVteaching" style="display:none">
+                <ul style="margin:0em">
+                <li><a href="https://www.ets.org/praxis/hi"><strong><font face="Arial">Hawaii Testing Requirements </font></strong></a> </li>
+                <li><a href="https://www.ets.org/praxis"><strong><font face="Arial">Praxis Tests</font></strong></a> </li>
+                </ul>
+            </div>
+        </li>
+    </ul>    
+</ul>
+
+
+
+<!-- add this:   iephawaii.com  intensive english program, run thru HCC non-credit 8weeks 4hr/day -->
+<ul style="list-style-type:none; margin:0em"> 
+    <li><b>For English as Second Language (ESL) Learners</b></li>
+    <ul style="list-style-type:disc; margin:0em">
+        <li> <span style= "line-height:1.2em"> Hawaii Public Library provides free, on-line access to ESL Conversations 
+        with verbal translations in your native language.</span> <br />
+        <p>Either <a href="images/CALC-ESLConversations-HPL.pdf">download a PDF file of the instructions</a> 
+<!--        or click this button: <button onclick="myFunction()"><span style="font-size:80%;color:blue">Show/Hide the Instructions</span></button></p>  -->
+        or <span style="color:DarkBlue; margin:0em; font-size:90%"><button type="button" id="idmango" class="button"; onclick="showHide('idmango','DIVmango')">&#x25b6 Show Instructions Here</button>
+        </span></p>
+        <div id="DIVmango" style="margin-bottom:20px;display:none">
+        <p style="text-align:center;font-size:120%"><b>Instructions to Use <b><i>Mango Languages</i></b> at Hawaii Public Libraries</b></p>
+        <ol style="margin:0em; line-height:1.4em">
+            <li> Obtain a free library card, e.g., from the front desk of the Hilo
+            Public Library (HPL).</li>
+            <li> Log-on to the Hawaii Library website: 
+            <a href="www.librarieshawaii.org">Hawaii Library</a></li>
+            <li> Scroll down about 1/3 of the way to the end of the opening page to a
+            section called: <b>Do more (than just read)</b>.
+            
+            (Hint: On the webpage, press the control key (Ctrl) and the 'f' key at the
+            same time. When the search (find) box opens at the bottom of the page, type:
+            <i>Do more</i> The page should then jump to the section you want.)</li>
+            <li> Below this section, the center column is titled:  <i>Learn
+            something new</i>.  Click on <i>Mango languages</i>.   You will be given two
+            choices:  Log-in to the Mango site, or choose <i>Guest Access</i>.
+            As a new visitor to the Mango language site, you may want to click the
+            guest access button.</li>
+            <li> When the Mango languages page opens, click on <i>All languages</i>.
+            Then click on your choice, e.g., <i>Chinese, Mandarin</i>.  When the new
+            page is displayed, choose <i>Mango Conversations</i>.  A new page will
+            display and load the conversations.  To begin hearing and repeating the
+            English conversation with Chinese (or whatever your choice) translation,
+            click on <i>Unit 1</i>, or <i>Take Placement Test</i>.  Then, just
+            follow the instructions and choices that follow on subsequent pages.</li>
+        </ol>
+        </div>
+        
+        <li style="margin-top:-20px">
+            <span style="color:DarkBlue; margin:0em;font-size:90%">
+            <button type="button" id="idtopics" class="button"; onclick="showHide('idtopics','DIVtopics')">&#x25b6 Show ESL Links that cover many topics: read, write, spell, grammar, speaking</button>
+            </span>
+            <div id="DIVtopics" style="display:none">
+                <ul style="margin:0em">
+                <li> <a href= "http://www.eslgold.com/speaking">ESLgold Speaking</a></li>
+                <li> <a href= "http://www.bbc.co.uk/skillswise/english">BBC Skillswise: Reading</a></li>
+                <li> <a href= "http://www.esl-lounge.com/">ESL Lounge</a></li>
+                <li> <a href= "http://www.esl-galaxy.com/adults.html">ESL for Adults and Children</a></li>
+                <!-- <li> <a href= "http://connect.mangolanguages.com/hawaii-state/login?u=190862">ESL Conversations + Your Native Language (Mandarin)</a></li>-->
+                </ul>
+            </div>
+        </li> 
+        <li> 
+            <span style="color:DarkBlue; margin:0em;font-size:90%">
+            <button type="button" id="idyoutube" class="button"; onclick="showHide('idyoutube','DIVyoutube')">&#x25b6 Show ESL Links to YouTube Videos</button>
+            </span>
+            <div id="DIVyoutube" style="display:none">
+                <ul style="margin:0em">
+                <li> <a href=http://www.youtube.com/user/Gifukids/videos >Many Short Videos of Conversations</a></li>
+                <li> <a href=http://www.youtube.com/channel/UCeTVoczn9NOZA9blls3YgUg >Videos from English101.com</a></li>
+                <li> <a href=http://www.youtube.com/watch?v=xNEzvqbB_C8 >How to Move Your Mouth in American Pronounciation</a></li>
+                <li> <a href=http://www.youtube.com/watch?v=-SObetOJ_yY&t=206s >More Mouth Movement for American English Pronunciation</a></li>
+                <li> <a href=http://howjsay.com>Hear Pronounciation of Any Word Alphabetical</a></li>
+                <li> <a href=http://www.fonetiks.org>Pronounciations of Vowels/Consonants in Variants of English</a></li>
+                <li> <a href=http://www.shiporsheep.com>Compare Pronounciations of Similar Words</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <span style="color:DarkBlue; margin:0em;font-size:90%">
+            <button type="button" id="idenglishsound" class="button"; onclick="showHide('idenglishsound','DIVenglishsound')">&#x25b6 Show YouTube Videos for English Sound Pronounciations</button>
+            </span>
+            <div id="DIVenglishsound" style="display:none">
+                <ul style="margin:0em">
+                <li> <a href=http://www.youtube.com/watch?v=zzzJ9iII5V8 >Vowels: Aa, Ee, Ii, Oo, Uu  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=QFS3X6fGzm8 >English Letters: Bb. Cc, Dd, Ff</a>  </li>
+                <li> <a href=http://www.youtube.com/watch?v=kltXVRcHr4Y >Sounds: er - ck - ea - oo  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=iEKMiO8PCXY >English Letters: Gg, Hh, Jj, Kk  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=5mQ9_O1jlNA/ >English Letters Ll, Mm, Nn, Pp  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=eASUlbjbYZY>Vowels oo ou oa ir  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=xu3JK0kw_B4 >Sounds oy ow th ph  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=Psv0Wd2blcM>English Letters Qq, Rr, Ss, Tt  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=9YF9S18pJZM>Sounds sh ch ee ar  </a></li>
+                <li> <a href=http://www.youtube.com/watch?v=Gs4vtwLNo7k >Vv, Ww, Xx, Yy and Zz  </a></li>
+                </ul>
+            </div>
+        </li>
+        <li> 
+            <span style="color:DarkBlue; margin:0em;font-size:90%">
+            <button type="button" id="idsentence" class="button"; onclick="showHide('idsentence','DIVsentence')">&#x25b6 Show Help With Sentence Structure and Writing</button>
+            </span>
+            <div id="DIVsentence" style="display:none">
+                <ul style="margin:0em">
+                <li> <a href=http://www.rong-chang.com/writing>Several Writing Exercises</a></li>
+                <li> <a href=http://www.englishmaven.org/Pages/Sentence%20Completion.htm>Complete the Sentence...   </a></li>
+                <li> <a href=http://englishteststore.net/index.php?option=com_content&view=article&id=13642&Itemid=302 >Sentences and Grammar Using Quizes</a></li>
+                <li> <a href=http://www.bbc.co.uk/skillswise/topic/sentence-structure > BBC Sentence Structure Practice</a></li>
+                <li> <a href=http://www.bbc.co.uk/skillswise/game/en30stru-game-spot-the-sentence >Fun and Games With Sentences</a></li>
+                <li> <a href=http://www.learnenglishfeelgood.com/vocabulary/ > Something About Vocabulary</a></li>
+                <li> <a href=http://www.learnenglishfeelgood.com/vocabulary/ > More Vocabulary  </a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <span style="color:DarkBlue; margin:0em;font-size:90%">
+            <button type="button" id="idconjugation" class="button"; onclick="showHide('idconjugation','DIVconjugation')">&#x25b6 Grammar: Verb Conjugation</button>
+            </span>
+            <div id="DIVconjugation" style="display:none">
+                <ul style="margin:0em">
+                <li> <a href=http://grammar.yourdictionary.com/parts-of-speech/verbs/what-is-a-conjugated-verb.html >What is conjugation?</a></li>
+                <li> <a href=http://www.grammarly.com/handbook/grammar/verbs/23/verb-conjugation/ >More Conjugated Verbs</a></li>
+                <li> <a href=http://www.verbix.com/webverbix/English/be.html >The Famous Verb ""to be""</a></li>
+                <li> <a href=http://www.eslgold.com/grammar/simple_past>Past Tense</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <span style="color:DarkBlue; margin:0em;font-size:90%">
+            <button type="button" id="idreading" class="button"; onclick="showHide('idreading','DIVreading')">&#x25b6 Show Reading Help</button>
+            </span>
+            <div id="DIVreading" style="display:none">
+                <ul style="margin:0em">
+                <li> <a href=http://www.eslgold.com/reading/teaching.html >Read</a></li>
+                <li> <a href=http://www.bbc.co.uk/skillswise/topic-group/reading >Group Practice Reading</a></li>
+                <li> <a href=http://www.ixl.com/ela/ >Reading Skills for Grades K-12</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <li><b>For Math Learners</b></li>
+    <ul style="list-style-type:none;margin:0em">
+        <li>
+            <span style="color:DarkBlue; margin:0em;font-size:90%">
+            <button type="button" id="idmath" class="button"; onclick="showHide('idmath','DIVmath')">&#x25b6 Show Math Help</button>
+            </span>
+            <div id="DIVmath" style="display:none">
+                <ul style="margin:0em">
+                <li> <a href= https://www.khanacademy.org/>Khan Academy</a></li>
+                <li> <a href= http://www.bbc.co.uk/skillswise/maths>BBC Skillswise Math</a></li>
+                <li> <a href= http://www.math.com>Math.com</a></li>
+                <!--
+                <li> <a href= http://www.esl-lounge.com/>ESL Lounge </a></li>
+                <li> <a href= http://www.esl-galaxy.com/adults.html>ESL for Adults and Children </a></li>
+                -->
+                </ul>
+            </div>
+        </li> 
+    </ul>
+</ul> <!-- ul/no bullet -->
+<!-- }}} For Students  -->
+
+<!-- Other Cont Ed Programs {{{ -->
 <h2 id="other" class="gradientheader" style=" color:DarkGreen">Other Continuing Education Programs</h2>
              <!--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>-->
 <ul>
@@ -157,38 +468,10 @@ http://www.hawaiiliteracy.org/
 
 	<li><a href="http://www.50states.com/hawaii.htm"><strong><font face="Arial">
 	General Information on Hawai'i</font></strong></a> </li>
-<!--
-	<li><a href="http://www.borders.com/"><strong><font face="Arial">Borders 
-	Books</font></strong></a> </li>
-	<li><a href="http://literacynet.org/lincs/"><strong><font face="Arial">
-	Literacy Information and Communication System <i>(LINCS)</i></font></strong></a>
-	</li>
-	<li><a href="http://www.infind.com/"><strong><font face="Arial">Kit's 
-	Favorite Search Engine</font></strong></a> </li>
-	<li><a href="http://www.koadesigns.com/"><strong><font face="Arial">Kit's 
-	Favorite Site</font></strong></a> </li>
--->
-<div style="display:none".
-<!-- JWH 5/19/2017 From: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_dropdown-header&stacked=h -->
-  <li><div class="dropdown">
-<!--    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">More Useful Links <span class="caret"></span></button>-->
-<!-- JWH 5/20/2017: make btn small, no paddng -->
-    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" style="padding: 0px; color:Blue">More Useful Links <span class="caret"></span></button>
-    <ul class="dropdown-menu tight">
-      <li class="dropdown-header">General Reference Help</li>
-	<li><a href="http://www.refdesk.com/"><strong><font face="Arial">Our 
-	Favorite Reference Site</font></strong></a> </li>
-      <li><a href="#">HTML</a></li>
-      <li><a href="#">CSS</a></li>
-      <li><a href="#">JavaScript</a></li>
-      <li class="divider"></li>
-      <li class="dropdown-header">Dropdown header 2</li>
-      <li><a href="#">About Us</a></li>
-    </ul>
-  </div></li>
-</div>
 </ul>
+<!-- }}} Other Cont Ed Programs -->
                 
+<!-- Job Infomation {{{ -->
 <h2 id="job_information"class="gradientheader" style=" color:DarkGreen">Job Information</h2>
              <!--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>-->
 <ul>
@@ -205,8 +488,7 @@ http://www.hawaiiliteracy.org/
 	Experience.com</font></strong></a> </li>
 	<li><a href="http://www.occ.com/"><strong><font face="Arial">Monster.com</font></strong></a>
 	</li>
-	<li><a href="http://www.jobweb.com/"><strong><font face="Arial">JobWeb.com</font></strong></a>
-	</li>
+<!-- 	<li><a href="http://www.jobweb.com/"><strong><font face="Arial">JobWeb.com</font></strong></a></li> -->
 	<li><a href="http://www.careermosaic.com/"><strong><font face="Arial">
 	CareerMosaic.com</font></strong></a> </li>
 	<li><a href="http://www.ajb.dni.us/"><strong><font face="Arial">America's 
@@ -220,9 +502,10 @@ http://www.hawaiiliteracy.org/
 <!-- to add to calc 
 https://portal.ehawaii.gov/residents/jobs-and-employment/
 --> 
-
 </ul>
-                
+<!-- }}}  -->
+
+<!-- Financial Aid {{{ -->
 <h2 id="grant_information" class="gradientheader" style=" color:DarkGreen">Financial Aid Information</h2>
           <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
           do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -280,162 +563,9 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
 
 	-->
 </ul>
+<!-- }}} Financial Aid -->
 
-<h2 id="for_students" class="gradientheader" style=" color:DarkGreen" >For Students</h2>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>  -->
-
-    <ul style="list-style-type:none; margin:0em">
-    <li><b>High School Equivalency (e.g., GED)</b></li>
-    <ul style="list-style-type:none;margin:0em">
-        <li> <details>
-            <summary style="color:DarkBlue; margin:0em">Basic Information</summary>
-                <ul style="margin:0em">
-                <li><a href="http://www.hawaiipublicschools.org/TeachingAndLearning/AdultEducation/Pages/Home.aspx"><strong><font face="Arial">
-	            GED and HiSET Information from the Hawaii Department of Education </font></strong></a></li>
-                <li> <a href= "https://www.thoughtco.com/getting-your-ged-4132466"><strong><font face="Arial">Get Your GED</font></strong></a></li>
-                <li> <a href= "https://hiset.ets.org"><strong><font face="Arial">What is HiSet?</font></strong></a></li>
-	            </ul>
-	            </details></li> 
-        <li> <details>
-            <summary style="color:DarkBlue">Practice Tests</summary>
-                <ul style="margin:0em">
-                <li><a href="https://readable.io/"><strong><font face="Arial">
-                Test Your Writing Ability</font></strong></a> </li> 
-                <li><a href="https://www.test-guide.com/tests.html"><strong><font face="Arial">
-                Choose From Many Free Example Tests</font></strong></a></li>
-                <ul style="list-style-type:circle; margin:0em">
-                <li> <a href="  https://www.test-guide.com/GED-Test/"><strong><font face="Arial">
-                   GED Practice Test</font></strong></a> </li>
-                <li><a href="https://hiset.ets.org/prepare/overview/"><strong><font face="Arial">
-                    Preparing for the HiSET Tests</font></strong></a> </li>
-                <li><a href="https://www.test-guide.com/HiSET/"><strong><font face="Arial">
-                    HiSET Practice Test</font></strong></a> </li>
-        	    </ul>
-                <li><a href="http://www.newreaderspress.com/hse-test-preparation"><strong><font face="Arial">
-                    Commercial ($$$) Test Preparation</font></strong></a></li>
-                <ul style="list-style-type:circle; margin:0em">
-                <li> <a href="http://www.newreaderspress.com/ged"><strong><font face="Arial">
-                    Commercial ($$$) GED Practice Test</font></strong></a></li>
-                <li><a href="http://www.newreaderspress.com/ged"><strong><font face="Arial">
-                    Commercial ($$$) HiSET Practice Test</font></strong></a> </li>
-        	    </ul>
-        	    </ul>
-        </details></li> 
-    </ul>
-<!--    </ul>  -->
-    <li><b>College Preparation</b></li>
-    <ul style="list-style-type:none;margin:0em">
-        <li> <details>
-            <summary style="color:DarkBlue; margin:0em">College Placement Tests</summary>
-                <ul style="margin:0em">
-                <li style="line-height:1.3em"><a href="https://hilo.hawaii.edu/kilohana/placements.php"><strong><font face="Arial">UH Hilo Placement Tests Overview</font></strong></a><br />
-                    <a href="https://hilo.hawaii.edu/kilohana/mathpe.php"><strong><font face="Arial">UH Hilo Math Placement Test</font></strong></a><br />
-                    <a href="https://hilo.hawaii.edu/academics/eli/english_proficiency.php"><strong><font face="Arial">UH Hilo ESL English Placement Test</font></strong></a>
-                </li>
-                <li style="line-height:1.3em"><a href="https://hawaii.hawaii.edu/halekea/pt"><strong><font face="Arial">UH Hawaii Community College (Hilo) Placement Overview</font></strong></a><br />
-                    <a href="https://www.test-guide.com/Compass-Test/"><strong><font face="Arial">Compass Practice Test</font></strong></a> 
-                </li>
-                </ul>
-        </details></li>
-        <li> <details>
-            <summary style="color:DarkBlue; margin:0em">Tests for Primary/Secondary Teaching Standards</summary>
-                <ul style="margin:0em">
-                <li><a href="https://www.ets.org/praxis/hi"><strong><font face="Arial">Hawaii Testing Requirements </font></strong></a> </li>
-                <li><a href="https://www.ets.org/praxis"><strong><font face="Arial">Praxis Tests</font></strong></a> </li>
-                </ul>
-        </details></li>
-    </ul>    
-</ul>
-
-
-
-<ul style="list-style-type:none; margin:0em"> 
-    <li><b>For English as Second Language (ESL) Learners</b></li>
-    <ul style="list-style-type:none; margin:0em">
-        <li> <details>
-            <summary style="color:DarkBlue">ESL Links that cover many topics: read, write, spell, grammar, speaking</summary>
-                <ul style="margin:0em">
-                <li> <a href= http://www.eslgold.com/speaking>ESLgold Speaking</a></li>
-                <li> <a href= http://www.bbc.co.uk/skillswise/english>BBC Skillswise: Reading</a></li>
-                <li> <a href= http://www.esl-lounge.com/>ESL Lounge</a></li>
-                <li> <a href= http://www.esl-galaxy.com/adults.html>ESL for Adults and Children</a></li>
-                <li> <a href= http://connect.mangolanguages.com/hawaii-state/login?u=190862>ESL Conversations + Your Native Language (Mandarin)</a></li>
-                </ul>
-        </details></li> 
-        <li> <details>
-            <summary style="color:DarkBlue">ESL Links to YouTube Videos</summary>
-                <ul style="margin:0em">
-                <li> <a href=http://www.youtube.com/user/Gifukids/videos >Many Short Videos of Conversations</a></li>
-                <li> <a href=http://www.youtube.com/channel/UCeTVoczn9NOZA9blls3YgUg >Videos from English101.com</a></li>
-                <li> <a href=http://www.youtube.com/watch?v=xNEzvqbB_C8 >How to Move Your Mouth in American Pronounciation</a></li>
-                <li> <a href=http://www.youtube.com/watch?v=-SObetOJ_yY&t=206s >More Mouth Movement for American English Pronunciation</a></li>
-                <li> <a href=http://howjsay.com>Hear Pronounciation of Any Word Alphabetical</a></li>
-                <li> <a href=http://www.fonetiks.org>Pronounciations of Vowels/Consonants in Variants of English</a></li>
-                <li> <a href=http://www.shiporsheep.com>Compare Pronounciations of Similar Words</a></li>
-                </ul>
-            </details></li>
-        <li> <details>
-            <summary style="color:DarkBlue">YouTube Videos for English Sound Pronounciations</summary>
-                <ul style="margin:0em">
-                <li> <a href=http://www.youtube.com/watch?v=zzzJ9iII5V8 >Vowels: Aa, Ee, Ii, Oo, Uu  </a></li>
-                <li> <a href=http://www.youtube.com/watch?v=QFS3X6fGzm8 >English Letters: Bb. Cc, Dd, Ff</a>  </li>
-                <li> <a href=http://www.youtube.com/watch?v=kltXVRcHr4Y >Sounds: er - ck - ea - oo  </a></li>
-                <li> <a href=http://www.youtube.com/watch?v=iEKMiO8PCXY >English Letters: Gg, Hh, Jj, Kk  </a></li>
-                <li> <a href=http://www.youtube.com/watch?v=5mQ9_O1jlNA/ >English Letters Ll, Mm, Nn, Pp  </a></li>
-                <li> <a href=http://www.youtube.com/watch?v=eASUlbjbYZY>Vowels oo ou oa ir  </a></li>
-                <li> <a href=http://www.youtube.com/watch?v=xu3JK0kw_B4 >Sounds oy ow th ph  </a></li>
-                <li> <a href=http://www.youtube.com/watch?v=Psv0Wd2blcM>English Letters Qq, Rr, Ss, Tt  </a></li>
-                <li> <a href=http://www.youtube.com/watch?v=9YF9S18pJZM>Sounds sh ch ee ar  </a></li>
-                <li> <a href=http://www.youtube.com/watch?v=Gs4vtwLNo7k >Vv, Ww, Xx, Yy and Zz  </a></li>
-                </ul>
-        </li></details> <!-- perhaps a goo map -->
-        <li> <details>
-            <summary style="color:DarkBlue">Help With Sentence Structure and Writing</summary>
-                <ul style="margin:0em">
-                <li> <a href=http://www.rong-chang.com/writing>Several Writing Exercises</a></li>
-                <li> <a href=http://www.englishmaven.org/Pages/Sentence%20Completion.htm>Complete the Sentence...   </a></li>
-                <li> <a href=http://englishteststore.net/index.php?option=com_content&view=article&id=13642&Itemid=302 >Sentences and Grammar Using Quizes</a></li>
-                <li> <a href=http://www.bbc.co.uk/skillswise/topic/sentence-structure > BBC Sentence Structure Practice</a></li>
-                <li> <a href=http://www.bbc.co.uk/skillswise/game/en30stru-game-spot-the-sentence >Fun and Games With Sentences</a></li>
-                <li> <a href=http://www.learnenglishfeelgood.com/vocabulary/ > Something About Vocabulary</a></li>
-                <li> <a href=http://www.learnenglishfeelgood.com/vocabulary/ > More Vocabulary  </a></li>
-                </ul>
-        </details></li>
-        <li> <details>
-            <summary style="color:DarkBlue">Grammar: Verb Conjugation</summary>
-                <ul style="margin:0em">
-                <li> <a href=http://grammar.yourdictionary.com/parts-of-speech/verbs/what-is-a-conjugated-verb.html >What is conjugation?</a></li>
-                <li> <a href=http://www.grammarly.com/handbook/grammar/verbs/23/verb-conjugation/ >More Conjugated Verbs</a></li>
-                <li> <a href=http://www.verbix.com/webverbix/English/be.html >The Famous Verb ""to be""</a></li>
-                <li> <a href=http://www.eslgold.com/grammar/simple_past>Past Tense</a></li>
-                </ul>
-        </details></li>
-        <li> <details>
-            <summary style="color:DarkBlue">Reading Help</summary>
-                <ul style="margin:0em">
-                <li> <a href=http://www.eslgold.com/reading/teaching.html >Read</a></li>
-                <li> <a href=http://www.bbc.co.uk/skillswise/topic-group/reading >Group Practice Reading</a></li>
-                <li> <a href=http://www.ixl.com/ela/ >Reading Skills for Grades K-12</a></li>
-                </ul>
-        </details></li>
-    </ul>
-    <li><b>For Math Learners</b></li>
-    <ul style="list-style-type:none;margin:0em">
-        <li> <details>
-            <summary style="color:DarkBlue">Math Help</summary>
-                <ul style="margin:0em">
-                <li> <a href= https://www.khanacademy.org/>Khan Academy</a></li>
-                <li> <a href= http://www.bbc.co.uk/skillswise/maths>BBC Skillswise Math</a></li>
-                <li> <a href= http://www.math.com>Math.com</a></li>
-                <!--
-                <li> <a href= http://www.esl-lounge.com/>ESL Lounge </a></li>
-                <li> <a href= http://www.esl-galaxy.com/adults.html>ESL for Adults and Children </a></li>
-                -->
-                </ul>
-        </details></li> 
-    </ul>
-</ul> <!-- ul/no bullet -->
-
+<!-- For Tutors {{{ -->
 <h2 id="for_tutors" class="gradientheader" style=" color:DarkGreen" >For Tutors</h2>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>  -->
 <ul style="margin:0em">
@@ -460,9 +590,10 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
 	<li><a href="http://adultnumeracynetwork.org/"><strong><font face="Arial">
 	Numeracy = Math Literacy Tutoring</font></strong></a> 
 	</li> 
-
 </ul>				
+<!-- }}} For Tutors -->
 
+<!-- Publishers {{{ -->
 <h2 id="publishers" class="gradientheader" style="color:DarkGreen">Publishers</h2>
         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
 <ul>
@@ -509,6 +640,7 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
 	Educational</font></strong></a> </li>
 -->
 </ul>
+<!-- }}} Publishers -->
                 
 </section><!-- #end content area -->
       
@@ -519,10 +651,10 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
             <nav id="secondary-navigation">
                     <ul>
                         <li><a href="#literacy">Literacy</a></li>
-                        <li><a href="#other">Other</a></li>
+                        <li><a href="#for_students">For Students</a></li>
+                        <li><a href="#other">Other Continuing Education Programs</a></li>
                         <li><a href="#job_information">Job Information</a></li>
                         <li><a href="#grant_information">Grant Information</a></li>
-                        <li><a href="#for_students">For Students</a></li>
                         <li><a href="#for_tutors">For Tutors</a></li>
                         <li><a href="#publishers">Publishers</a></li>
 					</ul>
@@ -581,6 +713,52 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
      This code checks if details is supported and prints a message
 -->
 <script src="js/jquery-ck-support.js"></script>
+
+<script>
+function myFunction() {
+    var x = document.getElementById('DIVmango');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function showHide(idnobut,iddiv) {
+/* showHide(): 
+    passed 2 arguments to identify the hide/show matter 
+    'idnobut': id's the text prompt that is always visible
+    'iddiv':  id's the material to show and hide
+    by default the material is hidden and the text prompt is  prefixed by a right-pointing triangle
+    if display is 'none' the material is hidden
+    clicking on the text prompt ('idnobut') invokes showHide()
+        which displays the material and changes the direction of
+        the prefix triangle  (to downward)
+    clicking on the text prompt when the material is displayed will hide
+        the material and change the prefix triangle (to right pointing)
+*/
+    var y = document.getElementById(idnobut);
+    var x = document.getElementById(iddiv);
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+        // replace the right triangle w/ down triangle
+        var hd = y.innerHTML;
+        /* "*.replace()" only works on strings and apparently only the decimal version of a symbol
+           works w/ "String.fromCharCode()".  So here we convert the two symbols to strings from symbol decimals
+           and replace the one w/ the other.
+        */
+        hd = hd.replace(/show/i, "Hide");
+        y.innerHTML = hd.replace(String.fromCharCode(9654),String.fromCharCode(9660));
+    } else {
+        x.style.display = 'none';
+        // replace the right triangle w/ down triangle
+        var hd = y.innerHTML;
+        hd = hd.replace(/hide/i, "Show");
+        y.innerHTML = hd.replace(String.fromCharCode(9660),String.fromCharCode(9654));
+    }
+}
+
+
+</script>
 
 </body>
 </html>
