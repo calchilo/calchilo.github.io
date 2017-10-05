@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Microdata markup added by Google Structured Data Markup Helper. -->
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -10,8 +11,8 @@
 <title>CALC - Computer Assisted Learning Center</title>
 <meta name="description" content="The COMPUTER-ASSISTED LEARNING CENTER at the Hilo Public Library (CALC) ">
 <!-- 3/28/2017 JWH:  add some keywords for internet searching -->
-<meta name="keywords" content="'adult literacy', reading, writing, 'math skills', 'free tutoring', GED, 'English as a Second Language', 
-ESL, 'computer literacy'">
+<meta name="keywords" content="'adult literacy', tutors, reading, writing, 'math skills', 'free tutoring', GED, 'English as a Second Language', 
+ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
 
 <!-- Mobile viewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
@@ -78,6 +79,7 @@ padding:20px 15px;
 
 <body id="home" style="background:#FFFFE0; padding:0px; margin:0px">  <!-- lightyellow -->
 <!-- header area -->
+<span itemscope itemtype="http://schema.org/LocalBusiness">
     <header class="wrapper clearfix">
 <!-- JWH 3/24/2017 -------		       
         <div id="banner">        
@@ -98,10 +100,9 @@ padding:20px 15px;
     providing FREE access to learning resources and tutoring services </p>
 </div>        
 -->
-<!-- <div style="position: relative; background: url(images/3studentsbig2-opac50.png); width: 1280px; height: 276px;"/> -->
 <div id="banner" class="jwh-headline" style="width:1200px; height:270px;display:block;margin:auto">
     <div style="position: absolute; bottom: 150px; left: 10px; width: 400px;font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-shadow: 3px 3px #000000; color: #fff; font-size: 86px">
-        <i>C A L C</i>
+        <i itemprop="name">C A L C</i>
     </div>
     <div style="position: absolute; bottom: 80px; left: 15px; width: 800px; font-weight: bold; text-shadow: 1px 1px #000000;color: #fff; font-size: 40px;"/>
        Computer-Assisted Learning Center
@@ -115,56 +116,20 @@ padding:20px 15px;
     providing FREE access to learning resources and tutoring services 
     </div>
 </div>       
-
-
-        <!-- main navigation -->
-         <nav id="topnav" role="navigation">
+   <!-- main navigation -->
+        <nav id="topnav" role="navigation">
         <div class="menu-toggle">Menu</div>  
         	<ul class="srt-menu" id="menu-main-navigation">
             <li class="current"><a href="index.html">Home</a></li>
             <li><a href="program.html">Program</a></li>
 			<li><a href="people.html">People</a>
-<!--				<ul>
-					<li>
-						<a href="#">menu item 3.1</a>
-					</li>
-					<li class="current">
-						<a href="#">menu item 3.2</a>
-						<ul>
-							<li class="current"><a href="#">menu item 3.2.1</a></li>
-							<li><a href="#">menu item 3.2.2 with longer link name</a></li>
-							<li><a href="#">menu item 3.2.3</a></li>
-							<li><a href="#">menu item 3.2.4</a></li>
-							<li><a href="#">menu item 3.2.5</a></li>
-						</ul>
-					</li>
-					<li><a href="#">menu item 3.3</a></li>
-					<li><a href="#">menu item 3.4</a></li>
-				</ul>
-			</li>
--->
-			<li>
-				<a href="resources.html">Resources</a>
-<!--
-				<ul>
-					<li><a href="#">menu item 4.1</a></li>
-					<li><a href="#">menu item 4.2</a></li>
-				</ul>
--->
-				</li>
-			<li>
-				<a href="donate.html">Donate</a>
-			</li>	
-
-
-
-			<li>
-				<a href="contact.html">Contact</a>
-			</li>	
+			<li><a href="resources.html">Resources</a></li>
+			<li><a href="donate.html">Donate</a></li>	
+			<li><a href="contact.html">Contact</a></li>	
 		</ul>     
 		</nav><!-- end main navigation -->
   
-    </header><!-- end header -->
+</header><!-- end header -->
  
  
 <!-- hero area (the grey one with a slider -->
@@ -181,18 +146,31 @@ padding:20px 15px;
             <p>CALC, housed in the Hilo Public Library, was started in 1991 as the state's first library-based, computer-assisted, adult literacy resource site. </p>
 			<h2 style="text-align: center;">CALC Mission:</h2>
 			<!-- JWH  3/21/2017 -->
-			<p>Provide free access to learning resources and tutoring services to help adults acquire and/or improve their skills in
+			<p>Provide free access to learning resources and tutoring services to help adults acquire and/or improve their skills in </p>
+                <!-- JWH 10/03/2017: make 2 columns of skills -->
+                <div class="row" style="margin-left:-30px; margin-top:-20px">
+                <div class="grid_5">
 				<ul>
 					<li>Reading</li>
 					<li>Writing</li>
 					<li>Math</li>
-					<li>Second Language</li>
+					<!--<li>Second Language</li>-->
 					<li>Computer Use</li>
 				</ul>
-			</p>
+				</div>
+                <div class="grid_7">
+				<ul>
+					<li>High-school Equivalency</li>
+					<li>College Preparation</li>
+					<!-- <li>Math</li> -->
+					<li>English as Second Language</li>
+					<li>Resume Preparation</li>
+				</ul>
+				</div> <!-- end grid_2 -->
+				</div> <!-- end row --> 
+			<p></p>
 			</div> <!-- inside box  -->
 		</div>  <!-- div border  -->
- <!--<p><a href="#" class="buttonlink">CALL TO ACTION</a> <a href="#" class="buttonlink">ONE MORE</a></p> --> 
 	     </div>  <!-- grid 5 -->
         <div class="grid_7 rightfloat">
               <div class="flexslider">
@@ -210,8 +188,6 @@ padding:20px 15px;
                       </li>					  
 					  <li>
 					      <!-- JWH 3/28/2017" change to google map of HPL -->
-                          <!-- <img src="images/rainbowfalls.jpg" /> 
-                          <p class="flex-caption">Rainbow Falls.</p> -->
                           <!-- JWH 4/7/2017 new photo -->
                           <!-- <img width=200 height=190 src="images/HPL_google2.jpeg" />  -->
                           <img src="images/TwoGroupsatTables.jpg" />
@@ -219,11 +195,9 @@ padding:20px 15px;
                       </li>
                       <li>
                           <!-- JWH 4/7/17 new photo --> 
-                          <!-- <img src="images/birdofparadise.jpg" /> -->
                           <img src="images/VeraJimatTable.jpg" />
                           <p class="flex-caption"></p>
                       </li>
-
                   </ul>
                 </div><!-- FlexSlider -->
               </div><!-- end grid_7 -->
@@ -243,7 +217,6 @@ padding:20px 15px;
         	<!-- <h1 class="first-header"; style=" color:red";>Why Be Literate?</h1>  -->
         	<!-- JWH 5/1/2017: change color from "green" to dark green -->
         	<h1  class="second-header gradientheader"; style=" color:DarkGreen; ";>Why Be Literate?</h1>
-            <!-- <img src="images/birdofparadise.jpg" /> -->
             <!-- <img src="images/value_education.png" /> -->
             <!-- <img src="images/value_education2.jpeg" /> -->
             <!-- <img src="images/value_education3.jpeg" /> -->
@@ -262,16 +235,13 @@ padding:20px 15px;
             and elsewhere at our <a href="resources.html#literacy">internet resources page.</a>
             </p>
 
-        </div>
+        </div> <!-- class=grid_4 -->
         
         <div class="grid_4">
         	<!-- <h1 class="first-header"; style="color:blue";>Become a Student</h1>  -->
         	<!-- JWH 5/1/2017: change color from "green" to dark green -->
         	<h1  class="second-header gradientheader"; style=" color:DarkGreen;";>Become a Student</h1>
             <!-- JWH 3/20/2017 -->
-            <!-- <img src="images/orchid.jpg" /> -->
-            <!-- <img src="images/Bud-in-1738CC.JPG" /> -->
-            <!-- <img src="images/Bud-in-1738CC_72dpi_500px.jpg" />-->
             <!-- <img src="images/Claudine-ESL-class-380pxW.jpg" /> -->
             <!-- center img inside the column -->
             <img src="images/nevertooold2.jpeg" style="width:75%;display:block;margin:auto" />
@@ -284,67 +254,16 @@ padding:20px 15px;
         <div class="grid_4">
         	<!-- <h1 class="first-header"; style= "color:green";>Donate!</h1>  -->
         	<h1  class="second-header gradientheader"; style=" color:DarkGreen; ";>Donate!</h1>
-            <!--  <img src="images/rainbowfalls.jpg" /> -->
-            <!-- <img src="images/donate_tree.jpeg" /> -->
-            <!-- <img src="images/donate_tree.jpeg" style="width:750px;height:220px;"/> -->  <!-- JWH "donate_piggy.jpeg" -->
-             <img src="images/donate_tree.jpeg"  style="width:100%;display:block;margin:auto"/>   <!-- 276px -->
+            <!-- <img src="images/donate_tree.jpeg" style="width:750px;height:220px;"/> -->
+             <img src="images/donate_tree.jpeg"  style="width:100%;display:block;margin:auto"/>
             <!-- <img src="images/donate_tree.jpeg" style="height:242px"/>
             <!-- JWH 3/20/2017 -->
             <span><p style="width:100%;position:relative;left:0px;top:20px" > CALC is a 501(c)3 nonprofit literacy project.  We welcome all donations in the form of money or in-kind services 
             and contributions. Visit our  <a href="donate.html"> donate</a> page for details.</p> </span>
-<!-- JWH: 04-14-2017: Just link to Donate.html -->
-            <!--
-            <br> To donate money, mail a check to: <br />
-            CALC <br />
-            P.O. Box 11499 <br />
-            Hilo, HI 96721<br />
-            
-            For other contributions:  email CALC at: 808giftofliteracy@gmail.com<br>
-            </p>
-            -->
+            <!-- JWH: 04-14-2017: Just link to Donate.html -->
         </div>
 	  </div><!-- end row -->
 	</section><!-- end content area -->   
-      
-      
-    <!-- columns demo, delete it!-->
-<!--	
-
-    <section id="columnsdemo" style="margin-bottom:60px; width:100%" class="clearfix">
-        <h2 style="width:100%; clear:both">Columns demo</h2>
-        <div class="grid_12">12</div>
-        
-        <div class="grid_1">1</div>
-        <div class="grid_11">11</div>
-        
-        <div class="grid_2">2</div>
-        <div class="grid_10">10</div>
-        
-        <div class="grid_3">3</div>
-        <div class="grid_9">9</div>
-        
-        <div class="grid_4">4</div>
-        <div class="grid_8">8</div>
-        
-        <div class="grid_5">5</div>
-        <div class="grid_7">7</div>
-        
-        <div class="grid_6">6</div>
-        <div class="grid_6">6</div>
-                
-        <div class="grid_4">4</div>
-        <div class="grid_4">4</div>
-        <div class="grid_4">4</div>
-        
-        <div class="grid_1">1</div>
-        <div class="grid_2">2</div>
-        <div class="grid_3">3</div>
-        <div class="grid_3">3</div>
-        <div class="grid_3">3</div>   
-    </section>
--->
-    <!-- end columns demo -->  
-    
       
   </div><!-- #end div #main .wrapper -->
 
@@ -378,13 +297,14 @@ padding:20px 15px;
         <p>&copy; 2016, 2017 Computer-Assisted Learning Center<br /></p>
         <p style="line-height:1.4em"> CALC/Hilo Public Library<br />
         P.O. Box 11499<br />
-        Hilo, HI 96720<br />
-        Phone: (808) 933-8893 | Fax: (808) 933-8895<br />
-        Email: <a href="mailto:808giftofliteracy@gmail.com">808giftofliteracy@gmail.com</a>
+<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="addressLocality">Hilo</span>,<span itemprop="addressRegion">HI</span> <span itemprop="postalCode">96720</span><br />
+        Phone: <span itemprop="telephone">(808) 933-8893</span> | Fax: (808) 933-8895<br />
+        Email: <a href="mailto:808giftofliteracy@gmail.com"><span itemprop="email">808giftofliteracy@gmail.com</span></a>
         </p>
     </div>
         
-</footer><!-- #end footer area -->  
+</footer></span><!-- #end footer area -->  
 
 
 <!-- jQuery -->

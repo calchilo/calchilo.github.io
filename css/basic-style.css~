@@ -474,10 +474,31 @@ footer li a {
 
 /* DETAILS */
 		//<style>
+/* JWH 7/11/2017: Add lines from W3? to allow firefox to make the 
+   marker correctly  (see tdetails2.html)
+*/
+
 /* JWH: details, summary { display: block; border: 1px solid #666; padding: 1em; }  */
 /* Apply a pointer cursor and style the background upon hover to indicate <summary> is a clickable element. */
 /* These styles can be applied regardless of whether the fallback is needed */
-summary { cursor: pointer; }
+summary {
+    cursor: pointer; 
+    display:block;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary::before {
+  content: '\25B6';
+  padding-right: 0.5em;
+}
+
+details[open] > summary::before {
+  content: '\25BC';
+}    
+
+
+
 /*summary:hover, summary:focus { background: #ddd; } */
 summary:hover, summary:focus { background: none; }
 /* The following styles are not really needed, since the jQuery script takes care of hiding/displaying the elements. */
@@ -500,8 +521,10 @@ summary:hover, summary:focus { background: none; }
 
 /* need this to force firefox w/ details support to work properly */
  //.details details > summary::before { float: left; width: 20px; content: '► '; }
+/* JWH 7/11/2017delete next .details lines:  not needed 
 .details details > summary:before { float: left; width: 20px; color:#33cc33; content: '\0025b6 '; }
 .details details[open] > summary:before { color:red; content: '\0025bc '; }
+*/
 //.details details[open] > summary::before { content: '▼'; }
 
 /*  JWH

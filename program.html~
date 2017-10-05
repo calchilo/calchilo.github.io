@@ -18,7 +18,8 @@
 
 <title>CALC - Computer Assisted Learning Center</title>
 <meta name="description" content="The COMPUTER-ASSISTED LEARNING CENTER at the Hilo Public Library (CALC) ">
-<meta name="keywords" content="">
+<meta name="keywords" content="'adult literacy', tutors, reading, writing, 'math skills', 'free tutoring', GED, 'English as a Second Language', 
+ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
 
 <!-- Mobile viewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
@@ -59,42 +60,10 @@
             <li><a href="index.html">Home</a></li>
             <li class="current"><a href="program.html">Program</a></li>
 			<li><a href="people.html">People</a>
-<!--				<ul>
-					<li>
-						<a href="#">menu item 3.1</a>
-					</li>
-					<li class="current">
-						<a href="#">menu item 3.2</a>
-						<ul>
-							<li class="current"><a href="#">menu item 3.2.1</a></li>
-							<li><a href="#">menu item 3.2.2 with longer link name</a></li>
-							<li><a href="#">menu item 3.2.3</a></li>
-							<li><a href="#">menu item 3.2.4</a></li>
-							<li><a href="#">menu item 3.2.5</a></li>
-						</ul>
-					</li>
-					<li><a href="#">menu item 3.3</a></li>
-					<li><a href="#">menu item 3.4</a></li>
-				</ul>
-			</li>
--->
-			<li>
-				<a href="resources.html">Resources</a>
-<!--
-				<ul>
-					<li><a href="#">menu item 4.1</a></li>
-					<li><a href="#">menu item 4.2</a></li>
-				</ul>
--->
-				</li>
+			<li><a href="resources.html">Resources</a></li>
             <!-- JWH 04/05/2017:  add the donate link -->
-			<li>
-				<a href="donate.html">Donate</a>
-			</li>	
-
-			<li>
-				<a href="contact.html">Contact</a>
-			</li>	
+			<li><a href="donate.html">Donate</a></li>	
+			<li><a href="contact.html">Contact</a></li>	
 		</ul>     
 		</nav>
 		<!-- #topnav -->
@@ -254,15 +223,14 @@
          <!-- addresses -->
          <p style="clear:both">  <!-- JWH 4/19/2017: need this to place addresses below table -->
             <h2 id="calcadd"> Contact CALC</h2>
-            <p> The Hilo Public Library is located at:<br />
-                300 Waianuenue Avenue<br />
+            <p style="margin:0em 0em 0.5em 0em;"> The Hilo Public Library is located at:</p>
+                <p style="line-height:1.2em">300 Waianuenue Avenue<br />
                 Hilo, HI 96720<br />
             </p>
-            <p> We receive U.S. mail at the Hilo Post Office:<br />
-            CALC/Hilo Public Library <br />
+            <p style="margin:0em 0em 0.5em 0em;"> We receive U.S. mail at the Hilo Post Office:</p>
+            <p style="line-height:1.2em">CALC/Hilo Public Library <br />
             P.O. Box 11499 <br />
-            Hilo, HI  96721 <br />
-            </p>
+            Hilo, HI  96721 <br /></p>
 
             <p> We can be reached by telephone at: <br />
             Phone: (808) 933-8893 | Fax: (808) 933-8895<br />

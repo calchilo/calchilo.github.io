@@ -9,7 +9,8 @@
 
 <title>CALC - Computer Assisted Learning Center</title>
 <meta name="description" content="The COMPUTER-ASSISTED LEARNING CENTER at the Hilo Public Library (CALC) ">
-<meta name="keywords" content="">
+<meta name="keywords" content="'adult literacy', tutors, reading, writing, 'math skills', 'free tutoring', GED, 'English as a Second Language', 
+ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
 
 <!-- Mobile viewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
@@ -306,6 +307,7 @@ http://www.hawaiiliteracy.org/
 <ul style="list-style-type:none; margin:0em"> 
     <li><b>For English as Second Language (ESL) Learners</b></li>
     <ul style="list-style-type:disc; margin:0em">
+        <li> <a href= "http://iephawaii.com">Hawaii Community College Intensive English Program</a></li>
         <li> <span style= "line-height:1.2em"> Hawaii Public Library provides free, on-line access to ESL Conversations 
         with verbal translations in your native language.</span> <br />
         <p>Either <a href="images/CALC-ESLConversations-HPL.pdf">download a PDF file of the instructions</a> 
@@ -432,7 +434,9 @@ http://www.hawaiiliteracy.org/
         </li>
     </ul>
     <li><b>For Math Learners</b></li>
-    <ul style="list-style-type:none;margin:0em">
+    <ul style="list-style-type:disc;margin:0em">  <!--list-style-type:none -->
+        <li> <a href= "https://education.gale.com/l-hawaii/online-courses/ged-math-test-prep?tab=detail">
+            GED Math Test Preparation from Gale On-line Courses</a></li>
         <li>
             <span style="color:DarkBlue; margin:0em;font-size:90%">
             <button type="button" id="idmath" class="button"; onclick="showHide('idmath','DIVmath')">&#x25b6 Show Math Help</button>
