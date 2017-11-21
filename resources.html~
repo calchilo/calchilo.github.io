@@ -100,41 +100,10 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
             <li><a href="index.html">Home</a></li>
             <li><a href="program.html">Program</a></li>
 			<li><a href="people.html">People</a>
-<!--				<ul>
-					<li>
-						<a href="#">menu item 3.1</a>
-					</li>
-					<li class="current">
-						<a href="#">menu item 3.2</a>
-						<ul>
-							<li class="current"><a href="#">menu item 3.2.1</a></li>
-							<li><a href="#">menu item 3.2.2 with longer link name</a></li>
-							<li><a href="#">menu item 3.2.3</a></li>
-							<li><a href="#">menu item 3.2.4</a></li>
-							<li><a href="#">menu item 3.2.5</a></li>
-						</ul>
-					</li>
-					<li><a href="#">menu item 3.3</a></li>
-					<li><a href="#">menu item 3.4</a></li>
-				</ul>
-			</li>
--->
-			<li class="current">
-				<a href="resources.html">Resources</a>
-<!--
-				<ul>
-					<li><a href="#">menu item 4.1</a></li>
-					<li><a href="#">menu item 4.2</a></li>
-				</ul>
--->
-				</li>
+			<li class="current"><a href="resources.html">Resources</a></li>
             <!-- JWH 04/05/2017:  add the donate link -->
-			<li>
-				<a href="donate.html">Donate</a>
-			</li>	
-			<li>
-				<a href="contact.html">Contact</a>
-			</li>	
+			<li><a href="donate.html">Donate</a></li>	
+			<li><a href="contact.html">Contact</a></li>	
 		</ul>     
 		</nav><!-- #topnav -->
   
@@ -160,13 +129,6 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
     <h2 id="literacy" class="gradientheader" style=" color:DarkGreen">Literacy</h2>
       <!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <p> -->
 <ul>
-<!--
-	<li><a href="http://www.hcc.hawaii.edu/hspls/hsplshp.html"><strong>
-	<font face="Arial">Hawai'i State Public Library System (HSPLS)</font></strong></a>
-	</li>
-	<li><a href="http://literacynet.org/hawaii/liaison.html"><strong>
-	<font face="Arial">Hawaii Network for Literacy</font></strong></a> </li>
--->
 	<li><a href="http://literacynet.org/hawaii/"><strong><font face="Arial">
 	Hawaii State Literacy Resource Center</font></strong></a> </li>
 	<li><a href="https://www.proliteracy.org/"><strong><font face="Arial">
@@ -181,22 +143,21 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
 <!-- to add
 http://www.hawaiiliteracy.org/
 -->
-
-<!--
-	<li><a href="http://www.hcc.hawaii.edu/hspls/libfound.html"><strong>
-	<font face="Arial">Hawaii Library Foundation</font></strong></a> </li>
-	<li><strong><font face="Arial">Hawaii Literacy Directory (under 
-	construction)</font></strong> </li>
--->
 </ul>
 <!-- }}} Literacy -->
                                
 <!-- For Students  {{{ -->
 <h2 id="for_students" class="gradientheader" style=" color:DarkGreen" >For Students</h2>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>  -->
+
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum</p> -->
 
     <ul style="list-style-type:none; margin:0em">
-    <!--<li><a href="OnlineCourses_HPL.pdf">How-to get Free Online Courses from the Hilo Public Library (SOON!)</a></li>-->
         <li> <span style= "line-height:1.2em"> Hawaii Public Library provides free, on-line courses on a variety of subjects
         </span> <br />
         <p>Either <a href="images/CALC-Courses-HPL.pdf">download a PDF file of the instructions</a> 
@@ -301,9 +262,6 @@ http://www.hawaiiliteracy.org/
     </ul>    
 </ul>
 
-
-
-<!-- add this:   iephawaii.com  intensive english program, run thru HCC non-credit 8weeks 4hr/day -->
 <ul style="list-style-type:none; margin:0em"> 
     <li><b>For English as Second Language (ESL) Learners</b></li>
     <ul style="list-style-type:disc; margin:0em">
@@ -446,10 +404,6 @@ http://www.hawaiiliteracy.org/
                 <li> <a href= https://www.khanacademy.org/>Khan Academy</a></li>
                 <li> <a href= http://www.bbc.co.uk/skillswise/maths>BBC Skillswise Math</a></li>
                 <li> <a href= http://www.math.com>Math.com</a></li>
-                <!--
-                <li> <a href= http://www.esl-lounge.com/>ESL Lounge </a></li>
-                <li> <a href= http://www.esl-galaxy.com/adults.html>ESL for Adults and Children </a></li>
-                -->
                 </ul>
             </div>
         </li> 
@@ -477,7 +431,15 @@ http://www.hawaiiliteracy.org/
                 
 <!-- Job Infomation {{{ -->
 <h2 id="job_information"class="gradientheader" style=" color:DarkGreen">Job Information</h2>
-             <!--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>-->
+
+             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+             culpa qui officia deserunt mollit anim id est laborum</p>-->
+
 <ul>
 <!--
 	<li><a href="http://www.educatorjobs.com/"><strong><font face="Arial">
@@ -497,12 +459,6 @@ http://www.hawaiiliteracy.org/
 	CareerMosaic.com</font></strong></a> </li>
 	<li><a href="http://www.ajb.dni.us/"><strong><font face="Arial">America's 
 	JobBank.com</font></strong></a> </li>
-<!--
-	<li><a href="http://www.jobtrak.com/"><strong><font face="Arial">JobTrak.com</font></strong></a>
-	</li>
-	<li><a href="http://www.dbm.com/jobguide/"><strong><font face="Arial">The 
-	Riley Guide</font></strong></a> </li>
--->
 <!-- to add to calc 
 https://portal.ehawaii.gov/residents/jobs-and-employment/
 --> 
@@ -564,7 +520,6 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
     </li>
 
 	<!-- JWH grants/scholarships to add
-
 	-->
 </ul>
 <!-- }}} Financial Aid -->
@@ -601,48 +556,28 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
 <h2 id="publishers" class="gradientheader" style="color:DarkGreen">Publishers</h2>
         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
 <ul>
-<!-- 
-	<li><a href="http://www.acadsoft.com/"><strong><font face="Arial">Academic 
-	Software</font></strong></a> </li>
--->
 	<li><a href="http://www.barronseduc.com/"><strong><font face="Arial">
 	Barron's Educational Series, Inc.</font></strong></a> </li>
 	<li><a href="http://www.besspress.com/"><strong><font face="Arial">The Bess 
 	Press</font></strong></a> </li>
-<!--	<li><a href="http://www.contemporarybooks.com/"><strong><font face="Arial">
-	Contemporary Books</font></strong></a> </li>
--->
 	<li><a href="http://www.curriculumassociates.com/"><strong>
 	<font face="Arial">Curriculum Associates</font></strong></a> </li>
 	<li><a href="http://www.edact.com/"><strong><font face="Arial">Educational 
 	Activities</font></strong></a> </li>
 	<li><a href="http://www.epsbooks.com/"><strong><font face="Arial">Educators 
 	Publishing Service</font></strong></a> </li>
-<!--
-    <li><a href="http://www.globefearon.com/"><strong><font face="Arial">Globe 
-	Fearon Educational Publisher</font></strong></a> </li>
--->
 	<li><a href="http://www.jamestownpublishers.com/"><strong>
 	<font face="Arial">Jamestown Publishers</font></strong></a> </li>
 	<li><a href="http://www.lakeshorelearning.com/"><strong><font face="Arial">
 	Lakeshore Learning Materials</font></strong></a> </li>
 	<li><a href="http://www.learnserv.com/"><strong><font face="Arial">Learning 
 	Services</font></strong></a> </li>
-<!--
-    <li><a href="http://www.literacyvolunteers.org/catalog"><strong>
-	<font face="Arial">Literacy Volunteers of America (LVA)</font></strong></a>
-    </li>
--->
 	<li><a href="http://www.newreaderspress.com/"><strong><font face="Arial">New 
 	Readers Press</font></strong></a> </li>
 	<li><a href="http://www.steck-vaughn.com/"><strong><font face="Arial">
 	Steck-Vaughn</font></strong></a> </li>
 	<li><a href="http://www.uhpress.hawaii.edu/"><strong><font face="Arial">
 	University of Hawai'i Press</font></strong></a> </li>
-<!--
-	<li><a href="http://www.wieser-ed.com/"><strong><font face="Arial">Wieser 
-	Educational</font></strong></a> </li>
--->
 </ul>
 <!-- }}} Publishers -->
                 
@@ -709,16 +644,19 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.0.min.js">\x3C/script>')</script>
 
 <script defer src="js/flexslider/jquery.flexslider-min.js"></script>
-<script defer src="js/jquery.details.min.js"></script>
+<!-- <script defer src="js/jquery.details.min.js"></script>   -->
 
 <!-- fire ups - read this file!  -->   
 <script src="js/main.js"></script>
 <!-- JWH 29.05.2017 the following file contains code from the jquery/details code to allow details to work on most browsers
      This code checks if details is supported and prints a message
 -->
+<!--
 <script src="js/jquery-ck-support.js"></script>
+-->
 
 <script>
+/*
 function myFunction() {
     var x = document.getElementById('DIVmango');
     if (x.style.display === 'none') {
@@ -727,6 +665,8 @@ function myFunction() {
         x.style.display = 'none';
     }
 }
+*/
+
 function showHide(idnobut,iddiv) {
 /* showHide(): 
     passed 2 arguments to identify the hide/show matter 
