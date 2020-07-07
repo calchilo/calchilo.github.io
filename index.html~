@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<!-- 6/28/2020  index3.html from index2.html:  eliminate all non-menu stuff -->
+
 <!-- Microdata markup added by Google Structured Data Markup Helper. -->
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -18,49 +21,38 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <!-- <link rel="shortcut icon" href="images/favicon.ico"  type="image/x-icon"> -->
-<link rel="shortcut icon" href="images/favicon.png"  type="image/x-icon">
+<!-- Keep???? OK --> <link rel="shortcut icon" href="images/favicon.png"  type="image/x-icon"> <!-- debug -->
+<!-- debug  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- -->
 
 <!-- CSS-->
 <!-- Google web fonts. You can get your own bundle at http://www.google.com/fonts. Don't forget to update the CSS accordingly!-->
 <!-- JWH 4/3/2017: rely on standard fonts -->
 <!-- <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Ubuntu' rel='stylesheet' type='text/css'> -->
 
+<!--  debug  KEEP???? OK -->
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="js/flexslider/flexslider.css">
-<link rel="stylesheet" href="css/basic-style.css">
+<!--  -->
+
+<!-- <link rel="stylesheet" href="css/w3-responsive.css">  -->  <!-- try it first ... no change -->
+
+<!-- KEEP???? responsive OK, but some margins changed -->
+<link rel="stylesheet" href="css/basic-style.css"> 
+<!-- ?? debug -->
+
 
 <!-- end CSS-->
     
-<!-- JS-->
-<script src="js/libs/modernizr-2.6.2.min.js"></script>
+<!-- JS   debug  KEEP????  -->
+<script src="js/libs/modernizr-2.6.2.min.js"></script>  
 <!-- end JS-->
 
 
 <!-- columns demo style. DELETE IT! -->
 <style type="text/css">
-
-<!--
-
-#columnsdemo .grid_1,
-#columnsdemo .grid_2,
-#columnsdemo .grid_3,
-#columnsdemo .grid_4,
-#columnsdemo .grid_5,
-#columnsdemo .grid_6,
-#columnsdemo .grid_7,
-#columnsdemo .grid_8,
-#columnsdemo .grid_9,
-#columnsdemo .grid_10,
-#columnsdemo .grid_11,
-#columnsdemo .grid_12 {
-border: solid 1px #999;
-color:#999;
-text-align: center;
-margin-top:20px;
-padding:20px 15px;
-}
--->
-
+/* */
 .jwh-headline {
     position: relative;
 /*    background:  url("images/Claudine-ESL-class-380pxW.jpg")center center no-repeat,url("images/CALC-computers.png") left center no-repeat,url("images/adult-reading.png") right center no-repeat;  */
@@ -80,59 +72,55 @@ padding:20px 15px;
 
 <body id="home" style="background:#FFFFE0; padding:0px; margin:0px">  <!-- lightyellow -->
 <!-- header area -->
-<span itemscope itemtype="http://schema.org/LocalBusiness">
-    <header class="wrapper clearfix">
-<!-- JWH 3/24/2017 -------		       
-        <div id="banner">        
-        	<div id="logo"><a href="index.html"><img src="images/basic-logo.png" alt="CALC Logo" title="CALC Logo"></a></div> 
-        </div>
--->
+<!-- back in for w3: OK keep--> 
+<span itemscope itemtype="http://schema.org/LocalBusiness"></span>  
+<!-- -->
+<!-- srt header -->
+<!-- -->  <header class="wrapper clearfix">  
+<!-- plain header -->
+<!-- <header>  -->
 
-<!-- JWH 3/24/2017  taken from txt-image.html -->
-<!-- JWH 4/9/2017 add shadow text -->
-<!--
-<div style="position: relative; background: url(images/3studentsbig2.png); width: 1280px; height: 276px;"/>
-    <div style="position: absolute; bottom: 80px; left: 10px; width: 400px;font-family: Arial, Helvetica, sans-serif; font-weight: bold;text-shadow: 3px 3px #000000; color: #f00; font-size: 86px">
-        <p>C A L C</p>
-        <p style="position: absolute; bottom: 0px; left: 10px; width: 800px; font-weight: bold; text-shadow: 1px 1px #000000; color: #f00; font-size: 40px;"/>
-        <br />Computer-Assisted Learning Center</p>
-    </div>
-    <p style="position: absolute; bottom: 25px; right: 40px; width: 300px; padding: 4px;  font-family: Arial, Helvetica, sans-serif; font-weight: bold;text-shadow: 1px 1px #000000;  color:cyan; font-size: 20px;"/>
-    providing FREE access to learning resources and tutoring services </p>
-</div>        
--->
-<div id="banner" class="jwh-headline" style="width:1200px; height:270px;display:block;margin:auto">
+<!--  banner -->
+<div id="banner" class="jwh-headline" style="width:1200px; height:270px;display:block;margin:auto;margin-bottom:10px">
     <div style="position: absolute; bottom: 150px; left: 10px; width: 400px;font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-shadow: 3px 3px #000000; color: #fff; font-size: 86px">
         <i itemprop="name">C A L C</i>
     </div>
     <div style="position: absolute; bottom: 80px; left: 15px; width: 800px; font-weight: bold; text-shadow: 1px 1px #000000;color: #fff; font-size: 40px;"/>
        Computer-Assisted Learning Center
     </div>
-<!-- JWH 5/2/2017 remove 
-    <div style="position: absolute; bottom: 20px; left: 20px; width: 300px; font-weight: bold; text-shadow: 1px 1px #ffffff;color: #000; font-size: 20px;"/>
-       Hilo, Hawaii
-    </div>
--->
-<div style="position: absolute; bottom: 15px; right: 40px; width: 300px; padding: 4px; text-shadow: 2px 2px #000000 ; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color:#ffff00; font-size: 20px;"/>
+    <div style="position: absolute; bottom: 15px; right: 40px; width: 300px; padding: 4px; text-shadow: 2px 2px #000000 ; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color:#ffff00; font-size: 20px;"/>
     providing FREE access to learning resources and tutoring services 
     </div>
-</div>       
-   <!-- main navigation -->
-        <nav id="topnav" role="navigation">
-        <div class="menu-toggle">Menu</div>  
-        	<ul class="srt-menu" id="menu-main-navigation">
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="program.html">Program</a></li>
-			<li><a href="people.html">People</a>
-			<li><a href="resources.html">Resources</a></li>
-			<li><a href="donate.html">Donate</a></li>	
-			<li><a href="contact.html">Contact</a></li>	
-		</ul>     
-		</nav><!-- end main navigation -->
-  
+</div>
+<!-- banner   -->
+
+<!-- main navigation -->
+<div class="Jtopnav" id="myJtopnav" style="clear:left;margin-top:10px">   <!-- style="display:block; float:left" >  -->   <!-- float:right -->
+<!--  -->
+    <a href="index3.html" class="active">Home</a>
+    <a href="program.html">Program</a>
+    <a href="people.html">People</a>
+    <a href="resources.html">Resources</a>
+    <a href="donate.html">Donate</a>	
+    <a href="contact.html">Contact</a>
+<!-- -->
+    <!--  
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    -->
+    <!--   <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i>  -->
+    <!--   <a href="javascript:void(0);" class="icon" onclick="myFunction()">MENU -->    <!-- <i class="fa fa-bars"></i> -->
+    <!--  <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction2()">MENU</a>  -->
+    <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction3('myJtopnav','Jtopnav')">MENU</a>
+</div>
+
+
 </header><!-- end header -->
- 
- 
+
+<!-- main content area -->   
+<div id="main" class="wrapper">
 <!-- hero area (the grey one with a slider -->
     <section id="hero" class="clearfix">    
     <!-- responsive FlexSlider image slideshow -->
@@ -180,7 +168,12 @@ padding:20px 15px;
                           <!-- JWH 4/7/2017 new photo -->
                           <img src="images/Gracecomputers-cropmed.jpg" />
                           <p class="flex-caption"></p>
-                      </li>                      
+                      </li>   
+                     <li>
+                          <!-- JWH 4/5/2020 new photo -->
+                          <img src="images/Euhee_learning.jpg" />
+                          <p class="flex-caption"></p>
+                      </li>    
                       <li>
                           <!-- JWH 4/7/2017 new photo -->
                           <!-- <img src="images/hilopubliclibrary_1.jpg" /> -->
@@ -267,55 +260,135 @@ padding:20px 15px;
 	</section><!-- end content area -->   
       
   </div><!-- #end div #main .wrapper -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!-- footer area -->    
 <footer>
-<!-- JWH 4/10/2017 add my swimmer -->
 
- 	<span style="float: right"><img style= "margin: 10px 20px" alt="" src="images/swim-black.gif" /> </span>
 
-    <div>
-        <!-- main navigation -->
-         <nav id="topnav" role="navigation">
 
-        <!--<div class="menu-toggle";style="float:right;clear:right">Menu</div>  -->
-        <div class="menu-toggle">Menu</div>
-        	<ul class="srt-menu" id="menu-main-navigation" style="display:inline;position:relative;left:-200px;top:50px;background:#333333">
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="program.html">Program</a></li>
-			<li><a href="people.html">People</a>
-			<li><a href="resources.html">Resources</a></li>
-			<li><a href="donate.html">Donate</a></li>	
-			<li><a href="contact.html">Contact</a></li>	
-		    </ul>
-		</div>
-		</nav>
-    </div>
- 	
- 	
- 	<div id="colophon" class="wrapper clearfix">
-        <p>&copy; 2016-2019 Computer-Assisted Learning Center<br /></p>
-        <p style="line-height:1.4em"> Computer-Assisted Learning Center<br />
-        P.O. Box 10900<br />
-<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<div style="background-color:black">  <!-- parent -->
+<div class="navbar" id="myNavbar">
+    <a href="index3.html" class="active">Home</a>
+    <a href="program.html">Program</a>
+    <a href="people.html">People</a>
+    <a href="resources.html">Resources</a>
+    <a href="donate.html">Donate</a>	
+    <a href="contact.html">Contact</a>
+<!--
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+-->
+<!--  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>  -->
+<!--  <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction2()">MENU</a> -->
+<!-- use function to expand the hidden menu -->
+  <a href="javascript:void(0);" style="font-size:14px;" class="icon" onclick="myFunction3('myNavbar','navbar')">MENU</a> 
+</div>  <!-- navbar -->
+
+<!-- <div class="row"> 	-->
+<!-- <div style="display:none"> -->
+<!--    <div class="grid_5">  -->
+<!--    <div id="colophon" class="wrapper clearfix" style="margin-left:30px;background-color:black;width:100%;">  -->
+    <div id="colophon" class="wrapper clearfix" style="padding-left:30px;background-color:black;width:100%;">  
+<!--    	<div id="colophon" class="clearfix" style="float:left">   -->
+        <p>&copy; 2016-2020 Computer-Assisted Learning Center</p>
+        <p style="line-height:1.2em"> Computer-Assisted Learning Center<br />
+        c/o Hilo Public Library<br/>
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"></span>
         <span itemprop="addressLocality">Hilo</span>,<span itemprop="addressRegion">HI</span> <span itemprop="postalCode">96720</span><br />
         Phone: <span itemprop="telephone">(808) 933-8893</span> | Fax: (808) 933-8895<br />
         Email: <a href="mailto:808giftofliteracy@gmail.com"><span itemprop="email">808giftofliteracy@gmail.com</span></a>
         </p>
-    </div>
-        
-</footer></span><!-- #end footer area -->  
+    </div>    <!-- colophon -->
+<!--  </div> -->    <!-- grid_5 -->
+<!-- </div> -->  <!-- comment block -->
 
+</div>  <!-- parent div -->
+
+<div style="display:none"> 
+<div class="grid_7">
+<div class="Jtopnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="program.html">Program</a>
+  <a href="people.html">People</a>
+  <a href="resources.html">Resources</a>
+  <a href="donate.html">Donate</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>  <!-- div Jtopnav -->
+</div>  <!--  grid 5 -->
+</div>    <!-- comment block -->
+
+</footer> <!-- #end footer area --> 
 
 <!-- jQuery -->
+<!--    debug  KEEP??? OK -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.0.min.js">\x3C/script>')</script>
-
-<script defer src="js/flexslider/jquery.flexslider-min.js"></script>
+<!-- -->
+<!--   KEEP???  OK -->
+<script defer src="js/flexslider/jquery.flexslider-min.js"></script> 
+<!--  -->
 
 <!-- fire ups - read this file!  -->   
-<script src="js/main.js"></script>
+<!-- KEEP???? OK --> <script src="js/main.js"></script>
+<!--   debug -->
+
+<script>
+
+/* use variables in a function */
+var myMenu, menuName;
+function myFunction3(myMenu,menuName) {
+    /* window.alert("myMenu=" + String(myMenu) + "   menu=" + String(menuName)); */
+    /* syntax: myMenu=an ID name; menuName=a CSS class element */
+    /* Examples: myFunction3("myNavbar","navbar") or myFunction3("myJtopnav",Jtopnav")  */
+/*   var x = document.getElementById("myNavbar"); */
+  var x = document.getElementById(myMenu);
+  if (x.className === menuName) {
+    x.className += " responsive";
+  } else {
+    x.className = menuName;
+  }
+}
+
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+
+/* Toggle between adding and removing the "responsive" class to Jtopnav when the user clicks on the icon */
+function myFunction2() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "Jtopnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "Jtopnav";
+  }
+} 
+
+</script>
 
 </body>
 </html>
