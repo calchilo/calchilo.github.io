@@ -1,13 +1,6 @@
 <!DOCTYPE html>
-<style type="text/css">
-.table-style {
-	border-style: none;  /*solid;*/
-	border-color: #0099FF;
-	text-align: left;
-	background-color: DarkGreen;  /*#0099FF;*/
-}
 
-</style>
+
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -39,7 +32,14 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
 <!-- JS-->
 <script src="js/libs/modernizr-2.6.2.min.js"></script>
 <!-- end JS-->
-
+<style type="text/css">
+.table-style {
+	border-style: none;  /*solid;*/
+	border-color: #0099FF;
+	text-align: left;
+	background-color: DarkGreen;  /*#0099FF;*/
+}
+</style>
 </head>
 
 <body id="home">
@@ -54,28 +54,24 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
         </div>
         
         <!-- main navigation -->
-        <nav id="topnav" role="navigation">
-        <div class="menu-toggle">Menu</div>  
-        	<ul class="srt-menu" id="menu-main-navigation">
-            <li><a href="index.html">Home</a></li>
-            <li class="current"><a href="program.html">Program</a></li>
-			<li><a href="people.html">People</a>
-			<li><a href="resources.html">Resources</a></li>
-            <!-- JWH 04/05/2017:  add the donate link -->
-			<li><a href="donate.html">Donate</a></li>	
-			<li><a href="contact.html">Contact</a></li>	
-		</ul>     
-		</nav>
-		<!-- #topnav -->
-  
+<div class="Jtopnav" id="myJtopnav" style="clear:left;margin-top:10px">   <!-- style="display:block; float:left" >  -->   <!-- float:right -->
+    <a href="index.html">Home</a>
+    <a href="program.html" class="active">Program</a>
+    <a href="people.html">People</a>
+    <a href="resources.html">Resources</a>
+    <a href="donate.html">Donate</a>	
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction3('myJtopnav','Jtopnav')">MENU</a>
+</div>
+
     </header><!-- end header -->
- 
- 
+
+
 <section id="page-header" class="clearfix">    
 <!-- responsive FlexSlider image slideshow -->
 <div class="wrapper">
 	<h1>The Computer-Assisted Learning Program</h1>
-    </div>
+</div>
 
 <!--    </section>  JWH 5/15/2017: moved to just above footer to set backgrnd color for whole page -->
 
@@ -250,8 +246,8 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
 
 <div style="background-color:black">  <!-- parent -->
 <div class="navbar" id="myNavbar">
-    <a href="index3.html" class="active">Home</a>
-    <a href="program.html">Program</a>
+    <a href="index.html">Home</a>
+    <a href="program.html" class="active">Program</a>
     <a href="people.html">People</a>
     <a href="resources.html">Resources</a>
     <a href="donate.html">Donate</a>	
