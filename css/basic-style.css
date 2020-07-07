@@ -1,4 +1,12 @@
 /*
+CALC -- Computer-assisted Learning Center"  English Math Computer  Literacy in Hilo Hawaii
+        basic-style.css:  
+Changes:    1. 07/05/2020:  remove SRT menu navigation code; insert responsive menu code
+            from W3 School website.  Required to insert css style here rather than load a page
+            w/ the sheet.
+    
+*/
+/*
 Simple Responsive Template v 1.2
 
 
@@ -80,10 +88,133 @@ a:hover{ text-decoration:none;}
 *{	box-sizing:border-box;
 	-moz-box-sizing:border-box;}
 
+/* CSS style sheet from W3schools for CALC */
+/* Navigation menus from W3Schools */
+/*  from W3 tutorial */
+.Jtopnav {
+  overflow: hidden;
+  background-color: #FFFFE0;   /* //#FFFFE0 yellow  // blackish #333; */
+  color: #0099FF;   /* blue=#0099ff   black; */
+  float:left:
+}
+
+.Jtopnav a {
+  float: left;
+  display: block;
+  color: black;  /* //#0099ff blue;  //black;  // light grey #f2f2f2;  */
+  text-align: center;
+  padding: 6px;   /*7px 8px;  14px 16px; */
+  /*margin: 10px 0 0; */
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.Jtopnav a:hover {
+  background-color: #0099FF; /* //#0099ff blue;  //#ddd;  */
+  color: #FFFFE0;   /*black;*/
+}
+
+.Jtopnav a.active {
+  background-color: #0099ff; /* //#0099ff blue;  //#4CAF50;  */
+  color: white;  /* //white; */
+}
+
+.Jtopnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .Jtopnav a:not(:first-child) {display: none;}
+  .Jtopnav a.icon {
+    float: right;  /* //right  */
+    display: block;
+    color:black;  /* color: black; */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Jtopnav.responsive {position: relative;}
+  .Jtopnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .Jtopnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;   /*#333;  */
+/* ORIGINAL NAVBAR FIXED TO BOTTOM OF VIEWPORT: 
+  position: fixed; 
+  bottom: 0;
+  width: 100%;
+*/
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #0099ff;   /* #f2f2f2; */
+  text-align: center;
+  padding: 0px 15px 0px 30px;   /* 14px 16px; */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  background-color: black; /* #ddd; */
+  color: white;  /*black;*/
+}
+
+.navbar a.active {
+  background-color: black;  /* #4CAF50;  */
+  color: white;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+    /* show only the first menu item */
+  .navbar a:not(:first-child) {display: none;}
+    /* in place of hidden menu items, show the "icon" on small screens */
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    /* next line from topnav code: create a relative element */
+    .navbar.responsive {position: relative;}  
+    /* ?? above line creates a relative element that is parent to following element?? */
+  .navbar.responsive .icon {
+    position:  absolute;
+    right: 0;
+     /*  bottom:  0;*/
+    top: 0;  /* icon goes to top of parent element, if there is one; to top of viewport if not??  */
+  }
+    /* do following for any menu items visible (not "display:none") */
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+	
+	
   
 /* structure */   
 .wrapper{
-	width: 92%; 
+	width: 100%;
 	margin: 0 auto;
 }
 header{ 
@@ -121,85 +252,18 @@ aside {
 p{ margin:0 0 1.5em;}
 p.nophoto {
     width:150px;
-<!--    border:2px dashed blue;-->
+    border:2px dashed blue;
     min-height:150px;
     text-align:center;
     padding-top:25px;
 }
 
 
+
 /* RESPONSIVE IMAGES */
 img{ max-width:100%; height:auto;}
 
-
-/*MAIN MENU*/
-.menu-toggle{
-	display:block;
-	padding:10px;
-	margin:20px 0 0;
-	background:#666;
-	color:#fff;
-	cursor:pointer;
-	text-transform:uppercase;
-	font-size:20px;
-}
-.menu-toggle.toggled-on{
-	background:#0099ff;
-}
-.srt-menu{
-	display:none;
-}	
-.srt-menu.toggled-on{
-	display:block;
-	position:relative;
-	z-index:10;
-}
-
-.srt-menu{
-	clear:both;
-	margin-bottom:60px;
-	
-}
-.srt-menu li a {
-	background:#dadada;
-	display:block;
-	margin:1px 0; 
-	padding:10px;
-	text-decoration:none;
-}
-.srt-menu li a:hover{
-	background:#0099ff;
-	color:#fff;
-}
-.srt-menu li li a {
-	background:#e8e8e8;
-	padding-left:40px;
-}
-.srt-menu li li li a {
-	background:#efefef;
-	padding-left:80px;
-}
-
-/*SECONDARY MENU*/
-#secondary-navigation{
-	margin-bottom:60px;
-}
-#secondary-navigation ul{
-	margin:0;
-	padding:0;
-}
-#secondary-navigation ul li a{ 
-	background:#E6E6E6;
-	display:block;
-	margin:5px 0; 
-	padding:10px;
-	text-decoration:none;
-}
-#secondary-navigation ul li a:hover,
-#secondary-navigation ul li.current a{
-	background:#0099ff;
-	color:#fff;
-}
+/* ***** Remove "MAIN MENU" at this point */
 
 /*SPACE GRID ELEMENTS VERTICALLY, SINCE THEY ARE ONE UNDER ANOTHER SO FAR*/
 .grid_1,
@@ -242,8 +306,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 footer{ 
-	background:#333;
-	color:#ccc;
+	background-color:black;   /*background:#333;*/
+	color:white;   /* #ccc; */
 }
 footer h1, footer h2, footer h3, footer h4{ 
 	color:#CCC; 
@@ -275,8 +339,6 @@ a.buttonlink:hover{
 	color:#fff;
 }
 
-
-
 /* Contain floats*/ 
 .clearfix:before,
 .clearfix:after,
@@ -302,11 +364,7 @@ This is for mobile devices with a bit larger screens.
 	text-align:left;
 	margin-bottom:-20px;/*this depends on the height of the logo*/
 }
-.menu-toggle{/*make menu float right, instead of sitting under the logo*/
-	margin-top:10px; /*this depends on the height of the logo*/
-	float:right;
-}
-
+/* removed menu-toggle here */
 } 
 
 /*
@@ -331,7 +389,7 @@ header{
 }
 #content {  
 	float:left;
-	width:65%;
+	width:100%;    /* 65% */
 }
 #content.wide-content{
 	float:none;
@@ -361,119 +419,11 @@ aside {
 }
 
 /*** MAIN MENU - ESSENTIAL STYLES ***/
-.menu-toggle{display:none;}
-#menu-main-navigation{display:block;}
-
-.srt-menu, .srt-menu * {
-	margin:			0;
-	padding:		0;
-	list-style:		none;
-}
-.srt-menu ul {
-	position:		absolute;
-	display:none;
-	width:			12em; /* left offset of submenus need to match (see below) */
-}
-.srt-menu ul li {
-	width:			100%;
-}
-.srt-menu li:hover {
-	visibility:		inherit; /* fixes IE7 'sticky bug' */
-}
-.srt-menu li {
-	float:			left;
-	position:		relative;
-	margin-left:1px;
-}
-.srt-menu li li {
-	margin-left:0px;
-}
-.srt-menu a {
-	display:		block;
-	position:		relative;
-}
-.srt-menu li:hover ul,
-.srt-menu li.sfHover ul {
-	display:block;
-	left:			0;
-	top:			45px; /* match top ul list item height */
-	z-index:		99;
-	-webkit-box-shadow:  2px 3px 2px 0px rgba(00, 00, 00, .3);
-    box-shadow:  2px 3px 2px 0px rgba(00, 00, 00, .3);
-}
-ul.srt-menu li:hover li ul,
-ul.srt-menu li.sfHover li ul {
-	top:			-999em;
-}
-ul.srt-menu li li:hover ul,
-ul.srt-menu li li.sfHover ul {
-	left:			12em; /* match ul width */
-	top:			0;
-}
-ul.srt-menu li li:hover li ul,
-ul.srt-menu li li.sfHover li ul {
-	top:			-999em;
-}
-ul.srt-menu li li li:hover ul,
-ul.srt-menu li li li.sfHover ul {
-	left:			10em; /* match ul width */
-	top:			0;
-}
-
-/*** DEMO1 SKIN ***/
-#topnav, .srt-menu {
-	float:right;
-	margin: .35em 0 0 0;
-	// background-color: black;
-}
-.srt-menu a {
-	text-decoration:none;
-}
-.srt-menu li a {
-	background:#fff;
-	margin:0; 
-	padding:10px 20px;
-	height:45px;
-}
-
-/* JWH 5/10/2017: change color of navigation for footer */
-/* .srt-menu footer * li a {  */
-footer li a {
-	background:#333333 !important;
-}
 
 
-
-.srt-menu a, .srt-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
-	color:			#0099ff;	
-}
-.srt-menu li li a {
-		border-top:		1px solid rgba(255,255,255,.2);
-		background:		#333; /*fallback for old IE*/
-		background:rgba(0,0,0,.6);
-		color:	#fff;
-		padding-left:20px;
-		height:auto;
-}
-.srt-menu li li a:visited{color:#fff;}
-.srt-menu li li li a,
-.srt-menu li.current * li a{
-	padding-left:20px;
-	background:rgba(0,0,0,.6);
-}
-
-.srt-menu li:hover > a,
-.srt-menu li.current a{ 
-	color:#fff;
-	background:#0099ff;
-}
-.srt-menu li li:hover > a{
-	color:#fff;
-	background:#0099ff;
-}
 
 /* DETAILS */
-		//<style>
+/* <style> */
 /* JWH 7/11/2017: Add lines from W3? to allow firefox to make the 
    marker correctly  (see tdetails2.html)
 */
@@ -539,7 +489,7 @@ summary:hover, summary:focus { background: none; }
 */
 /* Make sure summary remains visible */
 .no-details details summary { display: block; }
-//		</style>
+/*	</style> */
 
 
 /*GRID*/
@@ -614,7 +564,7 @@ other displays with a 2x resolution.
 */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min--moz-device-pixel-ratio: 1.5),
-       only screen and (min-device-pixel-ratio: 1.5) {
+       only screen and (min-device-pixel-ratio: 1.5)  {
 } 
 
 /*
