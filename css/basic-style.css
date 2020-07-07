@@ -1,0 +1,596 @@
+/*
+CALC -- Computer-assisted Learning Center"  English Math Computer  Literacy in Hilo Hawaii
+        basic-style.css:  
+Changes:    1. 07/05/2020:  remove SRT menu navigation code; insert responsive menu code
+            from W3 School website.  Required to insert css style here rather than load a page
+            w/ the sheet.
+    
+*/
+/*
+Simple Responsive Template v 1.2
+
+
+primary styles 
+   Author: 
+   Add your own styles to customize the project.
+
+
+
+BASE (MOBILE) SIZE
+	These are the mobile styles. It's what people see on their phones.
+	Remember, keep it light: Speed is Important.
+*/
+
+/* typography */
+body{
+	/*color:#404040;*/ /*DimGrey;*/  /* #666; */
+	color:#663300;  /* darker #4d2600 */
+/* JWH 5/2/2017 don't use google fonts 
+	font-family:'Ubuntu', Arial, Helvetica, sans-serif; 
+*/
+	font-family: Arial, Helvetica, sans-serif; 
+/*  JWH 5/14/2017 
+	font-size:1em;
+	line-height:1.4em; 
+*/
+	font-size:1.1em;
+	line-height:1.6em; 
+
+    /* JWH 3/20/2017 */
+    font-weight:normal;
+    /* font-weight:bold; */
+}
+/*JWH 3/20/2017 */
+h1 {
+    font-weight:bold;
+/* JWH 5/2/2017 don't use google fonts 
+	font-family:'Droid Serif', Arial, Helvetica, sans-serif; 
+*/
+	font-family:Arial, Helvetica, sans-serif; 
+	line-height:1.5em;
+	margin:.45em 0;
+	padding:0;
+}     
+
+h2, h3, h4, h5, h6{
+	/*font-weight:normal;*/
+	font-weight:normal;
+/* JWH 5/2/2017 don't use google fonts 
+	font-family:'Droid Serif', Arial, Helvetica, sans-serif; 
+*/
+	font-family:Arial, Helvetica, sans-serif; 
+	line-height:1.5em;
+	margin:.45em 0;
+	padding:0;
+} 
+
+/* JWH: 4/21/2017 */
+.gradientheader {
+    background: linear-gradient(to right, rgba(205,133,63 ,0.5), rgba(205,133,63,0));
+    font-weight:bold;
+    padding-left: 3px;
+}
+
+/* JWH 5/2/2017 */
+.gradienttextcolor {
+    color:DarkGreen;
+}
+
+/* links */
+a,
+a:visited,
+a:active,
+a:hover{color:#0099ff;}
+a:hover{ text-decoration:none;}
+
+
+/* Box sizing. Awesome thing. Read about it here: http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
+*{	box-sizing:border-box;
+	-moz-box-sizing:border-box;}
+
+/* CSS style sheet from W3schools for CALC */
+/* Navigation menus from W3Schools */
+/*  from W3 tutorial */
+.Jtopnav {
+  overflow: hidden;
+  background-color: #FFFFE0;   /* //#FFFFE0 yellow  // blackish #333; */
+  color: #0099FF;   /* blue=#0099ff   black; */
+  float:left:
+}
+
+.Jtopnav a {
+  float: left;
+  display: block;
+  color: black;  /* //#0099ff blue;  //black;  // light grey #f2f2f2;  */
+  text-align: center;
+  padding: 6px;   /*7px 8px;  14px 16px; */
+  /*margin: 10px 0 0; */
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.Jtopnav a:hover {
+  background-color: #0099FF; /* //#0099ff blue;  //#ddd;  */
+  color: #FFFFE0;   /*black;*/
+}
+
+.Jtopnav a.active {
+  background-color: #0099ff; /* //#0099ff blue;  //#4CAF50;  */
+  color: white;  /* //white; */
+}
+
+.Jtopnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .Jtopnav a:not(:first-child) {display: none;}
+  .Jtopnav a.icon {
+    float: right;  /* //right  */
+    display: block;
+    color:black;  /* color: black; */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Jtopnav.responsive {position: relative;}
+  .Jtopnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .Jtopnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;   /*#333;  */
+/* ORIGINAL NAVBAR FIXED TO BOTTOM OF VIEWPORT: 
+  position: fixed; 
+  bottom: 0;
+  width: 100%;
+*/
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #0099ff;   /* #f2f2f2; */
+  text-align: center;
+  padding: 0px 15px 0px 30px;   /* 14px 16px; */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  background-color: black; /* #ddd; */
+  color: white;  /*black;*/
+}
+
+.navbar a.active {
+  background-color: black;  /* #4CAF50;  */
+  color: white;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+    /* show only the first menu item */
+  .navbar a:not(:first-child) {display: none;}
+    /* in place of hidden menu items, show the "icon" on small screens */
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    /* next line from topnav code: create a relative element */
+    .navbar.responsive {position: relative;}  
+    /* ?? above line creates a relative element that is parent to following element?? */
+  .navbar.responsive .icon {
+    position:  absolute;
+    right: 0;
+     /*  bottom:  0;*/
+    top: 0;  /* icon goes to top of parent element, if there is one; to top of viewport if not??  */
+  }
+    /* do following for any menu items visible (not "display:none") */
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+	
+	
+  
+/* structure */   
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+header{ 
+	padding:15px 0;
+}
+#banner{ 
+	text-align:center;
+}
+	
+#hero,
+#page-header{
+	/* background:#f3f3f3;  */
+	background: #FFFFE0;  /*LightYellow*/  /*#FFF8DC;  cornsilk*/
+	border-top:1px solid #e2e2e2;
+	border-bottom:1px solid #e2e2e2;
+	padding:20px 0;
+}
+#hero h1{ 
+	line-height:1.2em;
+	margin-top:0px;
+	margin-bottom:10px;}
+
+.flexslider{
+	display:none;
+}
+
+#content {  
+	margin:40px 0;
+}
+
+aside { 
+	margin:40px 0;
+}
+
+p{ margin:0 0 1.5em;}
+p.nophoto {
+    width:150px;
+    border:2px dashed blue;
+    min-height:150px;
+    text-align:center;
+    padding-top:25px;
+}
+
+
+
+/* RESPONSIVE IMAGES */
+img{ max-width:100%; height:auto;}
+
+/* ***** Remove "MAIN MENU" at this point */
+
+/*SPACE GRID ELEMENTS VERTICALLY, SINCE THEY ARE ONE UNDER ANOTHER SO FAR*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	margin-bottom:40px;
+	/*positioning and padding*/
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*FOOTER*/
+footer{  
+	clear:both;
+	font-size:80%;
+	padding:20px 0;
+}
+footer ul{
+	margin:0;
+	padding:0;
+}
+
+/*colors and backgrounds*/
+body{
+	background:#fff;
+}
+h1, h2, h3, h4, h5, h6{
+	color:#333; 
+}
+
+footer{ 
+	background-color:black;   /*background:#333;*/
+	color:white;   /* #ccc; */
+}
+footer h1, footer h2, footer h3, footer h4{ 
+	color:#CCC; 
+	margin-bottom:10px;
+}
+footer ul{
+	margin:0 0 0 8%;
+}
+
+a.buttonlink{ 
+	background:#0099ff; 
+	border-radius:7px; 
+	color:#fff;
+	display:block;
+	float:left; 
+	margin:10px 15px 10px 0; 
+	padding:10px;
+	text-decoration:none;
+}
+a.buttonlink:hover{
+	background:#8dbc01;
+}
+.greenelement{
+	background:#5ec79e;
+	color:#fff;
+}
+.violetelement{
+	background:#887dc2;
+	color:#fff;
+}
+
+/* Contain floats*/ 
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.container:after,
+.row:after{
+  clear: both;
+}
+
+
+/*
+LARGER MOBILE DEVICES
+This is for mobile devices with a bit larger screens.
+*/
+@media only screen and (min-width: 481px) {
+#banner{
+	float:left;
+	text-align:left;
+	margin-bottom:-20px;/*this depends on the height of the logo*/
+}
+/* removed menu-toggle here */
+} 
+
+/*
+TABLET & SMALLER LAPTOPS
+The average viewing window and preferred media query for those is 768px.
+But I think that some more breathing space is good:)
+*/
+@media only screen and (min-width: 920px) {
+
+.wrapper{
+	max-width: 1200px; 
+	margin: .75em auto;
+}
+
+#banner{ 
+	float:left; 
+	text-align:left;
+	margin-bottom:0px;
+}
+header{
+	padding:0;
+}
+#content {  
+	float:left;
+	width:100%;    /* 65% */
+}
+#content.wide-content{
+	float:none;
+	width:100%;
+}
+
+.flexslider{
+display:block;
+/*demo 1 slider theme*/	
+margin: 0 0 30px; 
+background: #fff; 
+border: 4px solid #fff; 
+-webkit-border-radius: 4px; 
+-moz-border-radius: 4px; 
+-o-border-radius: 4px; 
+border-radius: 4px; 
+box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+-moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+-o-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+
+
+aside { 
+	float:right;
+	width:30%;
+}
+
+/*** MAIN MENU - ESSENTIAL STYLES ***/
+
+
+
+/* DETAILS */
+/* <style> */
+/* JWH 7/11/2017: Add lines from W3? to allow firefox to make the 
+   marker correctly  (see tdetails2.html)
+*/
+
+/* JWH: details, summary { display: block; border: 1px solid #666; padding: 1em; }  */
+/* Apply a pointer cursor and style the background upon hover to indicate <summary> is a clickable element. */
+/* These styles can be applied regardless of whether the fallback is needed */
+summary {
+    cursor: pointer; 
+    display:block;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary::before {
+  content: '\25B6';
+  padding-right: 0.5em;
+}
+
+details[open] > summary::before {
+  content: '\25BC';
+}    
+
+
+
+/*summary:hover, summary:focus { background: #ddd; } */
+summary:hover, summary:focus { background: none; }
+/* The following styles are not really needed, since the jQuery script takes care of hiding/displaying the elements. */
+/* However, we’re still gonna use CSS as well to prevent FOUC in browsers that understand these selectors. */
+/* Remember: by default (and probably most of the time), the contents of the <details> element are hidden. */
+.no-details details > * { display: none; }
+/* This doesn’t work very well in Firefox 3.6.x */
+/* .no-details details[open] > * { display: block; } */
+/* The following doesn’t toggle correctly in WebKit: 
+.no-details details > summary:before { content: '► '; }
+.no-details details[open] > summary:before { content: '▼ '; }
+*/
+/* And yes, it should really be ::before, but that doesn’t work in IE8 */
+/*  JWH: 5/26/2017:  change symbol to hex 
+.no-details details > summary:before { float: right; width: 20px; content: '► '; }
+.no-details details.open > summary:before { content: '▼ '; }
+*/
+.no-details details > summary:before { float: left; width: 20px; color:#33cc33; content: '\0025b6 '; }
+.no-details details.open > summary:before {color:red; content: '\0025bc '; }
+
+/* need this to force firefox w/ details support to work properly */
+ //.details details > summary::before { float: left; width: 20px; content: '► '; }
+/* JWH 7/11/2017delete next .details lines:  not needed 
+.details details > summary:before { float: left; width: 20px; color:#33cc33; content: '\0025b6 '; }
+.details details[open] > summary:before { color:red; content: '\0025bc '; }
+*/
+//.details details[open] > summary::before { content: '▼'; }
+
+/*  JWH
+.no-details details > summary:before { float: right; width: 20px; content: '\9658'; }
+.no-details details.open > summary:before { content: '\2fba'; }
+*/
+/* For IE6 and IE7, who don’t support generated content, you could use padding-left + a background image instead */
+/* I really couldn’t be bothered though. */
+/*
+.no-details details > summary { padding-left: 20px; background: url(img/arrow-sprite.png) no-repeat 0 0; }
+.no-details details.open > summary { background-position: 0 -20px; }
+*/
+/* Make sure summary remains visible */
+.no-details details summary { display: block; }
+/*	</style> */
+
+
+/*GRID*/
+/*
+ & Columns : 12 
+
+ */
+ .row{
+	 margin-left: -15px;
+     margin-right: -15px;
+}
+ 
+.grid_1 { width: 8.33333333%; }
+.grid_2 { width: 16.66666667%; }
+.grid_3 { width: 25%; }
+.grid_4 { width: 33.33333333%; }
+.grid_5 { width: 41.66666667%; }
+.grid_6 { width: 50%; }
+.grid_7 { width: 58.33333333%; }
+.grid_8 { width: 66.66666667%; }
+.grid_9 { width: 75%; }
+.grid_10 { width: 83.33333333%; }
+.grid_11 { width: 91.66666667%; }
+.grid_12 { width: 100%; }
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	float: left;
+	display: block;
+}
+
+.rightfloat{float:right;}
+/* @notation inspired by tinyGrid, .row and percentage by Twitter Bootstrap
+ */
+ 
+#hero [class*="grid_"] { margin-bottom:-20px;}
+
+}
+
+/*
+DESKTOP
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles.
+*/
+@media only screen and (min-width: 1030px) {
+
+} 
+
+/*
+LARGE VIEWING SIZE
+This is for the larger monitors and possibly full screen viewers.
+*/
+@media only screen and (min-width: 1240px) {
+
+} 
+
+/*
+RETINA (2x RESOLUTION DEVICES)
+This applies to the retina iPhone (4s) and iPad (2,3) along with
+other displays with a 2x resolution.
+*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio: 1.5)  {
+} 
+
+/*
+iPHONE 5 MEDIA QUERY
+iPhone 5 or iPod Touch 5th generation styles (you can include your own file if you want)
+*/
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) { 
+
+  
+}
+
+/*
+PRINT STYLESHEET
+*/
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+
