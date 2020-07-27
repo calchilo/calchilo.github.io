@@ -21,12 +21,7 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <!-- <link rel="shortcut icon" href="images/favicon.ico"  type="image/x-icon"> -->
-<<<<<<< HEAD:index.html~
-<!-- Keep???? OK --> <link rel="shortcut icon" href="images/favicon.png"  type="image/x-icon"> <!-- debug -->
-<!-- debug  -->
-=======
 <link rel="shortcut icon" href="images/favicon.png"  type="image/x-icon"> <!-- debug -->
->>>>>>> W3menus:#index.html#
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- -->
 
@@ -35,21 +30,9 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
 <!-- JWH 4/3/2017: rely on standard fonts -->
 <!-- <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Ubuntu' rel='stylesheet' type='text/css'> -->
 
-<!--  debug  KEEP???? OK -->
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="js/flexslider/flexslider.css">
-<<<<<<< HEAD:index.html~
-<!--  -->
-
-<!-- <link rel="stylesheet" href="css/w3-responsive.css">  -->  <!-- try it first ... no change -->
-
-<!-- KEEP???? responsive OK, but some margins changed -->
 <link rel="stylesheet" href="css/basic-style.css"> 
-<!-- ?? debug -->
-
-=======
-<link rel="stylesheet" href="css/basic-style.css"> 
->>>>>>> W3menus:#index.html#
 
 <!-- end CSS-->
     
@@ -102,37 +85,19 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
 
 <!-- main navigation -->
 <div class="Jtopnav" id="myJtopnav" style="clear:left;margin-top:10px">   <!-- style="display:block; float:left" >  -->   <!-- float:right -->
-<<<<<<< HEAD:index.html~
-<!--  -->
-    <a href="index3.html" class="active">Home</a>
-=======
+<<<<<<< HEAD
     <a href="index.html" class="active">Home</a>
->>>>>>> W3menus:#index.html#
+=======
+    <a href="index3.html" class="active">Home</a>
+>>>>>>> W3menus
     <a href="program.html">Program</a>
     <a href="people.html">People</a>
     <a href="resources.html">Resources</a>
     <a href="donate.html">Donate</a>	
     <a href="contact.html">Contact</a>
-<<<<<<< HEAD:index.html~
-<!-- -->
-    <!--  
-      <a href="#home" class="active">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-    -->
-    <!--   <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i>  -->
-    <!--   <a href="javascript:void(0);" class="icon" onclick="myFunction()">MENU -->    <!-- <i class="fa fa-bars"></i> -->
-    <!--  <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction2()">MENU</a>  -->
     <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction3('myJtopnav','Jtopnav')">MENU</a>
 </div>
 
-
-=======
-    <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction3('myJtopnav','Jtopnav')">MENU</a>
-</div>
-
->>>>>>> W3menus:#index.html#
 </header><!-- end header -->
 
 <!-- main content area -->   
@@ -277,32 +242,10 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
       
   </div><!-- #end div #main .wrapper -->
 </div>
-<<<<<<< HEAD:index.html~
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> W3menus:#index.html#
 
 <!-- footer area -->    
 <footer>
 
-<<<<<<< HEAD:index.html~
-
-
-=======
->>>>>>> W3menus:#index.html#
 <div style="background-color:black">  <!-- parent -->
 <div class="navbar" id="myNavbar">
     <a href="index3.html" class="active">Home</a>
@@ -311,27 +254,9 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
     <a href="resources.html">Resources</a>
     <a href="donate.html">Donate</a>	
     <a href="contact.html">Contact</a>
-<<<<<<< HEAD:index.html~
-<!--
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
--->
-<!--  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>  -->
-<!--  <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction2()">MENU</a> -->
-<!-- use function to expand the hidden menu -->
-  <a href="javascript:void(0);" style="font-size:14px;" class="icon" onclick="myFunction3('myNavbar','navbar')">MENU</a> 
-</div>  <!-- navbar -->
-
-<!-- <div class="row"> 	-->
-<!-- <div style="display:none"> -->
-<!--    <div class="grid_5">  -->
-=======
     <a href="javascript:void(0);" style="font-size:14px;" class="icon" onclick="myFunction3('myNavbar','navbar')">MENU</a> 
 </div>  <!-- navbar -->
 
->>>>>>> W3menus:#index.html#
 <!--    <div id="colophon" class="wrapper clearfix" style="margin-left:30px;background-color:black;width:100%;">  -->
     <div id="colophon" class="wrapper clearfix" style="padding-left:30px;background-color:black;width:100%;">  
 <!--    	<div id="colophon" class="clearfix" style="float:left">   -->
@@ -344,89 +269,20 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
         Email: <a href="mailto:808giftofliteracy@gmail.com"><span itemprop="email">808giftofliteracy@gmail.com</span></a>
         </p>
     </div>    <!-- colophon -->
-<<<<<<< HEAD:index.html~
-<!--  </div> -->    <!-- grid_5 -->
-<!-- </div> -->  <!-- comment block -->
 
 </div>  <!-- parent div -->
 
-<div style="display:none"> 
-<div class="grid_7">
-<div class="Jtopnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="program.html">Program</a>
-  <a href="people.html">People</a>
-  <a href="resources.html">Resources</a>
-  <a href="donate.html">Donate</a>
-  <a href="contact.html">Contact</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>  <!-- div Jtopnav -->
-</div>  <!--  grid 5 -->
-</div>    <!-- comment block -->
-=======
-
-</div>  <!-- parent div -->
-
->>>>>>> W3menus:#index.html#
 
 </footer> <!-- #end footer area --> 
 
 <!-- jQuery -->
-<!--    debug  KEEP??? OK -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.0.min.js">\x3C/script>')</script>
 <!-- -->
-<<<<<<< HEAD:index.html~
-<!--   KEEP???  OK -->
 <script defer src="js/flexslider/jquery.flexslider-min.js"></script> 
-<!--  -->
-=======
-<script defer src="js/flexslider/jquery.flexslider-min.js"></script> 
->>>>>>> W3menus:#index.html#
 
 <!-- fire ups - read this file!  -->   
-<!-- KEEP???? OK --> <script src="js/main.js"></script>
-<!--   debug -->
-
-<script>
-
-/* use variables in a function */
-var myMenu, menuName;
-function myFunction3(myMenu,menuName) {
-    /* window.alert("myMenu=" + String(myMenu) + "   menu=" + String(menuName)); */
-    /* syntax: myMenu=an ID name; menuName=a CSS class element */
-    /* Examples: myFunction3("myNavbar","navbar") or myFunction3("myJtopnav",Jtopnav")  */
-/*   var x = document.getElementById("myNavbar"); */
-  var x = document.getElementById(myMenu);
-  if (x.className === menuName) {
-    x.className += " responsive";
-  } else {
-    x.className = menuName;
-  }
-}
-
-function myFunction() {
-  var x = document.getElementById("myNavbar");
-  if (x.className === "navbar") {
-    x.className += " responsive";
-  } else {
-    x.className = "navbar";
-  }
-}
-
-/* Toggle between adding and removing the "responsive" class to Jtopnav when the user clicks on the icon */
-function myFunction2() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "Jtopnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "Jtopnav";
-  }
-} 
-
-</script>
+<script src="js/main.js"></script>
 
 <script>
 

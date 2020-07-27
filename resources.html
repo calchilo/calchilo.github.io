@@ -27,6 +27,7 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
 
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="js/flexslider/flexslider.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="css/basic-style.css">
 
 <style>
@@ -71,7 +72,85 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
     font-size:12px;
     margin: 4px 2px;
     cursor: pointer;
+    
+    
 }
+
+/* CSS for a third horizontal navigation menu to move to different sections of
+the page (Who we are...).
+*/
+/* W3 use box-sizing to make columns that respond to vertical */
+/* Create two equal columns that floats next to each other */
+.columnL {
+  float: left;
+  width: 50%;
+}
+.columnC {
+  float: left;
+  width: 15%;
+}
+
+/*  The actual menu is not a box ...
+.columnR {
+  float: left;
+  width: 35%;
+}
+*/
+
+/* override the basic-style.css used in footer */
+/* Must use ID name to preserve footer navmenu styles */
+/* Use "Section" for nav name because this nav menu links to inter-page sections */
+    #mySectionnav  a{
+        background-color: #FFFFE0; /*black;*/  /* #4CAF50;  */
+        color: black;
+        font-size:18px;
+        padding: 0px 8px 0px 8px;
+        /*font-weight:bold;*/
+    }
+
+    #mySectionnav  a.active{
+        background-color: #FFFFE0; /*black;*/  /* #4CAF50;  */
+        color: blue;
+    }
+
+
+#mySectionnav   a:hover{
+    background-color: #FFFFE0; /*black;*/  /* #4CAF50;  */
+        color: red;
+    }
+
+
+/*}
+ */
+
+
+/* On small screens, the 2 boxes (col..L and col..C) wrap on top of the other */
+@media screen and (max-width: 600px) {
+    .columnL, .columnC {
+        width: 100%;
+        float:left;  /* ??? */
+        clear:both;
+    }
+}
+/* medium size screens...*/
+@media screen and (max-width: 800px) {
+    .columnL, .columnC {
+        width: 33.33%;
+        float:left;  /* ??? */
+        clear:both;
+    }
+    #mySectionnav {clear:both;}
+}
+
+.w3-panel {
+    margin:0px;
+}
+.w3-border-right {
+    border-right-style:solid;
+}
+.w3-border-blue {
+}
+
 </style>
 
 <!-- end CSS-->
@@ -90,10 +169,24 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
         <div id="banner">
             <!-- JWH: 04/05/2017:  change CALC logo -->
         	<!-- <div id="logo"><a href="index.html"><img src="images/basic-logo.png" alt="CALC Logo" title="CALC Logo"></a></div> -->
-            <div id="logo"><a href="index.html"><img height=75 width=75 src="images/lineart_C-book04.jpeg" alt="CALC Logo" title="CALC Logo"></a></div> 
-        </div>
+            <div id="logo" style="width:20%; float:left;" ><a href="index.html"><img height=300px width=300px src="images/lineart_C-book04.jpeg" alt="CALC Logo" title="CALC Logo"></a></div> 
+		    <!--  FROM people.html<div style="width:20%;float:left" id="logo"><a href="index.html"><img height=300px width=300px src="images/lineart_C-book04.jpeg" alt="CALC Logo" title="CALC Logo"></a></div>  -->
+        </div>  <!-- banner fig  -->
         
         <!-- main navigation -->
+<div class="Jtopnav" id="myJtopnav" style="margin-top:10px">   <!-- style="clear:left;style="display:block; float:left" >  -->   <!-- float:right -->
+    <a href="index.html">Home</a>
+    <a href="program.html" >Program</a>
+    <a href="people.html">People</a>
+    <a href="resources.html" class="active">Resources</a>
+    <a href="donate.html">Donate</a>	
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction3('myJtopnav','Jtopnav')">MENU</a>
+</div>
+<p class="CALC" style="font-size:18px;margin-top:20px">WE REGRET TO ANNOUNCE THAT THE COMPUTER-ASSISTED LEARNING CENTER (CALC) HOUSED IN THE 
+HILO PUBLIC LIBRARY HAS DISBANDED AS OF JUNE 2020.</p>
+<div style="display:none">
+                <!-- ORIG -->
          <nav id="topnav" role="navigation">
         <div class="menu-toggle">Menu</div>  
         	<ul class="srt-menu" id="menu-main-navigation">
@@ -106,17 +199,51 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
 			<li><a href="contact.html">Contact</a></li>	
 		</ul>     
 		</nav><!-- #topnav -->
-  
-    </header><!-- end header -->
+</div>  <!-- display none --> 
+
+</header><!-- end header -->
  
  
 <section id="page-header" class="clearfix">    
 <!-- responsive FlexSlider image slideshow -->
 <div class="wrapper">
-	<h1>RESOURCES</h1>
+	<!--  <h1>RESOURCES</h1>  -->
+    <div class="columnL" style="color:black">
+    <p style="font-size:35px"> <b>RESOURCES</b></p>
     </div>
+     <div class="columnC absolute" style="font-size:24px">Useful Links:</div>
+<!-- jwh Tue Jul 07 22:53:20 HST 2020 @412 /Internet Time/ -->
+<!-- Do not put the navbar in a box,  -->
+    <div class="navbar" id="mySectionnav" style="font-size:24px;background-color:#FFFFE0;"> 
+        <a href="#literacy" class="active w3-panel w3-border-right w3-border-blue" style="border-width:thin;margin:0px">Literacy</a>
+        <a href="#for_students" class="w3-panel w3-border-right w3-border-blue" >For Students</a>
+        <a href="#other" class="w3-panel w3-border-right w3-border-blue" style="margin:0px">Continuing Education</a>
+        <a href="#job_information" class="w3-panel w3-border-right w3-border-blue" style="border-right-width:4px;margin:0px">Job Information</a>
+        <a href="#grant_information" class="w3-panel w3-border-right w3-border-blue">Grant Information</a>
+        <a href="#for_tutors" class="w3-panel w3-border-right w3-border-blue">For Tutors</a>
+        <a href="#publishers" class="w3-panel w3-border-right w3-border-blue">Publishers</a>
+        <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction3('mySectionnav','navbar')">Menu</a>
+    </div>   <!-- section menu -->
+</div>  <!-- wrapper -->
 
 <!-- </section>   moved to just above footer -->
+<div style="display:none">
+    <!-- sidebar -->    
+    <aside>
+        <h2>Check Out These Sites</h2>
+            <nav id="secondary-navigation">
+                    <ul>
+                        <li><a href="#literacy">Literacy</a></li>
+                        <li><a href="#for_students">For Students</a></li>
+                        <li><a href="#other">Other Continuing Education Programs</a></li>
+                        <li><a href="#job_information">Job Information</a></li>
+                        <li><a href="#grant_information">Grant Information</a></li>
+                        <li><a href="#for_tutors">For Tutors</a></li>
+                        <li><a href="#publishers">Publishers</a></li>
+					</ul>
+             </nav>
+      </aside><!-- #end sidebar -->
+</div>  <!-- display none -->
 
 
 <!-- main content area -->   
@@ -415,7 +542,7 @@ http://www.hawaiiliteracy.org/
 <!-- }}} For Students  -->
 
 <!-- Other Cont Ed Programs {{{ -->
-<h2 id="other" class="gradientheader" style=" color:DarkGreen">Other Continuing Education Programs</h2>
+<h2 id="other" class="gradientheader" style=" color:DarkGreen">Continuing Education</h2>
              <!--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>-->
 <ul>
 	<li><a href="http://https://hilo.hawaii.edu/academics/ccecs/home.php/"><strong><font face="Arial">
@@ -586,22 +713,6 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
                 
 </section><!-- #end content area -->
       
-      
-    <!-- sidebar -->    
-    <aside>
-        <h2>Check Out These Sites</h2>
-            <nav id="secondary-navigation">
-                    <ul>
-                        <li><a href="#literacy">Literacy</a></li>
-                        <li><a href="#for_students">For Students</a></li>
-                        <li><a href="#other">Other Continuing Education Programs</a></li>
-                        <li><a href="#job_information">Job Information</a></li>
-                        <li><a href="#grant_information">Grant Information</a></li>
-                        <li><a href="#for_tutors">For Tutors</a></li>
-                        <li><a href="#publishers">Publishers</a></li>
-					</ul>
-             </nav>
-      </aside><!-- #end sidebar -->
    
   </div><!-- #end div #main .wrapper -->
 
@@ -610,34 +721,31 @@ https://portal.ehawaii.gov/residents/jobs-and-employment/
 <!-- footer area -->    
 <footer>
 
-    <div>
-        <!-- main navigation -->
-         <nav id="topnav" role="navigation">
+<div style="background-color:black">  <!-- parent -->
+<div class="navbar" id="myNavbar">
+    <a href="index.html">Home</a>
+    <a href="program.html">Program</a>
+    <a href="people.html">People</a>
+    <a href="resources.html"class="active">Resources</a>
+    <a href="donate.html">Donate</a>	
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" style="font-size:14px;" class="icon" onclick="myFunction3('myNavbar','navbar')">MENU</a> 
+</div>  <!-- navbar -->
 
-        <!--<div class="menu-toggle";style="float:right;clear:right">Menu</div>  -->
-        <div class="menu-toggle">Menu</div>
-        	<ul class="srt-menu" id="menu-main-navigation" style="display:inline;position:relative;left:-200px;top:50px;background:#333333">
-            <li ><a href="index.html">Home</a></li>
-            <li><a href="program.html">Program</a></li>
-			<li><a href="people.html">People</a>
-			<li class="current"><a href="resources.html">Resources</a></li>
-			<li><a href="donate.html">Donate</a></li>	
-			<li><a href="contact.html">Contact</a></li>	
-		    </ul>
-		</div>
-		</nav>
-    </div>
+<!--    <div id="colophon" class="wrapper clearfix" style="margin-left:30px;background-color:black;width:100%;">  -->
+    <div id="colophon" class="wrapper clearfix" style="padding-left:30px;background-color:black;width:100%;">  
+<!--    	<div id="colophon" class="clearfix" style="float:left">   -->
+        <p>&copy; 2016-2020 Computer-Assisted Learning Center</p>
+        <p style="line-height:1.2em"> Computer-Assisted Learning Center<br />
+        c/o Hilo Public Library<br/>
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"></span>
+        <span itemprop="addressLocality">Hilo</span>,<span itemprop="addressRegion">HI</span> <span itemprop="postalCode">96720</span><br />
+        Phone: <span itemprop="telephone">(808) 933-8893</span> | Fax: (808) 933-8895<br />
+        Email: <a href="mailto:808giftofliteracy@gmail.com"><span itemprop="email">808giftofliteracy@gmail.com</span></a>
+        </p>
+    </div>    <!-- colophon -->
 
-
-	<div id="colophon" class="wrapper clearfix">
-    <p>&copy; 2016-2019 Computer-Assisted Learning Center</p>
-    <p style="line-height:1.4em"> Computer-Assisted Learning Center<br />
-    P.O. Box 10900<br />
-    Hilo, HI 96720<br />
-    Phone: (808) 933-8893 | Fax: (808) 933-8895<br />
-    Email:  <a href="mailto:808giftofliteracy@gmail.com">808giftofliteracy@gmail.com</a>
-    </p>
-    </div>
+</div>  <!-- parent div -->
         
 </footer><!-- #end footer area --> 
 
@@ -669,6 +777,22 @@ function myFunction() {
     }
 }
 */
+
+/* use variables in a function */
+var myMenu, menuName;
+function myFunction3(myMenu,menuName) {
+    /* window.alert("myMenu=" + String(myMenu) + "   menu=" + String(menuName)); */
+    /* syntax: myMenu=an ID name; menuName=a CSS class element */
+    /* Examples: myFunction3("myNavbar","navbar") or myFunction3("myJtopnav",Jtopnav")  */
+/*   var x = document.getElementById("myNavbar"); */
+  var x = document.getElementById(myMenu);
+  if (x.className === menuName) {
+    x.className += " responsive";
+  } else {
+    x.className = menuName;
+  }
+}
+
 
 function showHide(idnobut,iddiv) {
 /* showHide(): 

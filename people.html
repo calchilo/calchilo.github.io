@@ -44,10 +44,74 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
     z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-    margin-left:90px
+.dropdown:hover .dropdown-content { display: block; margin-left:90px } 
+
+/* CSS for a third horizontal navigation menu to move to different sections of
+the page (Who we are...).
+*/
+/* W3 use box-sizing to make columns that respond to vertical */
+/* Create two equal columns that floats next to each other */
+.columnL {
+  float: left;
+  width: 50%;
 }
+.columnC {
+  float: left;
+  width: 15%;
+}
+
+/*  The actual menu is not a box ...
+.columnR {
+  float: left;
+  width: 35%;
+}
+*/
+
+/* override the basic-style.css used in footer */
+/* oops, changes footer too of course, can't have both ways
+   need a third navigation menu style... */
+/* */
+    #myPeoplenav  a{
+        background-color: #FFFFE0; /*black;*/  /* #4CAF50;  */
+        color: black;
+        font-size:18px;
+        padding: 0px 15px 0px 0px;
+        /*font-weight:bold;*/
+    }
+
+    #myPeoplenav  a.active{
+        background-color: #FFFFE0; /*black;*/  /* #4CAF50;  */
+        color: blue;
+    }
+
+
+#myPeoplenav   a:hover{
+    background-color: #FFFFE0; /*black;*/  /* #4CAF50;  */
+        color: red;
+    }
+
+
+/*}
+ */
+
+
+/* On small screens, the 2 boxes (col..L and col..C) wrap on top of the other */
+@media screen and (max-width: 600px) {
+    .columnL, .columnC {
+        width: 100%;
+        float:left;  /* ??? */
+        clear:both;
+    }
+}
+/* medium size screens...*/
+@media screen and (max-width: 800px) {
+    .columnL, .columnC {
+        width: 33.33%;
+        float:left;  /* ??? */
+        /* clear:both; */
+    }
+}
+
 </style>
 <!-- end CSS-->
     
@@ -65,11 +129,12 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
         <div id="banner">
             <!-- JWH  03/30/2017: change CALC logo -->
 			<!-- <div id="logo"><a href="index.html"><img src="images/basic-logo.png" alt="CALC Logo" title="CALC Logo"></a></div>  -->
-		    <div id="logo"><a href="index.html"><img height=75 width=75 src="images/lineart_C-book04.jpeg" alt="CALC Logo" title="CALC Logo"></a></div> 
-        </div>
+<!--		    <div style="width:20%" id="logo"><a href="index.html"><img height=75 width=75 src="images/lineart_C-book04.jpeg" alt="CALC Logo" title="CALC Logo"></a></div>  -->
+		    <div style="width:20%;float:left" id="logo"><a href="index.html"><img height=300px width=300px src="images/lineart_C-book04.jpeg" alt="CALC Logo" title="CALC Logo"></a></div>
+        </div>  <!-- banner fig -->
         
         <!-- main navigation -->
-<div class="Jtopnav" id="myJtopnav" style="clear:left;margin-top:10px">   <!-- style="display:block; float:left" >  -->   <!-- float:right -->
+<div class="Jtopnav" id="myJtopnav" style="margin-top:10px">   <!-- style="clear:left;style="display:block; float:left" >  -->   <!-- float:right -->
     <a href="index.html">Home</a>
     <a href="program.html" >Program</a>
     <a href="people.html" class="active">People</a>
@@ -78,24 +143,38 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
     <a href="contact.html">Contact</a>
     <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction3('myJtopnav','Jtopnav')">MENU</a>
 </div>        
+<p class="CALC" style="margin-top:10px">WE REGRET TO ANNOUNCE THAT THE COMPUTER-ASSISTED LEARNING CENTER (CALC) HOUSED IN THE 
+HILO PUBLIC LIBRARY HAS DISBANDED AS OF JUNE 2020.</p>
 
     </header><!-- end header -->
  
 <section id="page-header" class="clearfix">    
 <!-- responsive FlexSlider image slideshow -->
-<div class="wrapper">
-	<h1>PEOPLE</h1>
-    </div>
+<div class="wrapper clearfix">
 
-<!--   </section>   moved to just above footer -->
+<!--  <h1>PEOPLE</h1>  -->
+    <div class="columnL" style="color:black">
+    <p style="font-size:35px"> <b>PEOPLE</b></p>
+    </div>
+     <div class="columnC absolute" style="font-size:24px"> Who We Are:</div>
+<!-- jwh Tue Jul 07 22:53:20 HST 2020 @412 /Internet Time/ -->
+<!-- Do not put the navbar in a box,  -->
+    <div class="navbar" id="myPeoplenav" style="font-size:24px;background-color:#FFFFE0;"> 
+        <a href="#learners" class="active">Learners</a>
+        <a href="#volunteers">Volunteers</a>
+        <a href="#staff">Staff</a>
+        <a href="#partners">Partners</a>
+        <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction3('myPeoplenav','navbar')">Menu</a>
+    </div>   <!-- people menu -->
+</div>  <!-- wrapper -->
+
 <!-- main content area {{{ -->   
 <div class="wrapper" id="main"> 
     
 <!-- content area section {{{ -->    
-<section id="content">
-              <!--   <h1 id="learners">Learners</h1> -->
+<section id="content" >
 
-<h1 class="gradientheader" style="color:DarkGreen">Learners</h1>
+<h1 class="gradientheader" id="learners" style="color:DarkGreen;">Learners</h1>
 <!-- JWH 4/13/2017: use tables not floats -->
 <table> <!-- Learners table {{{ -->  
     <tr>
@@ -141,8 +220,7 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
     <tr>
          <!-- <td><p class="nophoto">Learner Photo Here</p> </td>  -->
 		<td style="min-width:150px"><img src="images/CALC_KellyYan-ESL-small-head.png" title="Kelly" alt="Kelly Y." style="width:242px;border=2px" /></td> 
-        <!-- <td class="textcolumn-wide"  style="min-height:60px;max-height:80px;overflow:scroll"  >
-            <div style="height: 150px; overflow: auto"> -->
+        <!-- <td class="textcolumn-wide"  style="min-height:60px;max-height:80px;overflow:scroll"  >            <div style="height: 150px; overflow: auto;"> -->
         <td class="textcolumn-wide">
                 <i>Kelly:</i>  I was born in a small village in China and have been in Hilo for two years.  In China, I 
                 was a beautician and I wish to continue doing this in the United States.  I want to improve my chances 
@@ -152,8 +230,8 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
     </tr>
     <tr>
          <!-- <td><p class="nophoto">Learner Photo Here</p> </td>  -->
-		<td style="min-width:150px"><img src="images/KathyEhlers_photo-crop-scale.jpg" title="Kathy E" alt="Kathy E." style="width:242px;border=2px" /></td> 
-        <td class="textcolumn-wide"  style="min-height:60px;max-height:80px;overflow:scroll"  >
+		<td style="min-width:150px"><img src="images/KathyEhlers_photo-crop-scale.jpg" title="Kathy E" alt="Kathy E." style="width:242px;border=2px;" /></td> 
+        <td class="textcolumn-wide"  style="min-height:60px;max-height:80px;overflow:scroll;"  >
             <div style="height: 150px; overflow: auto">
         <!-- <td class="textcolumn-wide"> -->
                 <i>Kathy:</i>  I’m 64 years old and I dropped out of high school in the 10th grade. After working and 
@@ -170,16 +248,16 @@ ESL, 'computer literacy', 'college preparation', 'Hilo Hawaii Public Library'">
     <tr>
         <!-- <td><p class="nophoto"></p> </td>  -->
 		<td style="min-width:150px"><img src="images/Chinese4Learn2.jpg" title="TingChinese4Education" alt="Ting Education"
-style="width:242px;border=2px" /></td>
-        <td class="textcolumn-wide"  style="min-height:60px;max-height:80px;overflow:scroll"  >
-            <div style="height: 150px; overflow: auto">
+style="width:242px;border=2px;" /></td>
+        <td class="textcolumn-wide"  style="min-height:60px;max-height:80px;overflow:scroll;"  >
+        <div style="height: 150px; overflow: auto;">
         <!-- <td class="textcolumn-wide"> -->
-<i>Ting:</i> Tutor Jim: I am very grateful to you for being my English teacher. Every time I go to
- class, I gain a lot of knowledge that I didn't know before. You taught me to
- be very patient and attentive. Every time I read English like a child, you will
- accompany me to read. I am very touched because you really want to help me
- improve my English skills. I feel that my current English ability is much better than when I first came to
- class.
+        <i>Ting:</i> Tutor Jim: I am very grateful to you for being my English teacher. Every time I go to
+         class, I gain a lot of knowledge that I didn't <!-- ' --> know before. You taught me to
+         be very patient and attentive. Every time I read English like a child, you will
+         accompany me to read. I am very touched because you really want to help me
+         improve my English skills. I feel that my current English ability is much better than when I first came to
+         class.
             <!-- </div> -->
         </td>
     </tr>
@@ -187,21 +265,21 @@ style="width:242px;border=2px" /></td>
     <!--    <td><p class="nophoto"></p> </td> -->
 		<td style="min-width:150px"><img src="images/Eunhee-1_crop-scale3in.png" title="Eunhee" alt="Eunhee"
 style="width:300px;border=2px" /></td>
-        <td class="textcolumn-wide"  style="min-height:60px;max-height:80px;overflow:scroll"  >
-            <div style="height: 150px; overflow: auto">
+        <td class="textcolumn-wide"  style="min-height:60px;max-height:80px;overflow:scroll;"  >
+            <div style="height: 150px; overflow: auto;">
         <!-- <td class="textcolumn-wide"> -->
-<i>Eunhee:</i>    I came to Hilo from Korea in 2001, but l didn’t have a chance to learn English.  
-I  began work as  a tour guide when l came to Hawai’i, where I worked for 10 years . 
-I had free time after that and I was lucky to find the English class at the library.  
-My tutor is a very nice person and very patient. My English is improving day by day.  
-My tutor’s name is Mr Haefner.
+        <i>Eunhee:</i>    I came to Hilo from Korea in 2001, but I didn’t have a chance to learn English.  
+        I  began work as  a tour guide when l came to Hawai’i, where I worked for 10 years . 
+        I had free time after that and I was lucky to find the English class at the library.  
+        My tutor is a very nice person and very patient. My English is improving day by day.  
+        My tutor’s name is Mr Haefner.
 
             <!-- </div> -->
         </td>
     </tr>
 
 </table>	<!-- Learner table }}} -->
-
+    
 <h1 id="volunteers" class="gradientheader" style="color:DarkGreen">Volunteers</h1>
 <!-- JWH 4/13/2017: use tables not floats -->
 <table>  <!-- Volunteers table {{{ -->
@@ -215,7 +293,7 @@ My tutor’s name is Mr Haefner.
     <tr>
         <td><p class="nophoto">Volunteer Photo Here</p> </td>
         <td class="textcolumn-wide">
-         <div style="height: 150px; overflow: auto"> 
+         <div style="height: 150px; overflow: auto;"> 
                 Claudine has been a tutor for over 10 years. She received a
                 Certificate in Teaching ESL (English as a second language) from
                 UHH in 2004 and is a retired librarian. At CALC she has taught
@@ -246,14 +324,14 @@ My tutor’s name is Mr Haefner.
 
 </table>	<!-- Volunteers table }}} -->
 
-<h1 id="staff" class="gradientheader" style="color:DarkGreen">Staff</h1> 
+<h1 id="staff" class="gradientheader" style="color:DarkGreen">Staff (present and past)</h1> 
 <!-- JWH 4/13/2017: use tables not floats --> 
     <table> <!-- Staff table {{{ -->
         <tr> 
-            <!-- <td style="width:150px">  -->
-            <td style="min-width:150px;max-width:150px"><img width=150 height=185 src="images/Vera-150pxW.jpg" alt="Vera manager of CALC Hilo literacy" title="Vera" border=2px /> 
+            <!-- <td style="width:150px;">  -->
+       <td style="min-width:150px;max-width:150px"><img width=150 height=185 src="images/Vera-150pxW.jpg" alt="Vera manager of CALC Hilo literacy" title="Vera" border=2px > 
             </td> 
-            <td class="textcolumn-wide"> 
+            <td class="textcolumn-wide;"> 
                 Vera Genegabuas is the CALC Program Manager and a member of the Board of Directors.
                 She is responsible for everything, but in particular she interviews potential
                 tutors and learners to determine how best to use their special skills and to
@@ -262,14 +340,14 @@ My tutor’s name is Mr Haefner.
                 second language at CALC, overcoming a life-long fight with dyslexia.
             </td> 
         </tr> 
-<!--
+<!--  -->
         <tr> 
             <td>
-                <img width=150 height=180 src="images/Staff_Photo_Grace-N-150pxW.jpg" alt="Grace: Staff of CALC Hilo Literac"
-                title="Grace";border=2px /> 
+                <img width=150 height=180 src="images/Staff_Photo_Grace-N-150pxW.jpg" alt="Grace: Staff of CALC Hilo Literacy"
+                title="Grace" border=2px; /> 
             </td> 
             <td class="textcolumn-wide">
-                <div style="height: 150px; overflow: auto">             
+                <div style="height: 150px; overflow: auto;">             
                     Grace Nievarez plays several roles for 
                     CALC. First, she helps people learn how to navigate the internet, how to
                     operate computers, tablets, and any other technological device. In addition,
@@ -283,13 +361,13 @@ My tutor’s name is Mr Haefner.
                 </div>            
             </td> 
         </tr> 
--->
-<!--
+<!--  -->
+<!--   -->
         <tr> 
             <td><img width=150 height=200 src="images/Melissa_profile_napa_pic-150pxW.jpg" alt="Melissa: Staff of CALC Hilo Literacy" 
                 title="Melissa";border=2px /> 
             </td> 
-            <td class="textcolumn-wide"> <div style="height: 150px; overflow: auto">
+            <td class="textcolumn-wide"> <div style="height: 150px; overflow: auto;">
                 Melissa first became involved with CALC several months after its inception in 1991 as a homeschool
                 student learning how to type and use computers. She advanced to tutoring ESL the
                 following year, and has been involved in some way, shape, or form ever since.
@@ -301,7 +379,7 @@ My tutor’s name is Mr Haefner.
                 as long as she draws breath on Hawaii Island!  </div>
             </td>
         </tr>
--->
+<!--  -->
     </table>  <!-- Staff table }}} -->
 
 <h1 class="gradientheader" style="color:DarkGreen">Board of Directors</h1>
@@ -315,6 +393,7 @@ My tutor’s name is Mr Haefner.
     </ul>
 </div>
 
+
 <h1 id="partners" class="gradientheader" style="color:DarkGreen">Partners</h1>
 <div style="width:1300px"> <!-- PARTNERS -->
     <h3><b>Donors</b></h3>
@@ -323,24 +402,24 @@ My tutor’s name is Mr Haefner.
   <div class="row">	
     <div class="grid_6">
 
-    <ul style="list-style-type:none; padding:4px; margin-top:-10px; line-height:1.4em">
+    <ul style="list-style-type:none; padding:4px; margin-top:-10px; line-height:1.4em;">
         <li>
         <!-- JWH 4/29/2017: use "drop-down" to expose student names:  no click, just hover -->
         <!-- From https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_text -->
         <div class="dropdown">
             <img style="float:left;  width:32px" src="images/UH-Hilo_logo.png" alt="UH-Hilo logo">
-            <span style="vertical-align:0px;margin-left:0px;position:relative;left:20px;top:0px">
+            <span style="vertical-align:0px;margin-left:0px;position:relative;left:20px;top:0px;">
                         Initial web design by students of James Kiley's UH-Hilo Spring 2017<br /> CS 201 class (mouse over):
             </span>
             <div class="dropdown-content">
-                 <span style="position:relative;left:0px;bottom:0px">Andy Chang | Patrick C. Cheng | Pierre R. De Poyo | <br />Chad K. Kinoshita | Derrick Bukka O'Brien</span>
+                 <span style="position:relative;left:0px;bottom:0px;">Andy Chang | Patrick C. Cheng | Pierre R. De Poyo | <br />Chad K. Kinoshita | Derrick Bukka O'Brien</span>
             </div>
         </div>
          </li>
         <li  style="margin-top:20px">
            <img style="float:left;  width:32px; margin-top:0px" 
              src="images/hula-logo-crop-65pxW.jpg" alt="C. Tsutsumi">
-             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:20px;top:-10px;bottom:0px">
+             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:20px;top:-10px;bottom:0px;">
                  Carole Tsutsumi,  Hilo,Hawaii
              </span>
         </li>
@@ -348,14 +427,14 @@ My tutor’s name is Mr Haefner.
         <li style="margin-left:0px;margin-top:10px">
             <img style="float:left;  width:32px; margin-left:0px" 
                  src="images/hpm_buildingsupply.png" alt="HPM logo">
-             <span class="clearfix" style="padding-left:80px; vertical-align:0px;position:relative;left:50px;top:-20px">
+             <span class="clearfix" style="padding-left:80px; vertical-align:0px;position:relative;left:50px;top:-20px;">
                  HPM Building Supply, Hilo Hawaii:  <a href="http://www.hpmhawaii.com/">www.hpmhawaii.com</a>
              </span>
         </li>
         <li style="margin-top:0px">
            <img style="float:left;  width:32px; margin-left:0px" 
                  src="images/BigIslandToyota-65pxW.jpg" alt="BItoyota logo">
-             <span class="clearfix" style="padding-left:40px; vertical-align:0px;position:relative;left:20px;top:-15px">
+             <span class="clearfix" style="padding-left:40px; vertical-align:0px;position:relative;left:20px;top:-15px;">
                  Big Island Toyota, Hilo Hawaii :  <a href="http://www.bigislandtoyota.com/">www.bigislandtoyota.com</a>
              </span>
         </li>
@@ -365,47 +444,47 @@ My tutor’s name is Mr Haefner.
     
 <!-- DONOR COLUMN 2 -->
 <div class="grid_6">
-    <ul style="list-style-type:none; padding:4px; margin-top:-24px; line-height:1.4em">
+    <ul style="list-style-type:none; padding:4px; margin-top:-24px; line-height:1.4em;">
 
     <li  style="margin-top:10px">
            <img style="float:left;  width:32px; margin-top:0px" 
                  src="images/bigislandcandies-65W.jpg" alt="BItoyota logo">
-             <span class="clearfix" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-25px">
+             <span class="clearfix" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-25px;">
                  Big Island Candies, Hilo Hawaii:  <a href="https://www.bigislandcandies.com/">www.bigislandcandies.com</a>
              </span>
         </li>
         <li  style="margin-top:10px">
            <img style="float:left;  width:32px; margin-top:0px" 
                  src="images/hawaiielectriclight-logo-65pxW.jpg" alt="HELCO logo">
-             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-25px">
+             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-25px;">
                  Hawaii Electric Light, Hilo,Hawaii:  <a href="https://www.hawaiielectriclight.com/">www.hawaiielectriclight.com</a>
              </span>
         </li>
         <li  style="margin-top:10px">
            <img style="float:left;  width:32px; margin-top:-10px" 
                  src="images/star-clip-65pxW.png" alt="PSA Investments">
-             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-25px">
+             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-25px;">
                  PSA Investments
              </span>
         </li>
         <li  style="margin-top:10px">
            <img style="float:left;  width:32px; margin-top:0px" 
                  src="images/Cafe100-65pxW.png" alt="Cafe 100 logo">
-             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:20px;top:-20px">
+             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:20px;top:-20px;">
                  Cafe 100, Hilo,Hawaii:  <a href="https://www.cafe100.com/">www.cafe100.com</a>
              </span>
         </li>
         <li  style="margin-top:10px">
            <img style="float:left;  width:32px; margin-top:0px" 
                  src="images/huggos-65pxW.png" alt="Hugo's logo">
-             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-25px">
-                 Huggo's on the Rocks, Kailua Kona,Hawaii:  <a href="https://www.huggos.com/">www.huggos.com</a>
+             <span class="clearfix clear:left" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-25px;">
+                 Huggo''s on the Rocks, Kailua Kona,Hawaii:  <a href="https://www.huggos.com/">www.huggos.com"</a>
              </span>
         </li>
         <li  style="margin-top:10px">
-           <img style="float:left;  width:32px; margin-top:-20px" 
+           <img style="float:left;  width:32px; margin-top:-20px;" 
                  src="images/kta-logo-65pxW.jpg" alt="KTA logo">
-             <span class="clearfix clear" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-30px">
+             <span class="clearfix clear" style="margin-left:80px; text-align:0px;position:relative;left:50px;top:-30px;">
                  KTA Super Stores, Hilo HI:  <a href="http://www.ktasuperstores.com/">www.ktasuperstores.com</a>
              </span>
         </li>
@@ -432,25 +511,14 @@ DONORS
     Borders Books Music & Cafe
     Radio Shack
 OTHER SUPPORT
-    Hawai'i State Public Library System (HSPLS)
+    Hawai`i State Public Library System (HSPLS)
     Our Volunteers
 </p>
-end OLD Donors }}}-->                
+end OLD Donors }}}
+-->                
 
 </section><!-- #end content area  }}} -->
-    <!-- sidebar -->    
-    <aside>
-        <h2>Who We Are</h2>
-            <nav id="secondary-navigation">
-                    <ul>
-                        <li><a href="#learners">Learners</a></li>
-                        <li><a href="#volunteers">Volunteers</a></li>
-                        <li><a href="#staff">Staff</a></li>
-                        <li><a href="#partners">Partners</a></li>
-                    </ul>
-             </nav>
-      </aside><!-- #end sidebar -->
-   
+
 </div><!-- #end div #main .wrapper  }}} -->
 </section>  <!-- page-header -->    
 <!-- footer area -->    
@@ -481,7 +549,6 @@ end OLD Donors }}}-->
     </div>    <!-- colophon -->
 
 </div>  <!-- parent div -->
-
 
 </footer> <!-- #end footer area --> 
 
